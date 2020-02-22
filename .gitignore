@@ -1,3 +1,6 @@
+*.code-workspace
+
+### GH Rails Template below
 *.rbc
 capybara-*.html
 .rspec
@@ -65,3 +68,4 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
