@@ -69,3 +69,5 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 
+
+/config/credentials/test.key
