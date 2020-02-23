@@ -1,4 +1,5 @@
+# frozen_string_literal: true
+
 class QuestionsController < ApplicationController
-  def create show
-  end
+  def create; end
 end
