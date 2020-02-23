@@ -5,6 +5,7 @@ class NYT
   attr_accessor :articles
 
   def initialize
+    @nyt_api_key = Rails.application.credentials.nyt[:key]
     @url = 'https://api.nytimes.com/'
   end
 
@@ -19,8 +20,7 @@ class NYT
   end
 
   def fetch_popular_articles
-    print ENV['NYT_API_KEY']
-    articles = Faraday.get(popular_articles_endpoint, { 'api-key': ENV['NYT_API_KEY'] })
+    articles = Faraday.get(popular_articles_endpoint, { 'api-key': @nyt_api_key })
     articles.body
   end
 end
