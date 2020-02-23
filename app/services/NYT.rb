@@ -2,25 +2,27 @@
 
 # Fetches articles from the NYT API and extracts sentences out of them
 class NYT
-  attr_accessor :articles
+  attr_reader :sentences
 
-  def initialize
+  def initialize(days = 7)
     @nyt_api_key = Rails.application.credentials.nyt[:key]
-    @url = 'https://api.nytimes.com/'
+    @base_url = 'https://api.nytimes.com/'
+    @popular_articles_endpoint = "#{@base_url}svc/mostpopular/v2/emailed/#{days}.json"
+    @sentences = abstracts
   end
 
   def make_sentence
-    print fetch_popular_articles
+    sentences[0]
   end
 
   private
 
-  def popular_articles_endpoint(days = 7)
-    "#{@url}svc/mostpopular/v2/emailed/#{days}.json"
+  def popular_articles
+    response = Faraday.get(popular_articles_endpoint, { 'api-key': @nyt_api_key })
+    JSON.parse(response.body, symbolize_names: true)[:results]
   end
 
-  def fetch_popular_articles
-    articles = Faraday.get(popular_articles_endpoint, { 'api-key': @nyt_api_key })
-    articles.body
+  def abstracts(articles = popular_articles)
+    articles.map { |article| article[:abstract] }
   end
 end
