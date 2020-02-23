@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A remastered version of everyone's favorite TOEIC-flavored, multiple-choice, English-grammar exam question generator!
 
-Things you may want to cover:
+Also a great way for me to play around with Rails again.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Schema design here https://dbdiagram.io/d/5e52fd2507a7395d994e0516
