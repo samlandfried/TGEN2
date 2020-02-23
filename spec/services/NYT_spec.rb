@@ -4,12 +4,10 @@ require 'rails_helper'
 require 'vcr_helper'
 
 RSpec.describe NYT, :vcr do
-  it 'can make a sentence' do
-    expect(NYT.new.sentence).to equal('A sentence from an NYT article')
-  end
-
-  skip 'can make a different sentence' do
-    expect(nyt.new.make_sentence).to_not equal('a sentence from an nyt article')
-    expect(nyt.new.make_sentence.length).to be_greater_than(0)
+  it 'can produce sentences' do
+    nyt = NYT.new
+    expect(nyt.sentences.length).to eq(20)
+    expect(nyt.sentences.first).to eq('I was skeptical, but it turns out there is something to be said for a daily fast, preferably one lasting at least 16 hours.')
+    expect(nyt.sentences.last).to eq('The $13 billion deal will give a powerful Wall Street firm control of a major presence in the world of online brokerage firms.')
   end
 end
