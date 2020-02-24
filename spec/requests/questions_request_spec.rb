@@ -5,7 +5,7 @@ require 'vcr_helper'
 
 RSpec.describe 'Questions', :vcr, type: :request do
   it 'Creates questions with new sentences' do
-    sentence = 'A new sentence'
+    sentence = 'A new exquisite sentence'
     post '/questions', params: { question: { sentence: sentence } }
 
     expect(response).to have_http_status(:created)
@@ -13,7 +13,7 @@ RSpec.describe 'Questions', :vcr, type: :request do
   end
 
   it 'Creates questions with existing sentences' do
-    sentence = 'A new sentence'
+    sentence = 'A new exquisite sentence'
     Sentence.create(original: sentence)
     post '/questions', params: { question: { sentence: sentence } }
 

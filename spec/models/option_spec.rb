@@ -1,10 +1,11 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
+require 'vcr_helper'
 
-RSpec.describe Option, type: :model do
+RSpec.describe Option, :vcr, type: :model do
   before(:each) do
-    sentence = Sentence.create(original: 'New sentence')
+    sentence = Sentence.create(original: 'New excruciatingly testable sentence')
     @question = Question.create(sentence: sentence)
   end
 
