@@ -4,19 +4,32 @@ class Question < ApplicationRecord
   belongs_to :sentence
   has_many :options
 
-  before_save :assign_word_under_test
+  after_create :create_options
+  before_save :assign_word_under_test_index
 
   private
 
-  def assign_word_under_test
-    if word_under_test
-      unless sentence.testable_words.include?(word_under_test)
+  def word_under_test
+    sentence.words[word_under_test_index]
+  end
+
+  def assign_word_under_test_index
+    if word_under_test_index
+      unless sentence.testable_words.include?(word_under_test_index)
         raise 'Word under test is not a testable word'
       end
 
-      self.word_under_test = word_under_test
+      self.word_under_test_index = word_under_test_index
     else
-      self.word_under_test = sentence.testable_words.sample
+      self.word_under_test_index = sentence.testable_words.sample
     end
+  end
+
+  def create_options
+    create_correct_option
+  end
+
+  def create_correct_option
+    options.create(name: word_under_test, correct: true)
   end
 end

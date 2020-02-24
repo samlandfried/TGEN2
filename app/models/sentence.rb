@@ -18,15 +18,15 @@ class Sentence < ApplicationRecord
     end
   end
 
-  private
-
-  def just_words
+  def words
     original.gsub(/[^a-z ]/i, '').split(' ')
   end
 
+  private
+
   def word_details
     @words_api ||= Words.new
-    just_words.map { |word| @words_api.word(word) }
+    words.map { |word| @words_api.word(word) }
   end
 
   def word_found?(word)

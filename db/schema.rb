@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_02_23_232502) do
 
   create_table "questions", force: :cascade do |t|
     t.integer "sentence_id", null: false
-    t.integer "word_under_test", null: false
+    t.integer "word_under_test_index", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["sentence_id"], name: "index_questions_on_sentence_id"

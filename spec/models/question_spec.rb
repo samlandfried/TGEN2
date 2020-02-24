@@ -15,17 +15,24 @@ RSpec.describe Question, :vcr, type: :model do
   it 'chooses a random testable word if none is specified' do
     sentence = Sentence.create(original: NEW_SENTENCE)
     question = Question.create(sentence: sentence)
-    expect(question.word_under_test).to eq(1)
+    expect(question.word_under_test_index).to eq(1)
   end
 
   it 'allows testable word to be specified' do
     sentence = Sentence.create(original: 'quazar incandescent quagmire')
-    question = Question.create(sentence: sentence, word_under_test: 2)
-    expect(question.word_under_test).to eq(2)
+    question = Question.create(sentence: sentence, word_under_test_index: 2)
+    expect(question.word_under_test_index).to eq(2)
   end
 
   it 'does not allow an untestable word to be specified' do
     sentence = Sentence.create(original: 'common quazar incandescent quagmire')
-    expect { Question.create(sentence: sentence, word_under_test: 0) }.to raise_exception('Word under test is not a testable word')
+    expect { Question.create(sentence: sentence, word_under_test_index: 0) }.to raise_exception('Word under test is not a testable word')
+  end
+
+  it 'creates a correct option with the word under test' do
+    sentence = Sentence.create(original: NEW_SENTENCE)
+    question = Question.create(sentence: sentence)
+    expect(question.options.first.name).to eq('phenomenal')
+    expect(question.options.first.correct).to be true
   end
 end
