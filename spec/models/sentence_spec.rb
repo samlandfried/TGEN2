@@ -11,8 +11,8 @@ RSpec.describe Sentence, type: :model do
     end
 
     it 'requires a unique "original" field' do
-      expect(Sentence.create({ original: 'Original sentence' })).to be_valid
-      expect(Sentence.new({ original: 'Original sentence' })).to_not be_valid
+      expect(Sentence.create({ original: 'Original sentence anomaly' })).to be_valid
+      expect(Sentence.new({ original: 'Original sentence anomaly' })).to_not be_valid
     end
   end
 

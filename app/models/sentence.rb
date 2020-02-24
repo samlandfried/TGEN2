@@ -11,7 +11,7 @@ class Sentence < ApplicationRecord
 
   def testable_words
     word_details.each_with_index.each_with_object([]) do |(word, i), memo|
-      memo.push(i) if low_frequency?(word) && long_enough?(word)
+      memo.push(i) if testable?(word)
       memo
     end
   end
@@ -23,15 +23,23 @@ class Sentence < ApplicationRecord
   end
 
   def word_details
-    @words ||= Words.new
-    just_words.map { |word| @words.word(word) }
+    @words_api ||= Words.new
+    just_words.map { |word| @words_api.word(word) }
+  end
+
+  def word_found?(word)
+    word && !!word[:word]
   end
 
   def low_frequency?(word)
-    word[:frequency] < FREQUENCY_THRESHOLD if word[:frequency]
+    word[:frequency] < FREQUENCY_THRESHOLD
   end
 
   def long_enough?(word)
     word[:word].length > LENGTH_THRESHOLD
+  end
+
+  def testable?(word)
+    word_found?(word) && low_frequency?(word) && long_enough?(word)
   end
 end
