@@ -1,0 +1,288 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/New
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d774afde0f59d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:54:02 GMT
+      etag:
+      - W/"9eb-X5dtbOzQTNZ0VrsDybHmtg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dbc58d2abe5d482957d7bb211b34584971582505642; expires=Wed, 25-Mar-20
+        00:54:02 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2382'
+      content-length:
+      - '1003'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"new","results":[{"definition":"original and of a kind not
+        seen before","partOfSpeech":"adjective","synonyms":["fresh","novel"],"similarTo":["original"]},{"definition":"(of
+        crops) harvested at an early stage of development; before complete maturity","partOfSpeech":"adjective","synonyms":["young"],"similarTo":["early"],"examples":["new
+        potatoes"]},{"definition":"used of a living language; being the current stage
+        in its development","partOfSpeech":"adjective","synonyms":["modern"],"inCategory":["linguistics"],"similarTo":["late"]},{"definition":"lacking
+        training or experience","partOfSpeech":"adjective","synonyms":["raw"],"similarTo":["inexperienced","inexperient"],"examples":["the
+        new men were eager to fight"]},{"definition":"having no previous example or
+        precedent or parallel","partOfSpeech":"adjective","synonyms":["unexampled"],"similarTo":["unprecedented"]},{"definition":"very
+        recently","partOfSpeech":"adverb","synonyms":["fresh","freshly","newly"],"examples":["they
+        are newly married","newly raised objections","a newly arranged hairdo","grass
+        new washed by the rain"]},{"definition":"in use after medieval times","partOfSpeech":"adjective","inCategory":["linguistics"],"similarTo":["late"]},{"definition":"not
+        of long duration; having just (or relatively recently) come into being or
+        been made or acquired or discovered","partOfSpeech":"adjective","also":["modern","current","fresh"],"attribute":["age"],"similarTo":["young","bran-new","brand-new","fresh","hot","spic-and-span","spick-and-span","sunrise","untested","untried","unused","virgin","new-fangled","new-sprung","newborn","newfangled","newfound","novel","parvenu","parvenue","radical","recent","red-hot","refreshing","revolutionary","rising"],"antonyms":["old"],"derivation":["newness"],"examples":["a
+        new law","new cars","a new comet","a new friend","a new year"]},{"definition":"(often
+        followed by `to'') unfamiliar","partOfSpeech":"adjective","similarTo":["unaccustomed
+        to"],"examples":["new experiences","experiences new to him","errors of someone
+        new to the job"]},{"definition":"other than the former one(s); different","partOfSpeech":"adjective","similarTo":["other"],"examples":["they
+        now have a new leaders","my new car is four years old but has only 15,000
+        miles on it","ready to take a new direction"]},{"definition":"unaffected by
+        use or exposure","partOfSpeech":"adjective","similarTo":["unweathered"],"antonyms":["worn"],"examples":["it
+        looks like new"]}],"syllables":{"count":1,"list":["new"]},"pronunciation":{"all":"nu"},"frequency":5.84}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:54:02 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/penultimately
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d77581b227a2d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:54:04 GMT
+      etag:
+      - W/"2c-4gZRA1/lJKqCGpvmab5CfA"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d2435b8c47303211410d47934c3ec068b1582505644; expires=Wed, 25-Mar-20
+        00:54:04 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2381'
+      content-length:
+      - '44'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"success":false,"message":"word not found"}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:54:04 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/testable
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d775ced2bf56d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:54:05 GMT
+      etag:
+      - W/"56-JaWTMKMZITa1tm9+w1KLLA"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=de6bfea5cc79fdae635d4e43e1bfb27b51582505645; expires=Wed, 25-Mar-20
+        00:54:05 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2380'
+      content-length:
+      - '102'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"testable","syllables":{"count":3,"list":["test","a","ble"]},"frequency":1.82}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:54:05 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d775f6ca5f5b5-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:54:06 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=ddc4ed2d5a95a62bf98497917b9bb281e1582505645; expires=Wed, 25-Mar-20
+        00:54:05 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2379'
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"sentence","results":[{"definition":"pronounce a sentence on
+        (somebody) in a court of law","partOfSpeech":"verb","synonyms":["condemn","doom"],"inCategory":["jurisprudence","law"],"entails":["convict"],"typeOf":["declare"],"hasTypes":["reprobate","foredoom"]},{"definition":"(criminal
+        law) a final judgment of guilty in a criminal case and the punishment that
+        is imposed","partOfSpeech":"noun","synonyms":["condemnation","conviction","judgment
+        of conviction"],"inCategory":["criminal law"],"typeOf":["final decision","final
+        judgment"],"hasTypes":["murder conviction","rape conviction","robbery conviction"]},{"definition":"the
+        period of time a prisoner is imprisoned","partOfSpeech":"noun","synonyms":["prison
+        term","time"],"typeOf":["term"],"hasTypes":["life sentence","life","hard time"],"examples":["his
+        sentence was 5 to 10 years"]},{"definition":"a string of words satisfying
+        the grammatical rules of a language","partOfSpeech":"noun","typeOf":["word
+        string","string of words","linguistic string"],"hasTypes":["declarative sentence","declaratory
+        sentence","interrogative sentence","complex sentence","compound sentence","interrogation","interrogative","topic
+        sentence","question","run-on sentence","simple sentence"],"hasParts":["constituent","clause","grammatical
+        constituent"],"derivation":["sentential"],"examples":["he always spoke in
+        grammatical sentences"]}],"syllables":{"count":2,"list":["sen","tence"]},"pronunciation":{"all":"''sɛntəns"},"frequency":4.34}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:54:06 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/excruciatingly
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d79b30ac9bb6a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:55:41 GMT
+      etag:
+      - W/"131-6bpi7aCIK6V9uUVHPuOmzg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=df8daf7464706c3892468fd7b54cb2cb21582505741; expires=Wed, 25-Mar-20
+        00:55:41 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2376'
+      content-length:
+      - '246'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiZXhjcnVjaWF0aW5nbHkiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiaW4gYSB2ZXJ5IHBhaW5mdWwgbWFubmVyIiwicGFydE9mU3BlZWNoIjoiYWR2ZXJiIiwic3lub255bXMiOlsiYWdvbml6aW5nbHkiLCJ0b3J0dXJvdXNseSJdLCJwZXJ0YWluc1RvIjpbImV4Y3J1Y2lhdGluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NiwibGlzdCI6WyJleCIsImNydSIsImNpIiwiYXQiLCJpbmciLCJseSJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiLJqmsnc2tydcqDaSxlyap0yarFi2xpIn0sImZyZXF1ZW5jeSI6Mi4yNH0=
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:55:41 GMT
+recorded_with: VCR 5.1.0
