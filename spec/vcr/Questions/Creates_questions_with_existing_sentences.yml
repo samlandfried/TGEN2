@@ -249,9 +249,27 @@ http_interactions:
       connection:
       - Close
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJ3b3JkIjoiYSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJvbmUgb2YgdGhlIGZvdXIgbnVjbGVvdGlkZXMgdXNlZCBpbiBidWlsZGluZyBETkE7IGFsbCBmb3VyIG51Y2xlb3RpZGVzIGhhdmUgYSBjb21tb24gcGhvc3BoYXRlIGdyb3VwIGFuZCBhIHN1Z2FyIChyaWJvc2UpIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImRlb3h5YWRlbm9zaW5lIG1vbm9waG9zcGhhdGUiXSwidHlwZU9mIjpbIm51Y2xlb3RpZGUiLCJiYXNlIl19LHsiZGVmaW5pdGlvbiI6InRoZSBibG9vZCBncm91cCB3aG9zZSByZWQgY2VsbHMgY2FycnkgdGhlIEEgYW50aWdlbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJncm91cCBhIiwidHlwZSBhIl0sInR5cGVPZiI6WyJibG9vZCBncm91cCIsImJsb29kIHR5cGUiXX0seyJkZWZpbml0aW9uIjoiYW55IG9mIHNldmVyYWwgZmF0LXNvbHVibGUgdml0YW1pbnMgZXNzZW50aWFsIGZvciBub3JtYWwgdmlzaW9uOyBwcmV2ZW50cyBuaWdodCBibGluZG5lc3Mgb3IgaW5mbGFtbWF0aW9uIG9yIGRyeW5lc3Mgb2YgdGhlIGV5ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW50aW9waHRoYWxtaWMgZmFjdG9yIiwiYXhlcm9waHRob2wiLCJ2aXRhbWluIGEiXSwidHlwZU9mIjpbImZhdC1zb2x1YmxlIHZpdGFtaW4iXSwiaGFzVHlwZXMiOlsidml0YW1pbiBhMiIsImRlaHlkcm9yZXRpbm9sIiwicmV0aW5vbCIsInZpdGFtaW4gYTEiXX0seyJkZWZpbml0aW9uIjoidGhlIGJhc2ljIHVuaXQgb2YgZWxlY3RyaWMgY3VycmVudCBhZG9wdGVkIHVuZGVyIHRoZSBTeXN0ZW1lIEludGVybmF0aW9uYWwgZCdVbml0ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW1wIiwiYW1wZXJlIl0sInR5cGVPZiI6WyJjdXJyZW50IHVuaXQiXSwiaGFzUGFydHMiOlsibWlsbGlhbXBlcmUiLCJtYSJdLCJwYXJ0T2YiOlsiYWJhbXAiLCJhYmFtcGVyZSJdLCJleGFtcGxlcyI6WyJhIHR5cGljYWwgaG91c2Vob2xkIGNpcmN1aXQgY2FycmllcyAxNSB0byA1MCBhbXBzIl19LHsiZGVmaW5pdGlvbiI6ImEgbWV0cmljIHVuaXQgb2YgbGVuZ3RoIGVxdWFsIHRvIG9uZSB0ZW4gYmlsbGlvbnRoIG9mIGEgbWV0ZXIgKG9yIDAuMDAwMSBtaWNyb24pOyB1c2VkIHRvIHNwZWNpZnkgd2F2ZWxlbmd0aHMgb2YgZWxlY3Ryb21hZ25ldGljIHJhZGlhdGlvbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJhbmdzdHJvbSIsImFuZ3N0cm9tIHVuaXQiXSwidHlwZU9mIjpbIm1ldHJpYyBsaW5lYXIgdW5pdCJdLCJoYXNQYXJ0cyI6WyJwaWNvbWV0ZXIiLCJtaWNyb21pY3JvbiIsInBpY29tZXRyZSJdLCJwYXJ0T2YiOlsibWljcm9taWxsaW1ldHJlIiwibmFub21ldGVyIiwibWlsbGltaWNyb24iLCJuYW5vbWV0cmUiLCJubSIsIm1pY3JvbWlsbGltZXRlciJdfSx7ImRlZmluaXRpb24iOiIoYmlvY2hlbWlzdHJ5KSBwdXJpbmUgYmFzZSBmb3VuZCBpbiBETkEgYW5kIFJOQTsgcGFpcnMgd2l0aCB0aHltaW5lIGluIEROQSBhbmQgd2l0aCB1cmFjaWwgaW4gUk5BIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImFkZW5pbmUiXSwiaW5DYXRlZ29yeSI6WyJiaW9jaGVtaXN0cnkiXSwidHlwZU9mIjpbInB1cmluZSJdLCJzdWJzdGFuY2VPZiI6WyJkbmEiLCJkZXNveHlyaWJvbnVjbGVpYyBhY2lkIiwicmlib251Y2xlaWMgYWNpZCIsImRlb3h5cmlib251Y2xlaWMgYWNpZCIsInJuYSJdfSx7ImRlZmluaXRpb24iOiJ0aGUgMXN0IGxldHRlciBvZiB0aGUgUm9tYW4gYWxwaGFiZXQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwidHlwZU9mIjpbImxldHRlciIsImFscGhhYmV0aWMgY2hhcmFjdGVyIiwibGV0dGVyIG9mIHRoZSBhbHBoYWJldCJdLCJtZW1iZXJPZiI6WyJsYXRpbiBhbHBoYWJldCIsInJvbWFuIGFscGhhYmV0Il19XSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJlyaoifSwiZnJlcXVlbmN5Ijo3LjI4fQ==
+      encoding: UTF-8
+      string: '{"word":"a","results":[{"definition":"one of the four nucleotides used
+        in building DNA; all four nucleotides have a common phosphate group and a
+        sugar (ribose)","partOfSpeech":"noun","synonyms":["deoxyadenosine monophosphate"],"typeOf":["nucleotide","base"]},{"definition":"the
+        blood group whose red cells carry the A antigen","partOfSpeech":"noun","synonyms":["group
+        a","type a"],"typeOf":["blood group","blood type"]},{"definition":"any of
+        several fat-soluble vitamins essential for normal vision; prevents night blindness
+        or inflammation or dryness of the eyes","partOfSpeech":"noun","synonyms":["antiophthalmic
+        factor","axerophthol","vitamin a"],"typeOf":["fat-soluble vitamin"],"hasTypes":["vitamin
+        a2","dehydroretinol","retinol","vitamin a1"]},{"definition":"the basic unit
+        of electric current adopted under the Systeme International d''Unites","partOfSpeech":"noun","synonyms":["amp","ampere"],"typeOf":["current
+        unit"],"hasParts":["milliampere","ma"],"partOf":["abamp","abampere"],"examples":["a
+        typical household circuit carries 15 to 50 amps"]},{"definition":"a metric
+        unit of length equal to one ten billionth of a meter (or 0.0001 micron); used
+        to specify wavelengths of electromagnetic radiation","partOfSpeech":"noun","synonyms":["angstrom","angstrom
+        unit"],"typeOf":["metric linear unit"],"hasParts":["picometer","micromicron","picometre"],"partOf":["micromillimetre","nanometer","millimicron","nanometre","nm","micromillimeter"]},{"definition":"(biochemistry)
+        purine base found in DNA and RNA; pairs with thymine in DNA and with uracil
+        in RNA","partOfSpeech":"noun","synonyms":["adenine"],"inCategory":["biochemistry"],"typeOf":["purine"],"substanceOf":["dna","desoxyribonucleic
+        acid","ribonucleic acid","deoxyribonucleic acid","rna"]},{"definition":"the
+        1st letter of the Roman alphabet","partOfSpeech":"noun","typeOf":["letter","alphabetic
+        character","letter of the alphabet"],"memberOf":["latin alphabet","roman alphabet"]}],"pronunciation":{"all":"eɪ"},"frequency":7.28}'
     http_version: null
   recorded_at: Mon, 24 Feb 2020 00:23:39 GMT
 - request:
@@ -300,7 +318,7 @@ http_interactions:
       connection:
       - Close
     body:
-      encoding: ASCII-8BIT
+      encoding: UTF-8
       string: '{"word":"new","results":[{"definition":"original and of a kind not
         seen before","partOfSpeech":"adjective","synonyms":["fresh","novel"],"similarTo":["original"]},{"definition":"(of
         crops) harvested at an early stage of development; before complete maturity","partOfSpeech":"adjective","synonyms":["young"],"similarTo":["early"],"examples":["new
@@ -370,9 +388,22 @@ http_interactions:
       connection:
       - Close
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+      encoding: UTF-8
+      string: '{"word":"sentence","results":[{"definition":"pronounce a sentence on
+        (somebody) in a court of law","partOfSpeech":"verb","synonyms":["condemn","doom"],"inCategory":["jurisprudence","law"],"entails":["convict"],"typeOf":["declare"],"hasTypes":["reprobate","foredoom"]},{"definition":"(criminal
+        law) a final judgment of guilty in a criminal case and the punishment that
+        is imposed","partOfSpeech":"noun","synonyms":["condemnation","conviction","judgment
+        of conviction"],"inCategory":["criminal law"],"typeOf":["final decision","final
+        judgment"],"hasTypes":["murder conviction","rape conviction","robbery conviction"]},{"definition":"the
+        period of time a prisoner is imprisoned","partOfSpeech":"noun","synonyms":["prison
+        term","time"],"typeOf":["term"],"hasTypes":["life sentence","life","hard time"],"examples":["his
+        sentence was 5 to 10 years"]},{"definition":"a string of words satisfying
+        the grammatical rules of a language","partOfSpeech":"noun","typeOf":["word
+        string","string of words","linguistic string"],"hasTypes":["declarative sentence","declaratory
+        sentence","interrogative sentence","complex sentence","compound sentence","interrogation","interrogative","topic
+        sentence","question","run-on sentence","simple sentence"],"hasParts":["constituent","clause","grammatical
+        constituent"],"derivation":["sentential"],"examples":["he always spoke in
+        grammatical sentences"]}],"syllables":{"count":2,"list":["sen","tence"]},"pronunciation":{"all":"''sɛntəns"},"frequency":4.34}'
     http_version: null
   recorded_at: Mon, 24 Feb 2020 00:23:45 GMT
 - request:
@@ -593,9 +624,63 @@ http_interactions:
       connection:
       - Close
     body:
+      encoding: UTF-8
+      string: '{"word":"exquisite","results":[{"definition":"delicately beautiful","partOfSpeech":"adjective","synonyms":["dainty"],"similarTo":["delicate"],"examples":["an
+        exquisite cameo"]},{"definition":"lavishly elegant and refined","partOfSpeech":"adjective","synonyms":["recherche"],"similarTo":["elegant"]},{"definition":"intense
+        or sharp","partOfSpeech":"adjective","synonyms":["keen"],"similarTo":["intense"],"examples":["suffered
+        exquisite pain","felt exquisite pleasure"]},{"definition":"of extreme beauty","partOfSpeech":"adjective","similarTo":["beautiful"],"derivation":["exquisiteness"],"examples":["her
+        exquisite face"]}],"syllables":{"count":3,"list":["ex","qui","site"]},"pronunciation":{"all":"''ɛkskwɪzɪt"},"frequency":3.55}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:51:22 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/exquisite
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569da5d5d8acf599-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:25:49 GMT
+      etag:
+      - W/"2db-tGvzUC0jHDEGsOGZWk/z/Q"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dbbd452d7e9024edff143b08b31485cc91582507549; expires=Wed, 25-Mar-20
+        01:25:49 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2339'
+      content-length:
+      - '353'
+      connection:
+      - Close
+    body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJ3b3JkIjoiZXhxdWlzaXRlIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImRlbGljYXRlbHkgYmVhdXRpZnVsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiZGFpbnR5Il0sInNpbWlsYXJUbyI6WyJkZWxpY2F0ZSJdLCJleGFtcGxlcyI6WyJhbiBleHF1aXNpdGUgY2FtZW8iXX0seyJkZWZpbml0aW9uIjoibGF2aXNobHkgZWxlZ2FudCBhbmQgcmVmaW5lZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbInJlY2hlcmNoZSJdLCJzaW1pbGFyVG8iOlsiZWxlZ2FudCJdfSx7ImRlZmluaXRpb24iOiJpbnRlbnNlIG9yIHNoYXJwIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsia2VlbiJdLCJzaW1pbGFyVG8iOlsiaW50ZW5zZSJdLCJleGFtcGxlcyI6WyJzdWZmZXJlZCBleHF1aXNpdGUgcGFpbiIsImZlbHQgZXhxdWlzaXRlIHBsZWFzdXJlIl19LHsiZGVmaW5pdGlvbiI6Im9mIGV4dHJlbWUgYmVhdXR5IiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbImJlYXV0aWZ1bCJdLCJkZXJpdmF0aW9uIjpbImV4cXVpc2l0ZW5lc3MiXSwiZXhhbXBsZXMiOlsiaGVyIGV4cXVpc2l0ZSBmYWNlIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjozLCJsaXN0IjpbImV4IiwicXVpIiwic2l0ZSJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiInyZtrc2t3yap6yap0In0sImZyZXF1ZW5jeSI6My41NX0=
     http_version: null
-  recorded_at: Mon, 24 Feb 2020 00:51:22 GMT
+  recorded_at: Mon, 24 Feb 2020 01:25:49 GMT
 recorded_with: VCR 5.1.0
