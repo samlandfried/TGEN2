@@ -1,0 +1,307 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quazar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d969b2a8cf581-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:25 GMT
+      etag:
+      - W/"2c-4gZRA1/lJKqCGpvmab5CfA"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d1fe509d995bd1cb748e4a8185e2fa9571582506925; expires=Wed, 25-Mar-20
+        01:15:25 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2366'
+      content-length:
+      - '44'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"success":false,"message":"word not found"}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:25 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/incandescent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d96ac58d9e35e-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:28 GMT
+      etag:
+      - W/"20b-XEN6F/d9TzGNNlPXYDHRbQ"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d93829e8e114de84eaa2b6ac0127c32c11582506928; expires=Wed, 25-Mar-20
+        01:15:28 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2365'
+      content-length:
+      - '320'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5jYW5kZXNjZW50IiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImVtaXR0aW5nIGxpZ2h0IGFzIGEgcmVzdWx0IG9mIGJlaW5nIGhlYXRlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNhbmRlbnQiXSwic2ltaWxhclRvIjpbImxpZ2h0Il0sImRlcml2YXRpb24iOlsiaW5jYW5kZXNjZW5jZSJdLCJleGFtcGxlcyI6WyJhbiBpbmNhbmRlc2NlbnQgYnVsYiJdfSx7ImRlZmluaXRpb24iOiJjaGFyYWN0ZXJpemVkIGJ5IGFyZGVudCBlbW90aW9uIG9yIGludGVuc2l0eSBvciBicmlsbGlhbmNlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbImdsb3Jpb3VzIl0sImV4YW1wbGVzIjpbImFuIGluY2FuZGVzY2VudCBwZXJmb3JtYW5jZSJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJpbiIsImNhbiIsImRlcyIsImNlbnQiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiLMmqbmvJmW4nZMmbc8mZbnQifSwiZnJlcXVlbmN5IjoyLjQ1fQ==
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:28 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quagmire
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d96b60df4f565-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:29 GMT
+      etag:
+      - W/"12a-LrcosYA3hNfHmt3kyNZG/Q"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d76182aa0ce2b216aab784690d6e1c6c11582506929; expires=Wed, 25-Mar-20
+        01:15:29 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2364'
+      content-length:
+      - '242'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicXVhZ21pcmUiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYSBzb2Z0IHdldCBhcmVhIG9mIGxvdy1seWluZyBsYW5kIHRoYXQgc2lua3MgdW5kZXJmb290IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbIm1pcmUiLCJtb3Jhc3MiLCJxdWFnIiwic2xhY2siXSwidHlwZU9mIjpbImJvZyIsInBlYXQgYm9nIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbInF1YWciLCJtaXJlIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6Iidrd8OmZ21hyapyIn0sImZyZXF1ZW5jeSI6Mi41fQ==
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:29 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quazar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d96c23ba379a1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:31 GMT
+      etag:
+      - W/"2c-4gZRA1/lJKqCGpvmab5CfA"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=de8dd0015ed0aa08f5a5d7ddc6505e89a1582506931; expires=Wed, 25-Mar-20
+        01:15:31 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2363'
+      content-length:
+      - '44'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"success":false,"message":"word not found"}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:31 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/incandescent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d96d90993bb28-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:35 GMT
+      etag:
+      - W/"20b-XEN6F/d9TzGNNlPXYDHRbQ"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=de3a20493cb6976258a79fc07847f93101582506935; expires=Wed, 25-Mar-20
+        01:15:35 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2362'
+      content-length:
+      - '320'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5jYW5kZXNjZW50IiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImVtaXR0aW5nIGxpZ2h0IGFzIGEgcmVzdWx0IG9mIGJlaW5nIGhlYXRlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNhbmRlbnQiXSwic2ltaWxhclRvIjpbImxpZ2h0Il0sImRlcml2YXRpb24iOlsiaW5jYW5kZXNjZW5jZSJdLCJleGFtcGxlcyI6WyJhbiBpbmNhbmRlc2NlbnQgYnVsYiJdfSx7ImRlZmluaXRpb24iOiJjaGFyYWN0ZXJpemVkIGJ5IGFyZGVudCBlbW90aW9uIG9yIGludGVuc2l0eSBvciBicmlsbGlhbmNlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbImdsb3Jpb3VzIl0sImV4YW1wbGVzIjpbImFuIGluY2FuZGVzY2VudCBwZXJmb3JtYW5jZSJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJpbiIsImNhbiIsImRlcyIsImNlbnQiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiLMmqbmvJmW4nZMmbc8mZbnQifSwiZnJlcXVlbmN5IjoyLjQ1fQ==
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:35 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quagmire
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d96df7e7fbb28-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 01:15:36 GMT
+      etag:
+      - W/"12a-LrcosYA3hNfHmt3kyNZG/Q"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d2f6ada661bd510fee8930907097f426d1582506936; expires=Wed, 25-Mar-20
+        01:15:36 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2361'
+      content-length:
+      - '242'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicXVhZ21pcmUiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYSBzb2Z0IHdldCBhcmVhIG9mIGxvdy1seWluZyBsYW5kIHRoYXQgc2lua3MgdW5kZXJmb290IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbIm1pcmUiLCJtb3Jhc3MiLCJxdWFnIiwic2xhY2siXSwidHlwZU9mIjpbImJvZyIsInBlYXQgYm9nIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbInF1YWciLCJtaXJlIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6Iidrd8OmZ21hyapyIn0sImZyZXF1ZW5jeSI6Mi41fQ==
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 01:15:36 GMT
+recorded_with: VCR 5.1.0
