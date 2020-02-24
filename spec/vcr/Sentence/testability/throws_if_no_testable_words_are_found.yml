@@ -1,0 +1,466 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/nothing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d4dedaaffe35a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:25:48 GMT
+      etag:
+      - W/"1e3-6qmt8jOxAnuw6Pow5Iqvvw"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d42894cc578019c2f80b775b4cc4e6be71582503948; expires=Wed, 25-Mar-20
+        00:25:48 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2422'
+      content-length:
+      - '338'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"nothing","results":[{"definition":"a quantity of no importance","partOfSpeech":"noun","synonyms":["aught","cipher","cypher","goose
+        egg","nada","naught","nil","nix","null","zero","zilch","zip","zippo"],"typeOf":["relative
+        quantity"],"hasTypes":["bugger all","fanny adams","fuck all","nihil","sweet
+        fanny adams"],"examples":["it looked like nothing I had ever seen before"]}],"syllables":{"count":2,"list":["noth","ing"]},"pronunciation":{"all":"''nəθɪŋ"},"frequency":5.95}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:25:48 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d4df0daa1f57d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:25:49 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d86f2019e317d5aae954e9f783d3449511582503948; expires=Wed, 25-Mar-20
+        00:25:48 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2421'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:25:49 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d4df8de4fbcba-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:25:50 GMT
+      etag:
+      - W/"dfe-KoeE72J7TEEURRsYENRapw"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dbc65ca86854b02bcee8d39d2569ee07f1582503950; expires=Wed, 25-Mar-20
+        00:25:50 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2420'
+      content-length:
+      - '1297'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"test","results":[{"definition":"trying something to find out
+        about it","partOfSpeech":"noun","synonyms":["trial","trial run","tryout"],"typeOf":["experimentation","experiment"],"hasTypes":["trial
+        balloon","road test","alpha test","field test","field trial","beta test"]},{"definition":"any
+        standardized procedure for measuring sensitivity or memory or intelligence
+        or aptitude or personality etc","partOfSpeech":"noun","synonyms":["mental
+        test","mental testing","psychometric test"],"typeOf":["mental measurement"],"hasTypes":["sub-test","personality
+        test","intelligence test","iq test"],"examples":["the test was standardized
+        on a large sample of students"]},{"definition":"a set of questions or exercises
+        evaluating skill or knowledge","partOfSpeech":"noun","synonyms":["exam","examination"],"typeOf":["communicating","communication"],"hasTypes":["entrance
+        exam","bar exam","bar examination","comp","comprehensive","comprehensive examination","entrance
+        examination","exam paper","examination paper","final","final exam","final
+        examination","litmus test","midterm","midterm exam","midterm examination","oral","oral
+        exam","oral examination","prelim","preliminary exam","preliminary examination","question
+        sheet","quiz","test paper","tripos","viva","viva voce"],"examples":["when
+        the test was stolen the professor had to make a new set of questions"]},{"definition":"test
+        or examine for the presence of disease or infection","partOfSpeech":"verb","synonyms":["screen"],"typeOf":["check"]},{"definition":"examine
+        someone''s knowledge of something","partOfSpeech":"verb","synonyms":["quiz"],"typeOf":["examine"],"derivation":["testee","testing","tester"],"examples":["The
+        teacher tests us every week"]},{"definition":"put to the test, as for its
+        quality, or give experimental use to","partOfSpeech":"verb","synonyms":["essay","examine","prove","try","try
+        out"],"typeOf":["judge","pass judgment","evaluate"],"hasTypes":["float","control","verify","field-test"],"derivation":["testing"]},{"definition":"the
+        act of testing something","partOfSpeech":"noun","synonyms":["run","trial"],"typeOf":["effort","attempt","endeavor","endeavour","try"],"hasTypes":["try-on","ministry
+        of transportation test","mot","mot test","audition","pilot program","pilot
+        project","preclinical phase","preclinical test","preclinical trial","snellen
+        test","assay","clinical test","trying on","tryout","field trial","fitting","double
+        blind","clinical trial"]},{"definition":"the act of undergoing testing","partOfSpeech":"noun","synonyms":["trial"],"typeOf":["try","endeavour","endeavor","effort","attempt"],"examples":["he
+        survived the great test of battle"]},{"definition":"achieve a certain score
+        or rating on a test","partOfSpeech":"verb","typeOf":["score"],"examples":["She
+        tested high on the LSAT and was admitted to all the good law schools"]},{"definition":"a
+        hard outer covering as of some amoebas and sea urchins","partOfSpeech":"noun","typeOf":["natural
+        covering","cover","covering"]},{"definition":"determine the presence or properties
+        of (a substance)","partOfSpeech":"verb","typeOf":["learn","check","determine","see","ascertain","watch","find
+        out"],"derivation":["testing"]},{"definition":"show a certain characteristic
+        when tested","partOfSpeech":"verb","typeOf":["be"],"derivation":["testing"],"examples":["He
+        tested positive for HIV"]},{"definition":"undergo a test","partOfSpeech":"verb","typeOf":["submit","take"],"verbGroup":["quiz"],"derivation":["testee"],"examples":["She
+        doesn''t test well"]}],"syllables":{"count":1,"list":["test"]},"pronunciation":{"all":"tɛst"},"frequency":4.9}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:25:50 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/here
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d4dfddada2a23-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:25:51 GMT
+      etag:
+      - W/"40c-mZl7N8R+9lApMCBAr6XYMg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d800701d16c3fd5e8468caf5714abfa481582503951; expires=Wed, 25-Mar-20
+        00:25:51 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2419'
+      content-length:
+      - '521'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"here","results":[{"definition":"to this place (especially
+        toward the speaker)","partOfSpeech":"adverb","synonyms":["hither"],"antonyms":["there"],"examples":["come
+        here, please"]},{"definition":"queen of the Olympian gods in ancient Greek
+        mythology; sister and wife of Zeus remembered for her jealously of the many
+        mortal women Zeus fell in love with; identified with Roman Juno","partOfSpeech":"noun","synonyms":["hera"],"instanceOf":["greek
+        deity"]},{"definition":"being here now","partOfSpeech":"adjective","similarTo":["present"],"derivation":["hereness"],"examples":["is
+        everyone here?"]},{"definition":"the present location; this place","partOfSpeech":"noun","typeOf":["location"],"antonyms":["there"],"examples":["where
+        do we go from here?"]},{"definition":"in or at this place; where the speaker
+        or writer is","partOfSpeech":null,"antonyms":["there"],"examples":["I work
+        here","turn here","radio waves received here on Earth"]}],"syllables":{"count":2,"list":["he","re"]},"pronunciation":{"all":"hir"},"frequency":6.65}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:25:51 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/nothing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d640ebb47e386-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:40:54 GMT
+      etag:
+      - W/"1e3-6qmt8jOxAnuw6Pow5Iqvvw"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dc7016e13bc0815885056a25cd0e7403a1582504854; expires=Wed, 25-Mar-20
+        00:40:54 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2401'
+      content-length:
+      - '338'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibm90aGluZyIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJhIHF1YW50aXR5IG9mIG5vIGltcG9ydGFuY2UiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYXVnaHQiLCJjaXBoZXIiLCJjeXBoZXIiLCJnb29zZSBlZ2ciLCJuYWRhIiwibmF1Z2h0IiwibmlsIiwibml4IiwibnVsbCIsInplcm8iLCJ6aWxjaCIsInppcCIsInppcHBvIl0sInR5cGVPZiI6WyJyZWxhdGl2ZSBxdWFudGl0eSJdLCJoYXNUeXBlcyI6WyJidWdnZXIgYWxsIiwiZmFubnkgYWRhbXMiLCJmdWNrIGFsbCIsIm5paGlsIiwic3dlZXQgZmFubnkgYWRhbXMiXSwiZXhhbXBsZXMiOlsiaXQgbG9va2VkIGxpa2Ugbm90aGluZyBJIGhhZCBldmVyIHNlZW4gYmVmb3JlIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbIm5vdGgiLCJpbmciXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ27Jmc64yarFiyJ9LCJmcmVxdWVuY3kiOjUuOTV9
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:40:54 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d64140881c9b1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:40:55 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dc7dc82b4be21d8b93d500f1d641b24081582504855; expires=Wed, 25-Mar-20
+        00:40:55 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2400'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:40:55 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d641b1d3df5b9-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:40:56 GMT
+      etag:
+      - W/"dfe-KoeE72J7TEEURRsYENRapw"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=dc0a88930b7896299d9d02fdbbe4ea2571582504856; expires=Wed, 25-Mar-20
+        00:40:56 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2399'
+      content-length:
+      - '1295'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoidGVzdCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJ0cnlpbmcgc29tZXRoaW5nIHRvIGZpbmQgb3V0IGFib3V0IGl0IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbInRyaWFsIiwidHJpYWwgcnVuIiwidHJ5b3V0Il0sInR5cGVPZiI6WyJleHBlcmltZW50YXRpb24iLCJleHBlcmltZW50Il0sImhhc1R5cGVzIjpbInRyaWFsIGJhbGxvb24iLCJyb2FkIHRlc3QiLCJhbHBoYSB0ZXN0IiwiZmllbGQgdGVzdCIsImZpZWxkIHRyaWFsIiwiYmV0YSB0ZXN0Il19LHsiZGVmaW5pdGlvbiI6ImFueSBzdGFuZGFyZGl6ZWQgcHJvY2VkdXJlIGZvciBtZWFzdXJpbmcgc2Vuc2l0aXZpdHkgb3IgbWVtb3J5IG9yIGludGVsbGlnZW5jZSBvciBhcHRpdHVkZSBvciBwZXJzb25hbGl0eSBldGMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsibWVudGFsIHRlc3QiLCJtZW50YWwgdGVzdGluZyIsInBzeWNob21ldHJpYyB0ZXN0Il0sInR5cGVPZiI6WyJtZW50YWwgbWVhc3VyZW1lbnQiXSwiaGFzVHlwZXMiOlsic3ViLXRlc3QiLCJwZXJzb25hbGl0eSB0ZXN0IiwiaW50ZWxsaWdlbmNlIHRlc3QiLCJpcSB0ZXN0Il0sImV4YW1wbGVzIjpbInRoZSB0ZXN0IHdhcyBzdGFuZGFyZGl6ZWQgb24gYSBsYXJnZSBzYW1wbGUgb2Ygc3R1ZGVudHMiXX0seyJkZWZpbml0aW9uIjoiYSBzZXQgb2YgcXVlc3Rpb25zIG9yIGV4ZXJjaXNlcyBldmFsdWF0aW5nIHNraWxsIG9yIGtub3dsZWRnZSIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJleGFtIiwiZXhhbWluYXRpb24iXSwidHlwZU9mIjpbImNvbW11bmljYXRpbmciLCJjb21tdW5pY2F0aW9uIl0sImhhc1R5cGVzIjpbImVudHJhbmNlIGV4YW0iLCJiYXIgZXhhbSIsImJhciBleGFtaW5hdGlvbiIsImNvbXAiLCJjb21wcmVoZW5zaXZlIiwiY29tcHJlaGVuc2l2ZSBleGFtaW5hdGlvbiIsImVudHJhbmNlIGV4YW1pbmF0aW9uIiwiZXhhbSBwYXBlciIsImV4YW1pbmF0aW9uIHBhcGVyIiwiZmluYWwiLCJmaW5hbCBleGFtIiwiZmluYWwgZXhhbWluYXRpb24iLCJsaXRtdXMgdGVzdCIsIm1pZHRlcm0iLCJtaWR0ZXJtIGV4YW0iLCJtaWR0ZXJtIGV4YW1pbmF0aW9uIiwib3JhbCIsIm9yYWwgZXhhbSIsIm9yYWwgZXhhbWluYXRpb24iLCJwcmVsaW0iLCJwcmVsaW1pbmFyeSBleGFtIiwicHJlbGltaW5hcnkgZXhhbWluYXRpb24iLCJxdWVzdGlvbiBzaGVldCIsInF1aXoiLCJ0ZXN0IHBhcGVyIiwidHJpcG9zIiwidml2YSIsInZpdmEgdm9jZSJdLCJleGFtcGxlcyI6WyJ3aGVuIHRoZSB0ZXN0IHdhcyBzdG9sZW4gdGhlIHByb2Zlc3NvciBoYWQgdG8gbWFrZSBhIG5ldyBzZXQgb2YgcXVlc3Rpb25zIl19LHsiZGVmaW5pdGlvbiI6InRlc3Qgb3IgZXhhbWluZSBmb3IgdGhlIHByZXNlbmNlIG9mIGRpc2Vhc2Ugb3IgaW5mZWN0aW9uIiwicGFydE9mU3BlZWNoIjoidmVyYiIsInN5bm9ueW1zIjpbInNjcmVlbiJdLCJ0eXBlT2YiOlsiY2hlY2siXX0seyJkZWZpbml0aW9uIjoiZXhhbWluZSBzb21lb25lJ3Mga25vd2xlZGdlIG9mIHNvbWV0aGluZyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJxdWl6Il0sInR5cGVPZiI6WyJleGFtaW5lIl0sImRlcml2YXRpb24iOlsidGVzdGVlIiwidGVzdGluZyIsInRlc3RlciJdLCJleGFtcGxlcyI6WyJUaGUgdGVhY2hlciB0ZXN0cyB1cyBldmVyeSB3ZWVrIl19LHsiZGVmaW5pdGlvbiI6InB1dCB0byB0aGUgdGVzdCwgYXMgZm9yIGl0cyBxdWFsaXR5LCBvciBnaXZlIGV4cGVyaW1lbnRhbCB1c2UgdG8iLCJwYXJ0T2ZTcGVlY2giOiJ2ZXJiIiwic3lub255bXMiOlsiZXNzYXkiLCJleGFtaW5lIiwicHJvdmUiLCJ0cnkiLCJ0cnkgb3V0Il0sInR5cGVPZiI6WyJqdWRnZSIsInBhc3MganVkZ21lbnQiLCJldmFsdWF0ZSJdLCJoYXNUeXBlcyI6WyJmbG9hdCIsImNvbnRyb2wiLCJ2ZXJpZnkiLCJmaWVsZC10ZXN0Il0sImRlcml2YXRpb24iOlsidGVzdGluZyJdfSx7ImRlZmluaXRpb24iOiJ0aGUgYWN0IG9mIHRlc3Rpbmcgc29tZXRoaW5nIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbInJ1biIsInRyaWFsIl0sInR5cGVPZiI6WyJlZmZvcnQiLCJhdHRlbXB0IiwiZW5kZWF2b3IiLCJlbmRlYXZvdXIiLCJ0cnkiXSwiaGFzVHlwZXMiOlsidHJ5LW9uIiwibWluaXN0cnkgb2YgdHJhbnNwb3J0YXRpb24gdGVzdCIsIm1vdCIsIm1vdCB0ZXN0IiwiYXVkaXRpb24iLCJwaWxvdCBwcm9ncmFtIiwicGlsb3QgcHJvamVjdCIsInByZWNsaW5pY2FsIHBoYXNlIiwicHJlY2xpbmljYWwgdGVzdCIsInByZWNsaW5pY2FsIHRyaWFsIiwic25lbGxlbiB0ZXN0IiwiYXNzYXkiLCJjbGluaWNhbCB0ZXN0IiwidHJ5aW5nIG9uIiwidHJ5b3V0IiwiZmllbGQgdHJpYWwiLCJmaXR0aW5nIiwiZG91YmxlIGJsaW5kIiwiY2xpbmljYWwgdHJpYWwiXX0seyJkZWZpbml0aW9uIjoidGhlIGFjdCBvZiB1bmRlcmdvaW5nIHRlc3RpbmciLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsidHJpYWwiXSwidHlwZU9mIjpbInRyeSIsImVuZGVhdm91ciIsImVuZGVhdm9yIiwiZWZmb3J0IiwiYXR0ZW1wdCJdLCJleGFtcGxlcyI6WyJoZSBzdXJ2aXZlZCB0aGUgZ3JlYXQgdGVzdCBvZiBiYXR0bGUiXX0seyJkZWZpbml0aW9uIjoiYWNoaWV2ZSBhIGNlcnRhaW4gc2NvcmUgb3IgcmF0aW5nIG9uIGEgdGVzdCIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJ0eXBlT2YiOlsic2NvcmUiXSwiZXhhbXBsZXMiOlsiU2hlIHRlc3RlZCBoaWdoIG9uIHRoZSBMU0FUIGFuZCB3YXMgYWRtaXR0ZWQgdG8gYWxsIHRoZSBnb29kIGxhdyBzY2hvb2xzIl19LHsiZGVmaW5pdGlvbiI6ImEgaGFyZCBvdXRlciBjb3ZlcmluZyBhcyBvZiBzb21lIGFtb2ViYXMgYW5kIHNlYSB1cmNoaW5zIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJuYXR1cmFsIGNvdmVyaW5nIiwiY292ZXIiLCJjb3ZlcmluZyJdfSx7ImRlZmluaXRpb24iOiJkZXRlcm1pbmUgdGhlIHByZXNlbmNlIG9yIHByb3BlcnRpZXMgb2YgKGEgc3Vic3RhbmNlKSIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJ0eXBlT2YiOlsibGVhcm4iLCJjaGVjayIsImRldGVybWluZSIsInNlZSIsImFzY2VydGFpbiIsIndhdGNoIiwiZmluZCBvdXQiXSwiZGVyaXZhdGlvbiI6WyJ0ZXN0aW5nIl19LHsiZGVmaW5pdGlvbiI6InNob3cgYSBjZXJ0YWluIGNoYXJhY3RlcmlzdGljIHdoZW4gdGVzdGVkIiwicGFydE9mU3BlZWNoIjoidmVyYiIsInR5cGVPZiI6WyJiZSJdLCJkZXJpdmF0aW9uIjpbInRlc3RpbmciXSwiZXhhbXBsZXMiOlsiSGUgdGVzdGVkIHBvc2l0aXZlIGZvciBISVYiXX0seyJkZWZpbml0aW9uIjoidW5kZXJnbyBhIHRlc3QiLCJwYXJ0T2ZTcGVlY2giOiJ2ZXJiIiwidHlwZU9mIjpbInN1Ym1pdCIsInRha2UiXSwidmVyYkdyb3VwIjpbInF1aXoiXSwiZGVyaXZhdGlvbiI6WyJ0ZXN0ZWUiXSwiZXhhbXBsZXMiOlsiU2hlIGRvZXNuJ3QgdGVzdCB3ZWxsIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoxLCJsaXN0IjpbInRlc3QiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoidMmbc3QifSwiZnJlcXVlbmN5Ijo0Ljl9
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:40:56 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/here
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      X-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 569d642519ec2a59-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 24 Feb 2020 00:40:58 GMT
+      etag:
+      - W/"40c-mZl7N8R+9lApMCBAr6XYMg"
+      server:
+      - RapidAPI-1.0.39
+      set-cookie:
+      - __cfduid=d4632a787d27b47ed3e89d8cac551e4ab1582504858; expires=Wed, 25-Mar-20
+        00:40:58 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.39
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2398'
+      content-length:
+      - '521'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"word":"here","results":[{"definition":"to this place (especially
+        toward the speaker)","partOfSpeech":"adverb","synonyms":["hither"],"antonyms":["there"],"examples":["come
+        here, please"]},{"definition":"queen of the Olympian gods in ancient Greek
+        mythology; sister and wife of Zeus remembered for her jealously of the many
+        mortal women Zeus fell in love with; identified with Roman Juno","partOfSpeech":"noun","synonyms":["hera"],"instanceOf":["greek
+        deity"]},{"definition":"being here now","partOfSpeech":"adjective","similarTo":["present"],"derivation":["hereness"],"examples":["is
+        everyone here?"]},{"definition":"the present location; this place","partOfSpeech":"noun","typeOf":["location"],"antonyms":["there"],"examples":["where
+        do we go from here?"]},{"definition":"in or at this place; where the speaker
+        or writer is","partOfSpeech":null,"antonyms":["there"],"examples":["I work
+        here","turn here","radio waves received here on Earth"]}],"syllables":{"count":2,"list":["he","re"]},"pronunciation":{"all":"hir"},"frequency":6.65}'
+    http_version: null
+  recorded_at: Mon, 24 Feb 2020 00:40:58 GMT
+recorded_with: VCR 5.1.0
