@@ -9,7 +9,7 @@ class Sentence < ApplicationRecord
 
   has_many :questions, dependent: :destroy
 
-  before_create :validate_testability
+  before_save :validate_testability
 
   def testable_words
     word_details.each_with_index.each_with_object([]) do |(word, i), memo|

@@ -4,7 +4,7 @@ class Question < ApplicationRecord
   belongs_to :sentence
   has_many :options
 
-  before_create :assign_word_under_test
+  before_save :assign_word_under_test
 
   private
 
