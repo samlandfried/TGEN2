@@ -9,6 +9,8 @@ class Sentence < ApplicationRecord
 
   has_many :questions, dependent: :destroy
 
+  before_create :validate_testability
+
   def testable_words
     word_details.each_with_index.each_with_object([]) do |(word, i), memo|
       memo.push(i) if testable?(word)
@@ -41,5 +43,9 @@ class Sentence < ApplicationRecord
 
   def testable?(word)
     word_found?(word) && low_frequency?(word) && long_enough?(word)
+  end
+
+  def validate_testability
+    raise 'Sentence has no testable words' if testable_words.empty?
   end
 end
