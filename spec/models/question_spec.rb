@@ -17,4 +17,15 @@ RSpec.describe Question, :vcr, type: :model do
     question = Question.create(sentence: sentence)
     expect(question.word_under_test).to eq(1)
   end
+
+  it 'allows testable word to be specified' do
+    sentence = Sentence.create(original: 'quazar incandescent quagmire')
+    question = Question.create(sentence: sentence, word_under_test: 2)
+    expect(question.word_under_test).to eq(2)
+  end
+
+  it 'does not allow an untestable word to be specified' do
+    sentence = Sentence.create(original: 'common quazar incandescent quagmire')
+    expect { Question.create(sentence: sentence, word_under_test: 0) }.to raise_exception('Word under test is not a testable word')
+  end
 end
