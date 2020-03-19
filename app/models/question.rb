@@ -40,6 +40,7 @@ class Question < ApplicationRecord
 
   def create_options
     create_correct_option
+    3.times { create_incorrect_option }
   end
 
   def create_correct_option
