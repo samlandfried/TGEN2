@@ -44,14 +44,15 @@ RSpec.describe Question, :vcr, type: :model do
     incorrect = @question.create_incorrect_option
     expect(incorrect[:correct]).to be false
     expect(incorrect[:name].length).to be > 3
-    expect(incorrect[:name].length).to be > @question.word_under_test.length - 3
-    expect(incorrect[:name].length).to be < @question.word_under_test.length + 3
+    expect(incorrect[:name].length).to be >= @question.word_under_test.length - 3
+    expect(incorrect[:name].length).to be <= @question.word_under_test.length + 3
     expect(incorrect[:name]).to_not eq @question.correct.name
     expect(@question.options).to include incorrect
   end
 
   it 'creates 3 incorrect options' do
-    expect(@question.options.count).to eq(4)
-    expect(@question.options.correct).to eq(1)
+    expect(@question.options.count).to eq 4
+    expect(@question.options.where(correct: false).count).to eq 3
+    expect(@question.options.where(correct: true).count).to eq 1
   end
 end
