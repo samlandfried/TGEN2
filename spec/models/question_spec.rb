@@ -6,6 +6,10 @@ require 'vcr_helper'
 NEW_SENTENCE = 'New phenomenal sentence'
 
 RSpec.describe Question, :vcr, type: :model do
+  before(:each) do
+    sentence = Sentence.create(original: NEW_SENTENCE)
+    @question = Question.create(sentence: sentence)
+  end
   it 'requires a sentence' do
     expect(Question.new).to_not be_valid
     sentence = Sentence.create(original: NEW_SENTENCE)
@@ -13,9 +17,7 @@ RSpec.describe Question, :vcr, type: :model do
   end
 
   it 'chooses a random testable word if none is specified' do
-    sentence = Sentence.create(original: NEW_SENTENCE)
-    question = Question.create(sentence: sentence)
-    expect(question.word_under_test_index).to eq(1)
+    expect(@question.word_under_test_index).to eq(1)
   end
 
   it 'allows testable word to be specified' do
@@ -30,16 +32,12 @@ RSpec.describe Question, :vcr, type: :model do
   end
 
   it 'creates a correct option with the word under test' do
-    sentence = Sentence.create(original: NEW_SENTENCE)
-    question = Question.create(sentence: sentence)
-    expect(question.options.first.name).to eq('phenomenal')
-    expect(question.options.first.correct).to be true
+    expect(@question.options.first.name).to eq('phenomenal')
+    expect(@question.options.first.correct).to be true
   end
 
   it 'knows the correct option' do
-    sentence = Sentence.create(original: NEW_SENTENCE)
-    question = Question.create(sentence: sentence)
-    expect(question.correct).to eq Option.find_by(correct: true)
+    expect(@question.correct).to eq Option.find_by(correct: true)
   end
 
   it 'generates incorrect options' do
@@ -53,9 +51,7 @@ RSpec.describe Question, :vcr, type: :model do
   end
 
   it 'creates 3 incorrect options' do
-    sentence = Sentence.create(original: NEW_SENTENCE)
-    question = Question.create(sentence: sentence)
-    expect(question.options.count).to eq(4)
-    expect(question.options.correct).to eq(1)
+    expect(@question.options.count).to eq(4)
+    expect(@question.options.correct).to eq(1)
   end
 end
