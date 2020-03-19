@@ -11,6 +11,10 @@ class Question < ApplicationRecord
     sentence.words[word_under_test_index]
   end
 
+  def correct
+    options.find_by(correct: true)
+  end
+
   private
 
   def assign_word_under_test_index

@@ -35,4 +35,10 @@ RSpec.describe Question, :vcr, type: :model do
     expect(question.options.first.name).to eq('phenomenal')
     expect(question.options.first.correct).to be true
   end
+
+  it 'knows the correct option' do
+    sentence = Sentence.create(original: NEW_SENTENCE)
+    question = Question.create(sentence: sentence)
+    expect(question.correct).to eq Option.find_by(correct: true)
+  end
 end
