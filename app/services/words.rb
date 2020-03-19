@@ -8,13 +8,18 @@ class Words
   end
 
   def word(incoming_word)
-    url = [@words_url, incoming_word].join('')
-    response = Faraday.get(url, {}, { 'x-rapidapi-key': @words_api_key })
-    JSON.parse(response.body, symbolize_names: true)
+    get_word(incoming_word)
   end
 
   def random_word
-    response = Faraday.get(@words_url, { random: true }, { 'x-rapidapi-key': @words_api_key })
+    get_word('', { random: true })
+  end
+
+  private
+
+  def get_word(path = '', queries = {}, headers = {})
+    headers['x-rapidapi-key'] = @words_api_key
+    response = Faraday.get([@words_url, path].join(''), queries, headers)
     JSON.parse(response.body, symbolize_names: true)
   end
 end
