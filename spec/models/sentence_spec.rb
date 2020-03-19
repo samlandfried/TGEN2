@@ -4,6 +4,11 @@ require 'rails_helper'
 require 'vcr_helper'
 
 RSpec.describe Sentence, :vcr, type: :model do
+  it 'can generate self from NYT API' do
+    sentence = Sentence.create_from_nyt
+    expect(sentence.testable_words).to_not be_empty
+  end
+
   context 'valid Sentences' do
     it 'requires an "original" field' do
       expect(Sentence.new).to be_invalid

@@ -22,6 +22,20 @@ class Sentence < ApplicationRecord
     original.gsub(/[^a-z ]/i, '').split(' ')
   end
 
+  def self.create_from_nyt
+    @nyt_api ||= NYT.new
+    sentences = @nyt_api.sentences
+    sentence = new(original: sentences.last)
+
+    while sentences.length.positive? && sentence.testable_words.empty?
+      sentences.pop
+      sentence = new(original: sentences.last)
+    end
+
+    sentence.save
+    sentence
+  end
+
   private
 
   def word_details
