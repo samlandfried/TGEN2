@@ -7,11 +7,11 @@ class Question < ApplicationRecord
   after_create :create_options
   before_save :assign_word_under_test_index
 
-  private
-
   def word_under_test
     sentence.words[word_under_test_index]
   end
+
+  private
 
   def assign_word_under_test_index
     if word_under_test_index

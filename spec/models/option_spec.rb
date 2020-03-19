@@ -25,4 +25,11 @@ RSpec.describe Option, :vcr, type: :model do
     option = Option.create(question: @question, name: 'Option A')
     expect(option.correct).to be false
   end
+
+  it 'can generate an incorrect option' do
+    incorrect = @question.options.create_incorrect_from(@question.word_under_test)
+    expect(incorrect.correct).to be false
+    expect(incorrect.name.length).to be > (3)
+    expect(incorrect.name.length).to be < (@question.word_under_test.length + 3)
+  end
 end
