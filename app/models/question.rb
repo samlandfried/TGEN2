@@ -20,6 +20,10 @@ class Question < ApplicationRecord
     options.create(name: word_details[:word])
   end
 
+  def self.from_nyt
+    create(sentence: Sentence.create_from_nyt)
+  end
+
   private
 
   def words_api

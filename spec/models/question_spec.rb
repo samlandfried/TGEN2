@@ -10,10 +10,17 @@ RSpec.describe Question, :vcr, type: :model do
     sentence = Sentence.create(original: NEW_SENTENCE)
     @question = Question.create(sentence: sentence)
   end
+
   it 'requires a sentence' do
     expect(Question.new).to_not be_valid
     sentence = Sentence.create(original: NEW_SENTENCE)
     expect(Question.new(sentence: sentence)).to be_valid
+  end
+
+  it 'can pull a sentence from NYT' do
+    question = Question.from_nyt
+    expect(question).to be_a Question
+    expect(question.sentence).to be_a Sentence
   end
 
   it 'chooses a random testable word if none is specified' do
