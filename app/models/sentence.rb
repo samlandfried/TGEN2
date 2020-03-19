@@ -42,10 +42,14 @@ class Sentence < ApplicationRecord
   end
 
   def testable?(word)
-    word_found?(word) && low_frequency?(word) && long_enough?(word)
+    word_found?(word) && low_frequency?(word) && long_enough?(word) && results?(word)
   end
 
   def validate_testability
     raise 'Sentence has no testable words' if testable_words.empty?
+  end
+
+  def results?(word)
+    word[:results]&.length&.positive?
   end
 end

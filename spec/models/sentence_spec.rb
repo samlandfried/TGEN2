@@ -27,6 +27,11 @@ RSpec.describe Sentence, :vcr, type: :model do
       expect(sentence.testable_words).to eq([1])
     end
 
+    it 'requires a "results" field on the response to be testable' do
+      sentence = Sentence.new(original: 'testable')
+      expect { sentence.save }.to raise_error('Sentence has no testable words')
+    end
+
     it 'throws if no testable words are found' do
       sentence = Sentence.new(original: 'nothing to test here')
       expect { sentence.save }.to raise_error('Sentence has no testable words')
