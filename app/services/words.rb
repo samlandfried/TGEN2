@@ -4,12 +4,17 @@
 class Words
   def initialize
     @words_api_key = Rails.application.credentials.words[:key]
-    @base_url = 'https://wordsapiv1.p.rapidapi.com'
+    @words_url = 'https://wordsapiv1.p.rapidapi.com/words/'
   end
 
-  def word(word)
-    url = [@base_url, 'words', word].join('/')
+  def word(incoming_word)
+    url = [@words_url, incoming_word].join('')
     response = Faraday.get(url, {}, { 'x-rapidapi-key': @words_api_key })
-    word_info = JSON.parse(response.body, symbolize_names: true)
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
+  def random_word
+    response = Faraday.get(@words_url, { random: true }, { 'x-rapidapi-key': @words_api_key })
+    JSON.parse(response.body, symbolize_names: true)
   end
 end
