@@ -42,12 +42,12 @@ RSpec.describe Question, :vcr, type: :model do
 
   it 'generates incorrect options' do
     incorrect = @question.create_incorrect_option
-    expect(incorrect.correct).to be false
-    expect(incorrect.name.length).to be > 3
-    expect(incorrect.name.length).to be > @question.word_under_test.length - 3
-    expect(incorrect.name.length).to be < @question.word_under_test.length + 3
-    expect(incorrect.name).to_not equal @question.options.correct
-    expect(@question.options).to contain incorrect
+    expect(incorrect[:correct]).to be false
+    expect(incorrect[:name].length).to be > 3
+    expect(incorrect[:name].length).to be > @question.word_under_test.length - 3
+    expect(incorrect[:name].length).to be < @question.word_under_test.length + 3
+    expect(incorrect[:name]).to_not eq @question.correct.name
+    expect(@question.options).to include incorrect
   end
 
   it 'creates 3 incorrect options' do

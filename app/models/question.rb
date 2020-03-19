@@ -15,7 +15,16 @@ class Question < ApplicationRecord
     options.find_by(correct: true)
   end
 
+  def create_incorrect_option
+    word_details = words_api.random_word(word_under_test)
+    options.create(name: word_details[:word])
+  end
+
   private
+
+  def words_api
+    Words.new
+  end
 
   def assign_word_under_test_index
     if word_under_test_index
