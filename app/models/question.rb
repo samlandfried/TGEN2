@@ -24,6 +24,12 @@ class Question < ApplicationRecord
     create(sentence: Sentence.create_from_nyt)
   end
 
+  def formatted
+    split = sentence.original.split(' ')
+    split[word_under_test_index] = '___'
+    split.join(' ')
+  end
+
   private
 
   def words_api

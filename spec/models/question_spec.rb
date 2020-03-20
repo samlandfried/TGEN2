@@ -23,6 +23,10 @@ RSpec.describe Question, :vcr, type: :model do
     expect(question.sentence).to be_a Sentence
   end
 
+  it 'creates a formatted version of the sentence' do
+    expect(@question.formatted).to eq 'New ___ sentence'
+  end
+
   it 'chooses a random testable word if none is specified' do
     expect(@question.word_under_test_index).to eq(1)
   end
