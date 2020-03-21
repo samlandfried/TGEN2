@@ -12,6 +12,12 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def index
+    questions = Question.all.map(&:for_test_taker).to_json
+
+    render json: questions, status: :ok
+  end
+
   private
 
   def question_params
