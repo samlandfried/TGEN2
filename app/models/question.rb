@@ -11,6 +11,14 @@ class Question < ApplicationRecord
     sentence.words[word_under_test_index]
   end
 
+  def for_test_taker
+    {
+      id: id,
+      options: options.pluck(:name),
+      question: formatted
+    }
+  end
+
   def correct
     options.find_by(correct: true)
   end

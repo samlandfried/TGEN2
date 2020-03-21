@@ -66,4 +66,14 @@ RSpec.describe Question, :vcr, type: :model do
     expect(@question.options.where(correct: false).count).to eq 3
     expect(@question.options.where(correct: true).count).to eq 1
   end
+
+  it 'knows how to prepare itself for test taker' do
+    expect(@question.for_test_taker).to eq(
+      {
+        question: 'New ___ sentence',
+        options: %w[phenomenal labored charitable reprobate],
+        id: 1
+      }
+    )
+  end
 end
