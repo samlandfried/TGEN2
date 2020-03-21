@@ -1,6 +1,6 @@
 import React from "react";
 import Data from "./Data";
-import Question from "./Question";
+import Questions from "./Questions";
 
 class App extends React.Component {
   render() {
@@ -8,14 +8,7 @@ class App extends React.Component {
       <React.Fragment>
         <Data>
           {({ questions }) =>
-            questions[0] ? (
-              <Question
-                sentence={questions[0].question}
-                options={questions[0].options}
-              />
-            ) : (
-              "Fetching ..."
-            )
+            questions[0] ? <Questions questions={questions} /> : "Fetching ..."
           }
         </Data>
       </React.Fragment>

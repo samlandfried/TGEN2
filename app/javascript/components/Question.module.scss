@@ -1,15 +1,9 @@
+$large-margin: 50px;
+$medium-margin: 25px;
+
 .container {
-  color: blue;
-}
-
-.sentence {
-  color: red;
-}
-
-.options {
-  color: green;
-}
-
-.option {
-  color: darkgoldenrod;
+  padding: $large-margin;
+  background: linear-gradient(150deg, purple, 70%, red);
+  font-size: 3rem;
+  color: white;
 }
