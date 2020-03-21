@@ -1,12 +1,18 @@
 import React from "react";
-import PropTypes from "prop-types";
+import Data from "./Data";
+
 class App extends React.Component {
   render() {
-    return <React.Fragment>TGEN2</React.Fragment>;
+    return (
+      <React.Fragment>
+        <Data>
+          {({ questions }) =>
+            questions[0] ? JSON.stringify(questions[0]) : "Fetching ..."
+          }
+        </Data>
+      </React.Fragment>
+    );
   }
 }
 
-App.propTypes = {
-  greeting: PropTypes.string
-};
 export default App;
