@@ -2,10 +2,22 @@ $large-margin: 50px;
 $medium-margin: 25px;
 
 .container {
-  padding: $large-margin;
   background: linear-gradient(150deg, purple, 70%, red);
   font-size: 3rem;
   color: white;
   height: 100%;
   width: 100%;
+}
+
+.contents {
+  padding: $large-margin;
+  height: calc(100% - 2 * #{$large-margin});
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.options {
+  align-self: flex-end;
+  text-align: right;
 }
