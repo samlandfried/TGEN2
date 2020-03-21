@@ -1,11 +1,13 @@
 import React from "react";
+import styles from "./Question.module.scss";
 
 const Question = ({ sentence, options }) => (
-  <div className="question-container">
-    <div className="question-sentence">{sentence}</div>
-    <ol className="question-options">
+  <div className={styles.container}>
+    Question:
+    <div className={styles.sentence}>{sentence}</div>
+    <ol className={styles.options}>
       {options.map(option => (
-        <li key={option} className="question-option">
+        <li key={option} className={styles.option}>
           {option}
         </li>
       ))}
