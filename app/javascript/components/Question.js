@@ -8,7 +8,7 @@ const Question = ({ question, options }) => (
       <ol className={styles.options}>
         {options.map(option => (
           <li key={option} className={styles.option}>
-            {option}
+            <button>{option}</button>
           </li>
         ))}
       </ol>

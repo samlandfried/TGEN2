@@ -19,5 +19,14 @@ $medium-margin: 25px;
 
 .options {
   align-self: flex-end;
+}
+
+.option {
   text-align: right;
+  transition-property: color transform;
+  transition-duration: 0.5s;
+
+  &:hover {
+    color: black;
+  }
 }
