@@ -60,3 +60,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'faraday', '~> 1.0'
 
 gem "vcr", "~> 5.1", :group => :test
+
+gem "react-rails", "~> 2.6"
