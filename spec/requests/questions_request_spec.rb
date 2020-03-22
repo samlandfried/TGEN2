@@ -35,6 +35,8 @@ RSpec.describe 'Questions', :vcr, type: :request do
 
     expect(body.length).to be Question.count
     expect(json_question[:question]).to eq db_question.formatted
-    expect(json_question[:options]).to eq db_question.options.pluck(:name)
+    expect(json_question[:id]).to eq 1
+    expect(json_question[:options].length).to eq 4
+    expect(json_question[:options]).to include db_question.correct.name
   end
 end

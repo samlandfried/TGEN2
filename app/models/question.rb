@@ -23,7 +23,7 @@ class Question < ApplicationRecord
   def for_test_taker
     {
       id: id,
-      options: options.pluck(:name),
+      options: options.pluck(:name).shuffle,
       question: formatted
     }
   end

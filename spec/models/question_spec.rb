@@ -68,12 +68,9 @@ RSpec.describe Question, :vcr, type: :model do
   end
 
   it 'knows how to prepare itself for test taker' do
-    expect(@question.for_test_taker).to eq(
-      {
-        question: 'New ___ sentence',
-        options: %w[phenomenal norwegian intimidating calibrated],
-        id: 1
-      }
-    )
+    expect(@question.for_test_taker[:question]).to eq 'New ___ sentence'
+    expect(@question.for_test_taker[:id]).to eq 1
+    expect(@question.for_test_taker[:options].length).to eq 4
+    expect(@question.for_test_taker[:options]).to include 'phenomenal'
   end
 end
