@@ -19,6 +19,7 @@ $medium-margin: 25px;
 
 .question {
   position: absolute;
+  white-space: pre-wrap;
 }
 
 .options {
@@ -27,7 +28,7 @@ $medium-margin: 25px;
 
 .option {
   text-align: right;
-  transition-property: color transform;
+  transition-property: color;
   transition-duration: 0.5s;
 
   &:hover {
