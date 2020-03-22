@@ -14,6 +14,13 @@
  *= require_self
  */
 
+:root {
+  --question-bg-angle: 150deg;
+  --question-bg-color-1: purple;
+  --question-bg-midpoint: 70%;
+  --question-bg-color-2: red;
+}
+
 body {
   font-family: "Baloo 2", "Menlo";
 }

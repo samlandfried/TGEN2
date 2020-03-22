@@ -17,6 +17,30 @@ const _normalizeOptions = options => {
   });
 };
 
+const _randomizeBackground = () => {
+  const randomDegree = Math.floor(Math.random() * 360);
+  const randomPercent = Math.floor(Math.random() * 100);
+  const randomColor1 = Math.floor(Math.random() * 16777215).toString(16);
+  const randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
+  console.log(randomColor1, randomColor2);
+  document.documentElement.style.setProperty(
+    "--question-bg-angle",
+    `${randomDegree}deg`
+  );
+  document.documentElement.style.setProperty(
+    "--question-bg-color-1",
+    `#${randomColor1}`
+  );
+  document.documentElement.style.setProperty(
+    "--question-bg-midpoint",
+    `${randomPercent}%`
+  );
+  document.documentElement.style.setProperty(
+    "--question-bg-color-2",
+    `#${randomColor2}`
+  );
+};
+
 const Question = ({ id, loadNextQuestion, question, options }) => {
   const questionWords = useMemo(() => question.split(" "), [question]);
   const blankIndex = useMemo(() => questionWords.indexOf("___"), [
@@ -50,7 +74,10 @@ const Question = ({ id, loadNextQuestion, question, options }) => {
     });
     const { code } = await response.json();
 
-    if (code === "CORRECT") loadNextQuestion();
+    if (code === "CORRECT") {
+      _randomizeBackground();
+      loadNextQuestion();
+    }
   };
 
   const [formattedQuestion, setFormattedQuestion] = useState();

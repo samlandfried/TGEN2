@@ -2,7 +2,12 @@ $large-margin: 50px;
 $active-option-color: gray;
 
 .container {
-  background: linear-gradient(150deg, purple, 70%, red);
+  background: linear-gradient(
+    var(--question-bg-angle),
+    var(--question-bg-color-1),
+    var(--question-bg-midpoint),
+    var(--question-bg-color-2)
+  );
   font-size: 3rem;
   color: white;
   height: 100%;
