@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import styles from "./Question.module.scss";
+import utils from "../utils";
 
 const _normalizeOptions = options => {
   const lengthOfLongestOption = options.reduce(
@@ -16,7 +17,7 @@ const _normalizeOptions = options => {
   });
 };
 
-const Question = ({ question, options }) => {
+const Question = ({ id, question, options }) => {
   const questionWords = useMemo(() => question.split(" "), [question]);
   const blankIndex = useMemo(() => questionWords.indexOf("___"), [
     questionWords
@@ -40,6 +41,18 @@ const Question = ({ question, options }) => {
         .join(""),
     [normalizedOptions]
   );
+
+  const _checkAnswer = async word => {
+    const response = await fetch(`/questions/${id}/check_answer`, {
+      method: "post",
+      body: JSON.stringify({ answer: { word } }),
+      headers: utils.getHeaders()
+    });
+    const data = await response.json();
+
+    console.log(data);
+  };
+
   const [formattedQuestion, setFormattedQuestion] = useState();
   const [hoveredOption, setHoveredOption] = useState(BLANK);
 
@@ -70,7 +83,13 @@ const Question = ({ question, options }) => {
               }}
               onMouseOut={() => setHoveredOption(BLANK)}
             >
-              <button data-id={optionI}>{option}</button>
+              <button
+                data-id={optionI}
+                data-option={option}
+                onClick={({ target }) => _checkAnswer(target.dataset.option)}
+              >
+                {option}
+              </button>
             </li>
           ))}
         </ol>
