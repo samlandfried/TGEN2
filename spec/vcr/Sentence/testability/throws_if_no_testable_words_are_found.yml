@@ -1,0 +1,217 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/nothing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578188099b80bb64-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:11:21 GMT
+      etag:
+      - W/"1e3-6qmt8jOxAnuw6Pow5Iqvvw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dc5cd36bb9e93ab194c8145bff8508c0f1584897081; expires=Tue, 21-Apr-20
+        17:11:21 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2148'
+      content-length:
+      - '338'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibm90aGluZyIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJhIHF1YW50aXR5IG9mIG5vIGltcG9ydGFuY2UiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYXVnaHQiLCJjaXBoZXIiLCJjeXBoZXIiLCJnb29zZSBlZ2ciLCJuYWRhIiwibmF1Z2h0IiwibmlsIiwibml4IiwibnVsbCIsInplcm8iLCJ6aWxjaCIsInppcCIsInppcHBvIl0sInR5cGVPZiI6WyJyZWxhdGl2ZSBxdWFudGl0eSJdLCJoYXNUeXBlcyI6WyJidWdnZXIgYWxsIiwiZmFubnkgYWRhbXMiLCJmdWNrIGFsbCIsIm5paGlsIiwic3dlZXQgZmFubnkgYWRhbXMiXSwiZXhhbXBsZXMiOlsiaXQgbG9va2VkIGxpa2Ugbm90aGluZyBJIGhhZCBldmVyIHNlZW4gYmVmb3JlIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbIm5vdGgiLCJpbmciXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ27Jmc64yarFiyJ9LCJmcmVxdWVuY3kiOjUuOTV9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:11:21 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781880bbce1f57d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:11:22 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d71cd99b95811256e0802074999956ca41584897082; expires=Tue, 21-Apr-20
+        17:11:22 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2146'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:11:22 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781880db947c9a5-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:11:22 GMT
+      etag:
+      - W/"dfe-KoeE72J7TEEURRsYENRapw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df2eb392c765193cdde5a328dcfe491d71584897082; expires=Tue, 21-Apr-20
+        17:11:22 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2144'
+      content-length:
+      - '1265'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoidGVzdCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJ0cnlpbmcgc29tZXRoaW5nIHRvIGZpbmQgb3V0IGFib3V0IGl0IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbInRyaWFsIiwidHJpYWwgcnVuIiwidHJ5b3V0Il0sInR5cGVPZiI6WyJleHBlcmltZW50YXRpb24iLCJleHBlcmltZW50Il0sImhhc1R5cGVzIjpbInRyaWFsIGJhbGxvb24iLCJyb2FkIHRlc3QiLCJhbHBoYSB0ZXN0IiwiZmllbGQgdGVzdCIsImZpZWxkIHRyaWFsIiwiYmV0YSB0ZXN0Il19LHsiZGVmaW5pdGlvbiI6ImFueSBzdGFuZGFyZGl6ZWQgcHJvY2VkdXJlIGZvciBtZWFzdXJpbmcgc2Vuc2l0aXZpdHkgb3IgbWVtb3J5IG9yIGludGVsbGlnZW5jZSBvciBhcHRpdHVkZSBvciBwZXJzb25hbGl0eSBldGMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsibWVudGFsIHRlc3QiLCJtZW50YWwgdGVzdGluZyIsInBzeWNob21ldHJpYyB0ZXN0Il0sInR5cGVPZiI6WyJtZW50YWwgbWVhc3VyZW1lbnQiXSwiaGFzVHlwZXMiOlsic3ViLXRlc3QiLCJwZXJzb25hbGl0eSB0ZXN0IiwiaW50ZWxsaWdlbmNlIHRlc3QiLCJpcSB0ZXN0Il0sImV4YW1wbGVzIjpbInRoZSB0ZXN0IHdhcyBzdGFuZGFyZGl6ZWQgb24gYSBsYXJnZSBzYW1wbGUgb2Ygc3R1ZGVudHMiXX0seyJkZWZpbml0aW9uIjoiYSBzZXQgb2YgcXVlc3Rpb25zIG9yIGV4ZXJjaXNlcyBldmFsdWF0aW5nIHNraWxsIG9yIGtub3dsZWRnZSIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJleGFtIiwiZXhhbWluYXRpb24iXSwidHlwZU9mIjpbImNvbW11bmljYXRpbmciLCJjb21tdW5pY2F0aW9uIl0sImhhc1R5cGVzIjpbImVudHJhbmNlIGV4YW0iLCJiYXIgZXhhbSIsImJhciBleGFtaW5hdGlvbiIsImNvbXAiLCJjb21wcmVoZW5zaXZlIiwiY29tcHJlaGVuc2l2ZSBleGFtaW5hdGlvbiIsImVudHJhbmNlIGV4YW1pbmF0aW9uIiwiZXhhbSBwYXBlciIsImV4YW1pbmF0aW9uIHBhcGVyIiwiZmluYWwiLCJmaW5hbCBleGFtIiwiZmluYWwgZXhhbWluYXRpb24iLCJsaXRtdXMgdGVzdCIsIm1pZHRlcm0iLCJtaWR0ZXJtIGV4YW0iLCJtaWR0ZXJtIGV4YW1pbmF0aW9uIiwib3JhbCIsIm9yYWwgZXhhbSIsIm9yYWwgZXhhbWluYXRpb24iLCJwcmVsaW0iLCJwcmVsaW1pbmFyeSBleGFtIiwicHJlbGltaW5hcnkgZXhhbWluYXRpb24iLCJxdWVzdGlvbiBzaGVldCIsInF1aXoiLCJ0ZXN0IHBhcGVyIiwidHJpcG9zIiwidml2YSIsInZpdmEgdm9jZSJdLCJleGFtcGxlcyI6WyJ3aGVuIHRoZSB0ZXN0IHdhcyBzdG9sZW4gdGhlIHByb2Zlc3NvciBoYWQgdG8gbWFrZSBhIG5ldyBzZXQgb2YgcXVlc3Rpb25zIl19LHsiZGVmaW5pdGlvbiI6InRlc3Qgb3IgZXhhbWluZSBmb3IgdGhlIHByZXNlbmNlIG9mIGRpc2Vhc2Ugb3IgaW5mZWN0aW9uIiwicGFydE9mU3BlZWNoIjoidmVyYiIsInN5bm9ueW1zIjpbInNjcmVlbiJdLCJ0eXBlT2YiOlsiY2hlY2siXX0seyJkZWZpbml0aW9uIjoiZXhhbWluZSBzb21lb25lJ3Mga25vd2xlZGdlIG9mIHNvbWV0aGluZyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJxdWl6Il0sInR5cGVPZiI6WyJleGFtaW5lIl0sImRlcml2YXRpb24iOlsidGVzdGVlIiwidGVzdGluZyIsInRlc3RlciJdLCJleGFtcGxlcyI6WyJUaGUgdGVhY2hlciB0ZXN0cyB1cyBldmVyeSB3ZWVrIl19LHsiZGVmaW5pdGlvbiI6InB1dCB0byB0aGUgdGVzdCwgYXMgZm9yIGl0cyBxdWFsaXR5LCBvciBnaXZlIGV4cGVyaW1lbnRhbCB1c2UgdG8iLCJwYXJ0T2ZTcGVlY2giOiJ2ZXJiIiwic3lub255bXMiOlsiZXNzYXkiLCJleGFtaW5lIiwicHJvdmUiLCJ0cnkiLCJ0cnkgb3V0Il0sInR5cGVPZiI6WyJqdWRnZSIsInBhc3MganVkZ21lbnQiLCJldmFsdWF0ZSJdLCJoYXNUeXBlcyI6WyJmbG9hdCIsImNvbnRyb2wiLCJ2ZXJpZnkiLCJmaWVsZC10ZXN0Il0sImRlcml2YXRpb24iOlsidGVzdGluZyJdfSx7ImRlZmluaXRpb24iOiJ0aGUgYWN0IG9mIHRlc3Rpbmcgc29tZXRoaW5nIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbInJ1biIsInRyaWFsIl0sInR5cGVPZiI6WyJlZmZvcnQiLCJhdHRlbXB0IiwiZW5kZWF2b3IiLCJlbmRlYXZvdXIiLCJ0cnkiXSwiaGFzVHlwZXMiOlsidHJ5LW9uIiwibWluaXN0cnkgb2YgdHJhbnNwb3J0YXRpb24gdGVzdCIsIm1vdCIsIm1vdCB0ZXN0IiwiYXVkaXRpb24iLCJwaWxvdCBwcm9ncmFtIiwicGlsb3QgcHJvamVjdCIsInByZWNsaW5pY2FsIHBoYXNlIiwicHJlY2xpbmljYWwgdGVzdCIsInByZWNsaW5pY2FsIHRyaWFsIiwic25lbGxlbiB0ZXN0IiwiYXNzYXkiLCJjbGluaWNhbCB0ZXN0IiwidHJ5aW5nIG9uIiwidHJ5b3V0IiwiZmllbGQgdHJpYWwiLCJmaXR0aW5nIiwiZG91YmxlIGJsaW5kIiwiY2xpbmljYWwgdHJpYWwiXX0seyJkZWZpbml0aW9uIjoidGhlIGFjdCBvZiB1bmRlcmdvaW5nIHRlc3RpbmciLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsidHJpYWwiXSwidHlwZU9mIjpbInRyeSIsImVuZGVhdm91ciIsImVuZGVhdm9yIiwiZWZmb3J0IiwiYXR0ZW1wdCJdLCJleGFtcGxlcyI6WyJoZSBzdXJ2aXZlZCB0aGUgZ3JlYXQgdGVzdCBvZiBiYXR0bGUiXX0seyJkZWZpbml0aW9uIjoiYWNoaWV2ZSBhIGNlcnRhaW4gc2NvcmUgb3IgcmF0aW5nIG9uIGEgdGVzdCIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJ0eXBlT2YiOlsic2NvcmUiXSwiZXhhbXBsZXMiOlsiU2hlIHRlc3RlZCBoaWdoIG9uIHRoZSBMU0FUIGFuZCB3YXMgYWRtaXR0ZWQgdG8gYWxsIHRoZSBnb29kIGxhdyBzY2hvb2xzIl19LHsiZGVmaW5pdGlvbiI6ImEgaGFyZCBvdXRlciBjb3ZlcmluZyBhcyBvZiBzb21lIGFtb2ViYXMgYW5kIHNlYSB1cmNoaW5zIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJuYXR1cmFsIGNvdmVyaW5nIiwiY292ZXIiLCJjb3ZlcmluZyJdfSx7ImRlZmluaXRpb24iOiJkZXRlcm1pbmUgdGhlIHByZXNlbmNlIG9yIHByb3BlcnRpZXMgb2YgKGEgc3Vic3RhbmNlKSIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJ0eXBlT2YiOlsibGVhcm4iLCJjaGVjayIsImRldGVybWluZSIsInNlZSIsImFzY2VydGFpbiIsIndhdGNoIiwiZmluZCBvdXQiXSwiZGVyaXZhdGlvbiI6WyJ0ZXN0aW5nIl19LHsiZGVmaW5pdGlvbiI6InNob3cgYSBjZXJ0YWluIGNoYXJhY3RlcmlzdGljIHdoZW4gdGVzdGVkIiwicGFydE9mU3BlZWNoIjoidmVyYiIsInR5cGVPZiI6WyJiZSJdLCJkZXJpdmF0aW9uIjpbInRlc3RpbmciXSwiZXhhbXBsZXMiOlsiSGUgdGVzdGVkIHBvc2l0aXZlIGZvciBISVYiXX0seyJkZWZpbml0aW9uIjoidW5kZXJnbyBhIHRlc3QiLCJwYXJ0T2ZTcGVlY2giOiJ2ZXJiIiwidHlwZU9mIjpbInN1Ym1pdCIsInRha2UiXSwidmVyYkdyb3VwIjpbInF1aXoiXSwiZGVyaXZhdGlvbiI6WyJ0ZXN0ZWUiXSwiZXhhbXBsZXMiOlsiU2hlIGRvZXNuJ3QgdGVzdCB3ZWxsIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoxLCJsaXN0IjpbInRlc3QiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoidMmbc3QifSwiZnJlcXVlbmN5Ijo0Ljl9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:11:22 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/here
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781880faf77c999-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:11:22 GMT
+      etag:
+      - W/"40c-mZl7N8R+9lApMCBAr6XYMg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d0f7706d3f2fc4a484f460d25f4337dc51584897082; expires=Tue, 21-Apr-20
+        17:11:22 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2142'
+      content-length:
+      - '521'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"word":"here","results":[{"definition":"to this place (especially
+        toward the speaker)","partOfSpeech":"adverb","synonyms":["hither"],"antonyms":["there"],"examples":["come
+        here, please"]},{"definition":"queen of the Olympian gods in ancient Greek
+        mythology; sister and wife of Zeus remembered for her jealously of the many
+        mortal women Zeus fell in love with; identified with Roman Juno","partOfSpeech":"noun","synonyms":["hera"],"instanceOf":["greek
+        deity"]},{"definition":"being here now","partOfSpeech":"adjective","similarTo":["present"],"derivation":["hereness"],"examples":["is
+        everyone here?"]},{"definition":"the present location; this place","partOfSpeech":"noun","typeOf":["location"],"antonyms":["there"],"examples":["where
+        do we go from here?"]},{"definition":"in or at this place; where the speaker
+        or writer is","partOfSpeech":null,"antonyms":["there"],"examples":["I work
+        here","turn here","radio waves received here on Earth"]}],"syllables":{"count":2,"list":["he","re"]},"pronunciation":{"all":"hir"},"frequency":6.65}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:11:22 GMT
+recorded_with: VCR 5.1.0

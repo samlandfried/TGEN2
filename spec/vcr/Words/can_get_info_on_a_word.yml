@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/hatchback
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781896059b7e37a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:12:16 GMT
+      etag:
+      - W/"1a3-u6ipUlkAVpiUZeBTxAxKjg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2e0017054a8888bfe086f5ce79fa0c521584897136; expires=Tue, 21-Apr-20
+        17:12:16 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '1846'
+      content-length:
+      - '275'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaGF0Y2hiYWNrIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImEgc2xvcGluZyByZWFyIGNhciBkb29yIHRoYXQgaXMgbGlmdGVkIHRvIG9wZW4iLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiaGF0Y2giLCJoYXRjaGJhY2sgZG9vciIsImxpZnRnYXRlIl0sInR5cGVPZiI6WyJjYXIgZG9vciJdfSx7ImRlZmluaXRpb24iOiJhIGNhciBoYXZpbmcgYSBoYXRjaGJhY2sgZG9vciIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJ0eXBlT2YiOlsiYXV0byIsImF1dG9tb2JpbGUiLCJjYXIiLCJtYWNoaW5lIiwibW90b3JjYXIiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsiaGF0Y2giLCJiYWNrIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6Iidow6Z0yoNiw6ZrIn0sImZyZXF1ZW5jeSI6MS45N30=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:12:16 GMT
+recorded_with: VCR 5.1.0

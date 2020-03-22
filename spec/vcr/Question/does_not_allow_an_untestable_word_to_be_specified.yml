@@ -1,0 +1,1059 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/New
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186ba3e36f559-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:28 GMT
+      etag:
+      - W/"9eb-X5dtbOzQTNZ0VrsDybHmtg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d3864569f1dbf3d780f9ffad7236debe91584897028; expires=Tue, 21-Apr-20
+        17:10:28 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2270'
+      content-length:
+      - '1003'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"word":"new","results":[{"definition":"original and of a kind not
+        seen before","partOfSpeech":"adjective","synonyms":["fresh","novel"],"similarTo":["original"]},{"definition":"(of
+        crops) harvested at an early stage of development; before complete maturity","partOfSpeech":"adjective","synonyms":["young"],"similarTo":["early"],"examples":["new
+        potatoes"]},{"definition":"used of a living language; being the current stage
+        in its development","partOfSpeech":"adjective","synonyms":["modern"],"inCategory":["linguistics"],"similarTo":["late"]},{"definition":"lacking
+        training or experience","partOfSpeech":"adjective","synonyms":["raw"],"similarTo":["inexperienced","inexperient"],"examples":["the
+        new men were eager to fight"]},{"definition":"having no previous example or
+        precedent or parallel","partOfSpeech":"adjective","synonyms":["unexampled"],"similarTo":["unprecedented"]},{"definition":"very
+        recently","partOfSpeech":"adverb","synonyms":["fresh","freshly","newly"],"examples":["they
+        are newly married","newly raised objections","a newly arranged hairdo","grass
+        new washed by the rain"]},{"definition":"in use after medieval times","partOfSpeech":"adjective","inCategory":["linguistics"],"similarTo":["late"]},{"definition":"not
+        of long duration; having just (or relatively recently) come into being or
+        been made or acquired or discovered","partOfSpeech":"adjective","also":["modern","current","fresh"],"attribute":["age"],"similarTo":["young","bran-new","brand-new","fresh","hot","spic-and-span","spick-and-span","sunrise","untested","untried","unused","virgin","new-fangled","new-sprung","newborn","newfangled","newfound","novel","parvenu","parvenue","radical","recent","red-hot","refreshing","revolutionary","rising"],"antonyms":["old"],"derivation":["newness"],"examples":["a
+        new law","new cars","a new comet","a new friend","a new year"]},{"definition":"(often
+        followed by `to'') unfamiliar","partOfSpeech":"adjective","similarTo":["unaccustomed
+        to"],"examples":["new experiences","experiences new to him","errors of someone
+        new to the job"]},{"definition":"other than the former one(s); different","partOfSpeech":"adjective","similarTo":["other"],"examples":["they
+        now have a new leaders","my new car is four years old but has only 15,000
+        miles on it","ready to take a new direction"]},{"definition":"unaffected by
+        use or exposure","partOfSpeech":"adjective","similarTo":["unweathered"],"antonyms":["worn"],"examples":["it
+        looks like new"]}],"syllables":{"count":1,"list":["new"]},"pronunciation":{"all":"nu"},"frequency":5.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:28 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/phenomenal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186bc3e27c981-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:28 GMT
+      etag:
+      - W/"1aa-gidqozNddJvBE58qiDYcEw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d40c007f9e4795facb27d16bf1ecbcfa71584897028; expires=Tue, 21-Apr-20
+        17:10:28 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2268'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicGhlbm9tZW5hbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJleGNlZWRpbmdseSBvciB1bmJlbGlldmFibHkgZ3JlYXQiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzaW1pbGFyVG8iOlsiZXh0cmFvcmRpbmFyeSJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIGZlYXRzIG9mIG1lbW9yeSJdfSx7ImRlZmluaXRpb24iOiJvZiBvciByZWxhdGluZyB0byBhIHBoZW5vbWVub24iLCJwYXJ0T2ZTcGVlY2giOm51bGwsInBlcnRhaW5zVG8iOlsicGhlbm9tZW5vbiJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIHNjaWVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicGhlIiwibm9tIiwiZSIsIm5hbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJmyaonbsmRbcmZbsmZbCJ9LCJmcmVxdWVuY3kiOjMuMzh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:28 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186be48fcf56d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:28 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d05781e4d7f3575eeece1952d7f3263e11584897028; expires=Tue, 21-Apr-20
+        17:10:28 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2266'
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:28 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/New
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186c079dae356-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:29 GMT
+      etag:
+      - W/"9eb-X5dtbOzQTNZ0VrsDybHmtg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d67128693456d568080d9859e8663c6871584897029; expires=Tue, 21-Apr-20
+        17:10:29 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2264'
+      content-length:
+      - '1003'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"word":"new","results":[{"definition":"original and of a kind not
+        seen before","partOfSpeech":"adjective","synonyms":["fresh","novel"],"similarTo":["original"]},{"definition":"(of
+        crops) harvested at an early stage of development; before complete maturity","partOfSpeech":"adjective","synonyms":["young"],"similarTo":["early"],"examples":["new
+        potatoes"]},{"definition":"used of a living language; being the current stage
+        in its development","partOfSpeech":"adjective","synonyms":["modern"],"inCategory":["linguistics"],"similarTo":["late"]},{"definition":"lacking
+        training or experience","partOfSpeech":"adjective","synonyms":["raw"],"similarTo":["inexperienced","inexperient"],"examples":["the
+        new men were eager to fight"]},{"definition":"having no previous example or
+        precedent or parallel","partOfSpeech":"adjective","synonyms":["unexampled"],"similarTo":["unprecedented"]},{"definition":"very
+        recently","partOfSpeech":"adverb","synonyms":["fresh","freshly","newly"],"examples":["they
+        are newly married","newly raised objections","a newly arranged hairdo","grass
+        new washed by the rain"]},{"definition":"in use after medieval times","partOfSpeech":"adjective","inCategory":["linguistics"],"similarTo":["late"]},{"definition":"not
+        of long duration; having just (or relatively recently) come into being or
+        been made or acquired or discovered","partOfSpeech":"adjective","also":["modern","current","fresh"],"attribute":["age"],"similarTo":["young","bran-new","brand-new","fresh","hot","spic-and-span","spick-and-span","sunrise","untested","untried","unused","virgin","new-fangled","new-sprung","newborn","newfangled","newfound","novel","parvenu","parvenue","radical","recent","red-hot","refreshing","revolutionary","rising"],"antonyms":["old"],"derivation":["newness"],"examples":["a
+        new law","new cars","a new comet","a new friend","a new year"]},{"definition":"(often
+        followed by `to'') unfamiliar","partOfSpeech":"adjective","similarTo":["unaccustomed
+        to"],"examples":["new experiences","experiences new to him","errors of someone
+        new to the job"]},{"definition":"other than the former one(s); different","partOfSpeech":"adjective","similarTo":["other"],"examples":["they
+        now have a new leaders","my new car is four years old but has only 15,000
+        miles on it","ready to take a new direction"]},{"definition":"unaffected by
+        use or exposure","partOfSpeech":"adjective","similarTo":["unweathered"],"antonyms":["worn"],"examples":["it
+        looks like new"]}],"syllables":{"count":1,"list":["new"]},"pronunciation":{"all":"nu"},"frequency":5.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:29 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/phenomenal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186c2de482a23-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:29 GMT
+      etag:
+      - W/"1aa-gidqozNddJvBE58qiDYcEw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2f4f4dcf9521f7cbb6225e8707492c711584897029; expires=Tue, 21-Apr-20
+        17:10:29 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2262'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicGhlbm9tZW5hbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJleGNlZWRpbmdseSBvciB1bmJlbGlldmFibHkgZ3JlYXQiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzaW1pbGFyVG8iOlsiZXh0cmFvcmRpbmFyeSJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIGZlYXRzIG9mIG1lbW9yeSJdfSx7ImRlZmluaXRpb24iOiJvZiBvciByZWxhdGluZyB0byBhIHBoZW5vbWVub24iLCJwYXJ0T2ZTcGVlY2giOm51bGwsInBlcnRhaW5zVG8iOlsicGhlbm9tZW5vbiJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIHNjaWVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicGhlIiwibm9tIiwiZSIsIm5hbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJmyaonbsmRbcmZbsmZbCJ9LCJmcmVxdWVuY3kiOjMuMzh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:29 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186c55e9cf57d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:30 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d21d79165bdd4e79a476af633cef935551584897029; expires=Tue, 21-Apr-20
+        17:10:29 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2260'
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:30 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/phenomenal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186c76b4c2a4d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:30 GMT
+      etag:
+      - W/"1aa-gidqozNddJvBE58qiDYcEw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2b4415f064d384046c92cda84a90c67e1584897030; expires=Tue, 21-Apr-20
+        17:10:30 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2258'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicGhlbm9tZW5hbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJleGNlZWRpbmdseSBvciB1bmJlbGlldmFibHkgZ3JlYXQiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzaW1pbGFyVG8iOlsiZXh0cmFvcmRpbmFyeSJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIGZlYXRzIG9mIG1lbW9yeSJdfSx7ImRlZmluaXRpb24iOiJvZiBvciByZWxhdGluZyB0byBhIHBoZW5vbWVub24iLCJwYXJ0T2ZTcGVlY2giOm51bGwsInBlcnRhaW5zVG8iOlsicGhlbm9tZW5vbiJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIHNjaWVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicGhlIiwibm9tIiwiZSIsIm5hbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJmyaonbsmRbcmZbsmZbCJ9LCJmcmVxdWVuY3kiOjMuMzh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:30 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.88&frequencymin=2.88&lettersMax=13&lettersMin=7&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186c96e1b79a7-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:30 GMT
+      etag:
+      - W/"233-q/wVDdlIe0J4Mq+8saoMQQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d8529fb67d21f14132ed9579104d24e181584897030; expires=Tue, 21-Apr-20
+        17:10:30 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2256'
+      content-length:
+      - '318'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiYWltbGVzcyIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJhaW1sZXNzbHkgZHJpZnRpbmciLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzeW5vbnltcyI6WyJhZHJpZnQiLCJhZmxvYXQiLCJkaXJlY3Rpb25sZXNzIiwicGxhbmxlc3MiLCJydWRkZXJsZXNzIiwidW5kaXJlY3RlZCJdLCJzaW1pbGFyVG8iOlsicHVycG9zZWxlc3MiXSwiZGVyaXZhdGlvbiI6WyJhaW1sZXNzbmVzcyJdfSx7ImRlZmluaXRpb24iOiJjb250aW51YWxseSBjaGFuZ2luZyBlc3BlY2lhbGx5IGFzIGZyb20gb25lIGFib2RlIG9yIG9jY3VwYXRpb24gdG8gYW5vdGhlciIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImRyaWZ0aW5nIiwiZmxvYXRpbmciLCJ2YWdhYm9uZCIsInZhZ3JhbnQiXSwic2ltaWxhclRvIjpbInVuc2V0dGxlZCJdLCJkZXJpdmF0aW9uIjpbImFpbWxlc3NuZXNzIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbImFpbSIsImxlc3MiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ2XJqm1syapzIn0sImZyZXF1ZW5jeSI6Mi41Mn0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:30 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/phenomenal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186ccb9fff579-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:31 GMT
+      etag:
+      - W/"1aa-gidqozNddJvBE58qiDYcEw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d89df82851c724ed48ee4de281f3210121584897031; expires=Tue, 21-Apr-20
+        17:10:31 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2254'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicGhlbm9tZW5hbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJleGNlZWRpbmdseSBvciB1bmJlbGlldmFibHkgZ3JlYXQiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzaW1pbGFyVG8iOlsiZXh0cmFvcmRpbmFyeSJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIGZlYXRzIG9mIG1lbW9yeSJdfSx7ImRlZmluaXRpb24iOiJvZiBvciByZWxhdGluZyB0byBhIHBoZW5vbWVub24iLCJwYXJ0T2ZTcGVlY2giOm51bGwsInBlcnRhaW5zVG8iOlsicGhlbm9tZW5vbiJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIHNjaWVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicGhlIiwibm9tIiwiZSIsIm5hbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJmyaonbsmRbcmZbsmZbCJ9LCJmcmVxdWVuY3kiOjMuMzh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:31 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.88&frequencymin=2.88&lettersMax=13&lettersMin=7&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186ce9816f559-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:31 GMT
+      etag:
+      - W/"182-hFgTMfsbb3n7ivEkoBImwg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db802f83d0b89e46c33269d35392037351584897031; expires=Tue, 21-Apr-20
+        17:10:31 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2252'
+      content-length:
+      - '280'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicHN5Y2hvdHJvcGljIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImFmZmVjdGluZyB0aGUgbWluZCBvciBtb29kIG9yIG90aGVyIG1lbnRhbCBwcm9jZXNzZXMiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzeW5vbnltcyI6WyJwc3ljaG9hY3RpdmUiXSwic2ltaWxhclRvIjpbImhhbGx1Y2lub2dlbmljIiwibWluZC1hbHRlcmluZyIsIm1pbmQtYmVuZGluZyIsIm1pbmQtYmxvd2luZyIsIm1pbmQtZXhwYW5kaW5nIiwicHN5Y2hlZGVsaWMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicHN5IiwiY2hvIiwidHJvcCIsImljIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6IixzYcmqa2/Kiid0csmRcMmqayJ9LCJmcmVxdWVuY3kiOjIuM30=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:31 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/phenomenal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186d248cdbca8-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:32 GMT
+      etag:
+      - W/"1aa-gidqozNddJvBE58qiDYcEw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d52e1de8783c1db0daa5d0bab8c768eda1584897032; expires=Tue, 21-Apr-20
+        17:10:32 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2250'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicGhlbm9tZW5hbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJleGNlZWRpbmdseSBvciB1bmJlbGlldmFibHkgZ3JlYXQiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzaW1pbGFyVG8iOlsiZXh0cmFvcmRpbmFyeSJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIGZlYXRzIG9mIG1lbW9yeSJdfSx7ImRlZmluaXRpb24iOiJvZiBvciByZWxhdGluZyB0byBhIHBoZW5vbWVub24iLCJwYXJ0T2ZTcGVlY2giOm51bGwsInBlcnRhaW5zVG8iOlsicGhlbm9tZW5vbiJdLCJleGFtcGxlcyI6WyJwaGVub21lbmFsIHNjaWVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicGhlIiwibm9tIiwiZSIsIm5hbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJmyaonbsmRbcmZbsmZbCJ9LCJmcmVxdWVuY3kiOjMuMzh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:32 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.88&frequencymin=2.88&lettersMax=13&lettersMin=7&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186d43f5c7a0f-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:32 GMT
+      etag:
+      - W/"159-szJaxkVqt80D7LudLAZP/A"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d7ba9cff82f43c7728aba4a377157b2921584897032; expires=Tue, 21-Apr-20
+        17:10:32 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2248'
+      content-length:
+      - '254'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoidW5hbGlrZSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJub3QgYWxpa2Ugb3Igc2ltaWxhciIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImRpc3NpbWlsYXIiXSwiYXR0cmlidXRlIjpbImFsaWtlbmVzcyIsImxpa2VuZXNzIiwic2ltaWxpdHVkZSJdLCJhbnRvbnltcyI6WyJhbGlrZSJdLCJleGFtcGxlcyI6WyJhcyB1bmFsaWtlIGFzIHR3byBwZW9wbGUgY291bGQgYmUiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjMsImxpc3QiOlsidW4iLCJhIiwibGlrZSJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiIsyZluyZknbGHJqmsifSwiZnJlcXVlbmN5IjoxLjZ9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:32 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/common
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186d77b54f559-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:32 GMT
+      etag:
+      - W/"c06-9zgKLb/yOemYn0v5Gvudpg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d6f9efb3b5f5883e95fea2b997816390e1584897032; expires=Tue, 21-Apr-20
+        17:10:32 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2245'
+      content-length:
+      - '1101'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiY29tbW9uIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImEgcGllY2Ugb2Ygb3BlbiBsYW5kIGZvciByZWNyZWF0aW9uYWwgdXNlIGluIGFuIHVyYmFuIGFyZWEiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiY29tbW9ucyIsImdyZWVuIiwicGFyayJdLCJ0eXBlT2YiOlsidHJhY3QiLCJwYXJjZWwgb2YgbGFuZCIsInBpZWNlIG9mIGxhbmQiLCJwYXJjZWwiLCJwaWVjZSBvZiBncm91bmQiXSwiaGFzVHlwZXMiOlsicGxlYXN1cmUgZ3JvdW5kIiwidmlsbGFnZSBncmVlbiIsImFtdXNlbWVudCBwYXJrIiwiZnVuZmFpciJdLCJoYXNJbnN0YW5jZXMiOlsiY2VudHJhbCBwYXJrIl0sInBhcnRPZiI6WyJwb3B1bGF0ZWQgYXJlYSIsInVyYmFuIGFyZWEiXX0seyJkZWZpbml0aW9uIjoiY29tbW9uIHRvIG9yIHNoYXJlZCBieSB0d28gb3IgbW9yZSBwYXJ0aWVzIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsibXV0dWFsIl0sInNpbWlsYXJUbyI6WyJzaGFyZWQiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsiYSBjb21tb24gZnJpZW5kIl19LHsiZGVmaW5pdGlvbiI6ImJlaW5nIG9yIGNoYXJhY3RlcmlzdGljIG9mIG9yIGFwcHJvcHJpYXRlIHRvIGV2ZXJ5ZGF5IGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsidmVybmFjdWxhciIsInZ1bGdhciJdLCJzaW1pbGFyVG8iOlsiaW5mb3JtYWwiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbImNvbW1vbiBwYXJsYW5jZSJdfSx7ImRlZmluaXRpb24iOiJjb21tb25seSBlbmNvdW50ZXJlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbInVzdWFsIl0sInNpbWlsYXJUbyI6WyJmYW1pbGlhciJdLCJkZXJpdmF0aW9uIjpbImNvbW1vbmFsaXR5IiwiY29tbW9ubmVzcyJdLCJleGFtcGxlcyI6WyJhIGNvbW1vbiAob3IgZmFtaWxpYXIpIGNvbXBsYWludCJdfSx7ImRlZmluaXRpb24iOiJsYWNraW5nIHJlZmluZW1lbnQgb3IgY3VsdGl2YXRpb24gb3IgdGFzdGUiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzeW5vbnltcyI6WyJjb2Fyc2UiLCJyb3VnaC1jdXQiLCJ1bmNvdXRoIiwidnVsZ2FyIl0sInNpbWlsYXJUbyI6WyJ1bnJlZmluZWQiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsiYmVoYXZpb3IgdGhhdCBicmFuZGVkIGhpbSBhcyBjb21tb24iXX0seyJkZWZpbml0aW9uIjoib2Ygb3IgYXNzb2NpYXRlZCB3aXRoIHRoZSBncmVhdCBtYXNzZXMgb2YgcGVvcGxlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsicGxlYmVpYW4iLCJ1bndhc2hlZCIsInZ1bGdhciJdLCJzaW1pbGFyVG8iOlsibG93Ym9ybiJdLCJkZXJpdmF0aW9uIjpbImNvbW1vbmFsaXR5IiwiY29tbW9ubmVzcyJdLCJleGFtcGxlcyI6WyJ0aGUgY29tbW9uIHBlb3BsZSBpbiB0aG9zZSBkYXlzIHN1ZmZlcmVkIGdyZWF0bHkiLCJiZWhhdmlvciB0aGF0IGJyYW5kZWQgaGltIGFzIGNvbW1vbiJdfSx7ImRlZmluaXRpb24iOiJvZiBsb3cgb3IgaW5mZXJpb3IgcXVhbGl0eSBvciB2YWx1ZSIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNvYXJzZSJdLCJzaW1pbGFyVG8iOlsiaW5mZXJpb3IiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbInByb2R1Y2VkLi4udGhlIGNvbW1vbiBjbG90aHMgdXNlZCBieSB0aGUgcG9vcmVyIHBvcHVsYXRpb24iXX0seyJkZWZpbml0aW9uIjoiYmVsb25naW5nIHRvIG9yIHBhcnRpY2lwYXRlZCBpbiBieSBhIGNvbW11bml0eSBhcyBhIHdob2xlOyBwdWJsaWMiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJhbHNvIjpbImpvaW50Il0sImF0dHJpYnV0ZSI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwic2ltaWxhclRvIjpbInB1YmxpYyIsImNvbW11bmFsIl0sImFudG9ueW1zIjpbImluZGl2aWR1YWwiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25hbGl0eSIsImNvbW1vbm5lc3MiXSwiZXhhbXBsZXMiOlsiZm9yIHRoZSBjb21tb24gZ29vZCIsImNvbW1vbiBsYW5kcyBhcmUgc2V0IGFzaWRlIGZvciB1c2UgYnkgYWxsIG1lbWJlcnMgb2YgYSBjb21tdW5pdHkiXX0seyJkZWZpbml0aW9uIjoiaGF2aW5nIG5vIHNwZWNpYWwgZGlzdGluY3Rpb24gb3IgcXVhbGl0eTsgd2lkZWx5IGtub3duIG9yIGNvbW1vbmx5IGVuY291bnRlcmVkOyBhdmVyYWdlIG9yIG9yZGluYXJ5IG9yIHVzdWFsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwiYWxzbyI6WyJ1c3VhbCIsIm9yZGluYXJ5Il0sImF0dHJpYnV0ZSI6WyJjb21tb25wbGFjZW5lc3MiLCJldmVyeWRheW5lc3MiLCJjb21tb25uZXNzIl0sInNpbWlsYXJUbyI6WyJkZW1vY3JhdGljIiwiYXZlcmFnZSIsImRlbW90aWMiLCJnZW5lcmFsIiwiZ3Jhc3Nyb290cyIsIm9yZGluYXJ5IiwicG9wdWxhciIsInN0YW5kYXJkIiwiZnJlcXVlbnQiXSwiYW50b255bXMiOlsidW5jb21tb24iXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsidGhlIGNvbW1vbiBtYW4iLCJhIGNvbW1vbiBzYWlsb3IiLCJ0aGUgY29tbW9uIGNvbGQiLCJhIGNvbW1vbiBudWlzYW5jZSIsImZvbGxvd2VkIGNvbW1vbiBwcm9jZWR1cmUiLCJpdCBpcyBjb21tb24ga25vd2xlZGdlIHRoYXQgc2hlIGxpdmVzIGFsb25lIiwidGhlIGNvbW1vbiBob3VzZWZseSIsImEgY29tbW9uIGJyYW5kIG9mIHNvYXAiXX0seyJkZWZpbml0aW9uIjoidG8gYmUgZXhwZWN0ZWQ7IHN0YW5kYXJkIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbIm9yZGluYXJ5Il0sImRlcml2YXRpb24iOlsiY29tbW9uYWxpdHkiLCJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbImNvbW1vbiBkZWNlbmN5Il19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbImNvbSIsIm1vbiJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiIna8mRbcmZbiJ9LCJmcmVxdWVuY3kiOjQuNjh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:32 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quazar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186d97897e366-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:33 GMT
+      etag:
+      - W/"2c-4gZRA1/lJKqCGpvmab5CfA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d9f37050199f95208ff01c22d2cf187691584897033; expires=Tue, 21-Apr-20
+        17:10:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2243'
+      content-length:
+      - '44'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"success":false,"message":"word not found"}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:33 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/incandescent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186dc3effbb3a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:33 GMT
+      etag:
+      - W/"20b-XEN6F/d9TzGNNlPXYDHRbQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d1651af5f6c870f6c9f3ee48c6c67533d1584897033; expires=Tue, 21-Apr-20
+        17:10:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2241'
+      content-length:
+      - '320'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5jYW5kZXNjZW50IiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImVtaXR0aW5nIGxpZ2h0IGFzIGEgcmVzdWx0IG9mIGJlaW5nIGhlYXRlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNhbmRlbnQiXSwic2ltaWxhclRvIjpbImxpZ2h0Il0sImRlcml2YXRpb24iOlsiaW5jYW5kZXNjZW5jZSJdLCJleGFtcGxlcyI6WyJhbiBpbmNhbmRlc2NlbnQgYnVsYiJdfSx7ImRlZmluaXRpb24iOiJjaGFyYWN0ZXJpemVkIGJ5IGFyZGVudCBlbW90aW9uIG9yIGludGVuc2l0eSBvciBicmlsbGlhbmNlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbImdsb3Jpb3VzIl0sImV4YW1wbGVzIjpbImFuIGluY2FuZGVzY2VudCBwZXJmb3JtYW5jZSJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJpbiIsImNhbiIsImRlcyIsImNlbnQiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiLMmqbmvJmW4nZMmbc8mZbnQifSwiZnJlcXVlbmN5IjoyLjQ1fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:33 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quagmire
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186de2db1e38a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:34 GMT
+      etag:
+      - W/"12a-LrcosYA3hNfHmt3kyNZG/Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d752eac9c6f14cb6b2cf87527374281dc1584897033; expires=Tue, 21-Apr-20
+        17:10:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2239'
+      content-length:
+      - '242'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicXVhZ21pcmUiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYSBzb2Z0IHdldCBhcmVhIG9mIGxvdy1seWluZyBsYW5kIHRoYXQgc2lua3MgdW5kZXJmb290IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbIm1pcmUiLCJtb3Jhc3MiLCJxdWFnIiwic2xhY2siXSwidHlwZU9mIjpbImJvZyIsInBlYXQgYm9nIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbInF1YWciLCJtaXJlIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6Iidrd8OmZ21hyapyIn0sImZyZXF1ZW5jeSI6Mi41fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:34 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/common
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186e05851f589-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:34 GMT
+      etag:
+      - W/"c06-9zgKLb/yOemYn0v5Gvudpg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2d25d3972d9af7718f808512c75c55bc1584897034; expires=Tue, 21-Apr-20
+        17:10:34 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2237'
+      content-length:
+      - '1071'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiY29tbW9uIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImEgcGllY2Ugb2Ygb3BlbiBsYW5kIGZvciByZWNyZWF0aW9uYWwgdXNlIGluIGFuIHVyYmFuIGFyZWEiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiY29tbW9ucyIsImdyZWVuIiwicGFyayJdLCJ0eXBlT2YiOlsidHJhY3QiLCJwYXJjZWwgb2YgbGFuZCIsInBpZWNlIG9mIGxhbmQiLCJwYXJjZWwiLCJwaWVjZSBvZiBncm91bmQiXSwiaGFzVHlwZXMiOlsicGxlYXN1cmUgZ3JvdW5kIiwidmlsbGFnZSBncmVlbiIsImFtdXNlbWVudCBwYXJrIiwiZnVuZmFpciJdLCJoYXNJbnN0YW5jZXMiOlsiY2VudHJhbCBwYXJrIl0sInBhcnRPZiI6WyJwb3B1bGF0ZWQgYXJlYSIsInVyYmFuIGFyZWEiXX0seyJkZWZpbml0aW9uIjoiY29tbW9uIHRvIG9yIHNoYXJlZCBieSB0d28gb3IgbW9yZSBwYXJ0aWVzIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsibXV0dWFsIl0sInNpbWlsYXJUbyI6WyJzaGFyZWQiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsiYSBjb21tb24gZnJpZW5kIl19LHsiZGVmaW5pdGlvbiI6ImJlaW5nIG9yIGNoYXJhY3RlcmlzdGljIG9mIG9yIGFwcHJvcHJpYXRlIHRvIGV2ZXJ5ZGF5IGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsidmVybmFjdWxhciIsInZ1bGdhciJdLCJzaW1pbGFyVG8iOlsiaW5mb3JtYWwiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbImNvbW1vbiBwYXJsYW5jZSJdfSx7ImRlZmluaXRpb24iOiJjb21tb25seSBlbmNvdW50ZXJlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbInVzdWFsIl0sInNpbWlsYXJUbyI6WyJmYW1pbGlhciJdLCJkZXJpdmF0aW9uIjpbImNvbW1vbmFsaXR5IiwiY29tbW9ubmVzcyJdLCJleGFtcGxlcyI6WyJhIGNvbW1vbiAob3IgZmFtaWxpYXIpIGNvbXBsYWludCJdfSx7ImRlZmluaXRpb24iOiJsYWNraW5nIHJlZmluZW1lbnQgb3IgY3VsdGl2YXRpb24gb3IgdGFzdGUiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzeW5vbnltcyI6WyJjb2Fyc2UiLCJyb3VnaC1jdXQiLCJ1bmNvdXRoIiwidnVsZ2FyIl0sInNpbWlsYXJUbyI6WyJ1bnJlZmluZWQiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsiYmVoYXZpb3IgdGhhdCBicmFuZGVkIGhpbSBhcyBjb21tb24iXX0seyJkZWZpbml0aW9uIjoib2Ygb3IgYXNzb2NpYXRlZCB3aXRoIHRoZSBncmVhdCBtYXNzZXMgb2YgcGVvcGxlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsicGxlYmVpYW4iLCJ1bndhc2hlZCIsInZ1bGdhciJdLCJzaW1pbGFyVG8iOlsibG93Ym9ybiJdLCJkZXJpdmF0aW9uIjpbImNvbW1vbmFsaXR5IiwiY29tbW9ubmVzcyJdLCJleGFtcGxlcyI6WyJ0aGUgY29tbW9uIHBlb3BsZSBpbiB0aG9zZSBkYXlzIHN1ZmZlcmVkIGdyZWF0bHkiLCJiZWhhdmlvciB0aGF0IGJyYW5kZWQgaGltIGFzIGNvbW1vbiJdfSx7ImRlZmluaXRpb24iOiJvZiBsb3cgb3IgaW5mZXJpb3IgcXVhbGl0eSBvciB2YWx1ZSIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNvYXJzZSJdLCJzaW1pbGFyVG8iOlsiaW5mZXJpb3IiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbInByb2R1Y2VkLi4udGhlIGNvbW1vbiBjbG90aHMgdXNlZCBieSB0aGUgcG9vcmVyIHBvcHVsYXRpb24iXX0seyJkZWZpbml0aW9uIjoiYmVsb25naW5nIHRvIG9yIHBhcnRpY2lwYXRlZCBpbiBieSBhIGNvbW11bml0eSBhcyBhIHdob2xlOyBwdWJsaWMiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJhbHNvIjpbImpvaW50Il0sImF0dHJpYnV0ZSI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwic2ltaWxhclRvIjpbInB1YmxpYyIsImNvbW11bmFsIl0sImFudG9ueW1zIjpbImluZGl2aWR1YWwiXSwiZGVyaXZhdGlvbiI6WyJjb21tb25hbGl0eSIsImNvbW1vbm5lc3MiXSwiZXhhbXBsZXMiOlsiZm9yIHRoZSBjb21tb24gZ29vZCIsImNvbW1vbiBsYW5kcyBhcmUgc2V0IGFzaWRlIGZvciB1c2UgYnkgYWxsIG1lbWJlcnMgb2YgYSBjb21tdW5pdHkiXX0seyJkZWZpbml0aW9uIjoiaGF2aW5nIG5vIHNwZWNpYWwgZGlzdGluY3Rpb24gb3IgcXVhbGl0eTsgd2lkZWx5IGtub3duIG9yIGNvbW1vbmx5IGVuY291bnRlcmVkOyBhdmVyYWdlIG9yIG9yZGluYXJ5IG9yIHVzdWFsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwiYWxzbyI6WyJ1c3VhbCIsIm9yZGluYXJ5Il0sImF0dHJpYnV0ZSI6WyJjb21tb25wbGFjZW5lc3MiLCJldmVyeWRheW5lc3MiLCJjb21tb25uZXNzIl0sInNpbWlsYXJUbyI6WyJkZW1vY3JhdGljIiwiYXZlcmFnZSIsImRlbW90aWMiLCJnZW5lcmFsIiwiZ3Jhc3Nyb290cyIsIm9yZGluYXJ5IiwicG9wdWxhciIsInN0YW5kYXJkIiwiZnJlcXVlbnQiXSwiYW50b255bXMiOlsidW5jb21tb24iXSwiZGVyaXZhdGlvbiI6WyJjb21tb25uZXNzIiwiY29tbW9uYWxpdHkiXSwiZXhhbXBsZXMiOlsidGhlIGNvbW1vbiBtYW4iLCJhIGNvbW1vbiBzYWlsb3IiLCJ0aGUgY29tbW9uIGNvbGQiLCJhIGNvbW1vbiBudWlzYW5jZSIsImZvbGxvd2VkIGNvbW1vbiBwcm9jZWR1cmUiLCJpdCBpcyBjb21tb24ga25vd2xlZGdlIHRoYXQgc2hlIGxpdmVzIGFsb25lIiwidGhlIGNvbW1vbiBob3VzZWZseSIsImEgY29tbW9uIGJyYW5kIG9mIHNvYXAiXX0seyJkZWZpbml0aW9uIjoidG8gYmUgZXhwZWN0ZWQ7IHN0YW5kYXJkIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbIm9yZGluYXJ5Il0sImRlcml2YXRpb24iOlsiY29tbW9uYWxpdHkiLCJjb21tb25uZXNzIl0sImV4YW1wbGVzIjpbImNvbW1vbiBkZWNlbmN5Il19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbImNvbSIsIm1vbiJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiIna8mRbcmZbiJ9LCJmcmVxdWVuY3kiOjQuNjh9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:34 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quazar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186e2b93ce376-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:34 GMT
+      etag:
+      - W/"2c-4gZRA1/lJKqCGpvmab5CfA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d407ebe3718119f95bee20c21584b8b7a1584897034; expires=Tue, 21-Apr-20
+        17:10:34 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2235'
+      content-length:
+      - '44'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"success":false,"message":"word not found"}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:34 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/incandescent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186e4bf51bb5e-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:35 GMT
+      etag:
+      - W/"20b-XEN6F/d9TzGNNlPXYDHRbQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db5727e7de499eab602c19516e0d0d1eb1584897035; expires=Tue, 21-Apr-20
+        17:10:35 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2233'
+      content-length:
+      - '320'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5jYW5kZXNjZW50IiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6ImVtaXR0aW5nIGxpZ2h0IGFzIGEgcmVzdWx0IG9mIGJlaW5nIGhlYXRlZCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImNhbmRlbnQiXSwic2ltaWxhclRvIjpbImxpZ2h0Il0sImRlcml2YXRpb24iOlsiaW5jYW5kZXNjZW5jZSJdLCJleGFtcGxlcyI6WyJhbiBpbmNhbmRlc2NlbnQgYnVsYiJdfSx7ImRlZmluaXRpb24iOiJjaGFyYWN0ZXJpemVkIGJ5IGFyZGVudCBlbW90aW9uIG9yIGludGVuc2l0eSBvciBicmlsbGlhbmNlIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic2ltaWxhclRvIjpbImdsb3Jpb3VzIl0sImV4YW1wbGVzIjpbImFuIGluY2FuZGVzY2VudCBwZXJmb3JtYW5jZSJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJpbiIsImNhbiIsImRlcyIsImNlbnQiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiLMmqbmvJmW4nZMmbc8mZbnQifSwiZnJlcXVlbmN5IjoyLjQ1fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:35 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/quagmire
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 578186e6b82ce37a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:10:35 GMT
+      etag:
+      - W/"12a-LrcosYA3hNfHmt3kyNZG/Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dbfbd9c99e7fdf8648ac1c1895447640d1584897035; expires=Tue, 21-Apr-20
+        17:10:35 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '2231'
+      content-length:
+      - '242'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicXVhZ21pcmUiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYSBzb2Z0IHdldCBhcmVhIG9mIGxvdy1seWluZyBsYW5kIHRoYXQgc2lua3MgdW5kZXJmb290IiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbIm1pcmUiLCJtb3Jhc3MiLCJxdWFnIiwic2xhY2siXSwidHlwZU9mIjpbImJvZyIsInBlYXQgYm9nIl19XSwic3lsbGFibGVzIjp7ImNvdW50IjoyLCJsaXN0IjpbInF1YWciLCJtaXJlIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6Iidrd8OmZ21hyapyIn0sImZyZXF1ZW5jeSI6Mi41fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:10:35 GMT
+recorded_with: VCR 5.1.0
