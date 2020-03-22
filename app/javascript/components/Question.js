@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import styles from "./Question.module.scss";
 
 const _normalizeOptions = options => {
@@ -17,28 +17,41 @@ const _normalizeOptions = options => {
 };
 
 const Question = ({ question, options }) => {
-  const questionWords = question.split(" ");
-  const blankIndex = questionWords.indexOf("___");
-  const normalizedOptions = _normalizeOptions(options);
-  const BLANK = Array(normalizedOptions[0].length)
-    .fill(" ")
-    .join("");
+  const questionWords = useMemo(() => question.split(" "), [question]);
+  const blankIndex = useMemo(() => questionWords.indexOf("___"), [
+    questionWords
+  ]);
+  const firstWordGroup = useMemo(
+    () => questionWords.slice(0, blankIndex).join(" "),
+    [questionWords]
+  );
+  const secondWordGroup = useMemo(
+    () => questionWords.slice(blankIndex + 1).join(" "),
+    [questionWords]
+  );
+
+  const normalizedOptions = useMemo(() => _normalizeOptions(options), [
+    options
+  ]);
+  const BLANK = useMemo(
+    () =>
+      Array(normalizedOptions[0].length)
+        .fill(" ")
+        .join(""),
+    [normalizedOptions]
+  );
   const [formattedQuestion, setFormattedQuestion] = useState();
   const [hoveredOption, setHoveredOption] = useState(BLANK);
 
   useEffect(() => {
-    const firstWordGroup = questionWords.slice(0, blankIndex).join(" ");
-    const valueForBlank = hoveredOption || BLANK;
-    const secondWordGroup = questionWords.slice(blankIndex + 1).join(" ");
-
     setFormattedQuestion([
       firstWordGroup ? `${firstWordGroup} ` : "",
-      <span className={styles.blank} key={valueForBlank}>
-        {valueForBlank}
+      <span className={styles.blank} key={hoveredOption}>
+        {hoveredOption}
       </span>,
       secondWordGroup ? ` ${secondWordGroup}` : ""
     ]);
-  }, [hoveredOption]);
+  }, [firstWordGroup, hoveredOption, secondWordGroup]);
 
   return (
     <div className={styles.container}>
@@ -51,7 +64,9 @@ const Question = ({ question, options }) => {
               className={styles.option}
               onMouseOver={({ target }) => {
                 const index = Number(target.dataset.id);
-                setHoveredOption(normalizedOptions[index]);
+                setHoveredOption(
+                  Number.isNaN(index) ? BLANK : normalizedOptions[index]
+                );
               }}
               onMouseOut={() => setHoveredOption(BLANK)}
             >
