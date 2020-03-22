@@ -1,0 +1,43 @@
+$large-margin: 50px;
+$active-option-color: gray;
+
+.container {
+  background: linear-gradient(150deg, purple, 70%, red);
+  font-size: 3rem;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.contents {
+  padding: $large-margin;
+  height: calc(100% - 2 * #{$large-margin});
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question {
+  white-space: pre-wrap;
+}
+
+.blank {
+  text-decoration-line: underline;
+  color: $active-option-color;
+  font-family: "Courier New";
+  font-weight: 550;
+}
+
+.options {
+  align-self: flex-end;
+}
+
+.option {
+  text-align: right;
+  transition-property: color;
+  transition-duration: 0.5s;
+
+  &:hover {
+    color: $active-option-color;
+  }
+}
