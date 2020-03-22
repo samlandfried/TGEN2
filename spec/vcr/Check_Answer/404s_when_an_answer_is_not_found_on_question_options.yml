@@ -1,0 +1,615 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb8408b3e37e-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:30 GMT
+      etag:
+      - W/"7c6-AvaiU1cNOgy9YQK2Kl2LOg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d20416ba2c6c5fce1dc3d8aef934565441584899190; expires=Tue, 21-Apr-20
+        17:46:30 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-28"
+      content-length:
+      - '864'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiYSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJvbmUgb2YgdGhlIGZvdXIgbnVjbGVvdGlkZXMgdXNlZCBpbiBidWlsZGluZyBETkE7IGFsbCBmb3VyIG51Y2xlb3RpZGVzIGhhdmUgYSBjb21tb24gcGhvc3BoYXRlIGdyb3VwIGFuZCBhIHN1Z2FyIChyaWJvc2UpIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImRlb3h5YWRlbm9zaW5lIG1vbm9waG9zcGhhdGUiXSwidHlwZU9mIjpbIm51Y2xlb3RpZGUiLCJiYXNlIl19LHsiZGVmaW5pdGlvbiI6InRoZSBibG9vZCBncm91cCB3aG9zZSByZWQgY2VsbHMgY2FycnkgdGhlIEEgYW50aWdlbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJncm91cCBhIiwidHlwZSBhIl0sInR5cGVPZiI6WyJibG9vZCBncm91cCIsImJsb29kIHR5cGUiXX0seyJkZWZpbml0aW9uIjoiYW55IG9mIHNldmVyYWwgZmF0LXNvbHVibGUgdml0YW1pbnMgZXNzZW50aWFsIGZvciBub3JtYWwgdmlzaW9uOyBwcmV2ZW50cyBuaWdodCBibGluZG5lc3Mgb3IgaW5mbGFtbWF0aW9uIG9yIGRyeW5lc3Mgb2YgdGhlIGV5ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW50aW9waHRoYWxtaWMgZmFjdG9yIiwiYXhlcm9waHRob2wiLCJ2aXRhbWluIGEiXSwidHlwZU9mIjpbImZhdC1zb2x1YmxlIHZpdGFtaW4iXSwiaGFzVHlwZXMiOlsidml0YW1pbiBhMiIsImRlaHlkcm9yZXRpbm9sIiwicmV0aW5vbCIsInZpdGFtaW4gYTEiXX0seyJkZWZpbml0aW9uIjoidGhlIGJhc2ljIHVuaXQgb2YgZWxlY3RyaWMgY3VycmVudCBhZG9wdGVkIHVuZGVyIHRoZSBTeXN0ZW1lIEludGVybmF0aW9uYWwgZCdVbml0ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW1wIiwiYW1wZXJlIl0sInR5cGVPZiI6WyJjdXJyZW50IHVuaXQiXSwiaGFzUGFydHMiOlsibWlsbGlhbXBlcmUiLCJtYSJdLCJwYXJ0T2YiOlsiYWJhbXAiLCJhYmFtcGVyZSJdLCJleGFtcGxlcyI6WyJhIHR5cGljYWwgaG91c2Vob2xkIGNpcmN1aXQgY2FycmllcyAxNSB0byA1MCBhbXBzIl19LHsiZGVmaW5pdGlvbiI6ImEgbWV0cmljIHVuaXQgb2YgbGVuZ3RoIGVxdWFsIHRvIG9uZSB0ZW4gYmlsbGlvbnRoIG9mIGEgbWV0ZXIgKG9yIDAuMDAwMSBtaWNyb24pOyB1c2VkIHRvIHNwZWNpZnkgd2F2ZWxlbmd0aHMgb2YgZWxlY3Ryb21hZ25ldGljIHJhZGlhdGlvbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJhbmdzdHJvbSIsImFuZ3N0cm9tIHVuaXQiXSwidHlwZU9mIjpbIm1ldHJpYyBsaW5lYXIgdW5pdCJdLCJoYXNQYXJ0cyI6WyJwaWNvbWV0ZXIiLCJtaWNyb21pY3JvbiIsInBpY29tZXRyZSJdLCJwYXJ0T2YiOlsibWljcm9taWxsaW1ldHJlIiwibmFub21ldGVyIiwibWlsbGltaWNyb24iLCJuYW5vbWV0cmUiLCJubSIsIm1pY3JvbWlsbGltZXRlciJdfSx7ImRlZmluaXRpb24iOiIoYmlvY2hlbWlzdHJ5KSBwdXJpbmUgYmFzZSBmb3VuZCBpbiBETkEgYW5kIFJOQTsgcGFpcnMgd2l0aCB0aHltaW5lIGluIEROQSBhbmQgd2l0aCB1cmFjaWwgaW4gUk5BIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImFkZW5pbmUiXSwiaW5DYXRlZ29yeSI6WyJiaW9jaGVtaXN0cnkiXSwidHlwZU9mIjpbInB1cmluZSJdLCJzdWJzdGFuY2VPZiI6WyJkbmEiLCJkZXNveHlyaWJvbnVjbGVpYyBhY2lkIiwicmlib251Y2xlaWMgYWNpZCIsImRlb3h5cmlib251Y2xlaWMgYWNpZCIsInJuYSJdfSx7ImRlZmluaXRpb24iOiJ0aGUgMXN0IGxldHRlciBvZiB0aGUgUm9tYW4gYWxwaGFiZXQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwidHlwZU9mIjpbImxldHRlciIsImFscGhhYmV0aWMgY2hhcmFjdGVyIiwibGV0dGVyIG9mIHRoZSBhbHBoYWJldCJdLCJtZW1iZXJPZiI6WyJsYXRpbiBhbHBoYWJldCIsInJvbWFuIGFscGhhYmV0Il19XSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJlyaoifSwiZnJlcXVlbmN5Ijo3LjI4fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:30 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb864e2cf555-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:30 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d4aececdcb611e36c1c985f5400a94a571584899190; expires=Tue, 21-Apr-20
+        17:46:30 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-29"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:30 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb892ab5f5ad-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:31 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d5855e8efe461b6154f6c0c90eb3348751584899191; expires=Tue, 21-Apr-20
+        17:46:31 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-30"
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:31 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb8c3a1fc979-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:31 GMT
+      etag:
+      - W/"7c6-AvaiU1cNOgy9YQK2Kl2LOg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d85d7988008552744416a267fea80fab91584899191; expires=Tue, 21-Apr-20
+        17:46:31 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-31"
+      content-length:
+      - '903'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiYSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJvbmUgb2YgdGhlIGZvdXIgbnVjbGVvdGlkZXMgdXNlZCBpbiBidWlsZGluZyBETkE7IGFsbCBmb3VyIG51Y2xlb3RpZGVzIGhhdmUgYSBjb21tb24gcGhvc3BoYXRlIGdyb3VwIGFuZCBhIHN1Z2FyIChyaWJvc2UpIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImRlb3h5YWRlbm9zaW5lIG1vbm9waG9zcGhhdGUiXSwidHlwZU9mIjpbIm51Y2xlb3RpZGUiLCJiYXNlIl19LHsiZGVmaW5pdGlvbiI6InRoZSBibG9vZCBncm91cCB3aG9zZSByZWQgY2VsbHMgY2FycnkgdGhlIEEgYW50aWdlbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJncm91cCBhIiwidHlwZSBhIl0sInR5cGVPZiI6WyJibG9vZCBncm91cCIsImJsb29kIHR5cGUiXX0seyJkZWZpbml0aW9uIjoiYW55IG9mIHNldmVyYWwgZmF0LXNvbHVibGUgdml0YW1pbnMgZXNzZW50aWFsIGZvciBub3JtYWwgdmlzaW9uOyBwcmV2ZW50cyBuaWdodCBibGluZG5lc3Mgb3IgaW5mbGFtbWF0aW9uIG9yIGRyeW5lc3Mgb2YgdGhlIGV5ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW50aW9waHRoYWxtaWMgZmFjdG9yIiwiYXhlcm9waHRob2wiLCJ2aXRhbWluIGEiXSwidHlwZU9mIjpbImZhdC1zb2x1YmxlIHZpdGFtaW4iXSwiaGFzVHlwZXMiOlsidml0YW1pbiBhMiIsImRlaHlkcm9yZXRpbm9sIiwicmV0aW5vbCIsInZpdGFtaW4gYTEiXX0seyJkZWZpbml0aW9uIjoidGhlIGJhc2ljIHVuaXQgb2YgZWxlY3RyaWMgY3VycmVudCBhZG9wdGVkIHVuZGVyIHRoZSBTeXN0ZW1lIEludGVybmF0aW9uYWwgZCdVbml0ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW1wIiwiYW1wZXJlIl0sInR5cGVPZiI6WyJjdXJyZW50IHVuaXQiXSwiaGFzUGFydHMiOlsibWlsbGlhbXBlcmUiLCJtYSJdLCJwYXJ0T2YiOlsiYWJhbXAiLCJhYmFtcGVyZSJdLCJleGFtcGxlcyI6WyJhIHR5cGljYWwgaG91c2Vob2xkIGNpcmN1aXQgY2FycmllcyAxNSB0byA1MCBhbXBzIl19LHsiZGVmaW5pdGlvbiI6ImEgbWV0cmljIHVuaXQgb2YgbGVuZ3RoIGVxdWFsIHRvIG9uZSB0ZW4gYmlsbGlvbnRoIG9mIGEgbWV0ZXIgKG9yIDAuMDAwMSBtaWNyb24pOyB1c2VkIHRvIHNwZWNpZnkgd2F2ZWxlbmd0aHMgb2YgZWxlY3Ryb21hZ25ldGljIHJhZGlhdGlvbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJhbmdzdHJvbSIsImFuZ3N0cm9tIHVuaXQiXSwidHlwZU9mIjpbIm1ldHJpYyBsaW5lYXIgdW5pdCJdLCJoYXNQYXJ0cyI6WyJwaWNvbWV0ZXIiLCJtaWNyb21pY3JvbiIsInBpY29tZXRyZSJdLCJwYXJ0T2YiOlsibWljcm9taWxsaW1ldHJlIiwibmFub21ldGVyIiwibWlsbGltaWNyb24iLCJuYW5vbWV0cmUiLCJubSIsIm1pY3JvbWlsbGltZXRlciJdfSx7ImRlZmluaXRpb24iOiIoYmlvY2hlbWlzdHJ5KSBwdXJpbmUgYmFzZSBmb3VuZCBpbiBETkEgYW5kIFJOQTsgcGFpcnMgd2l0aCB0aHltaW5lIGluIEROQSBhbmQgd2l0aCB1cmFjaWwgaW4gUk5BIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImFkZW5pbmUiXSwiaW5DYXRlZ29yeSI6WyJiaW9jaGVtaXN0cnkiXSwidHlwZU9mIjpbInB1cmluZSJdLCJzdWJzdGFuY2VPZiI6WyJkbmEiLCJkZXNveHlyaWJvbnVjbGVpYyBhY2lkIiwicmlib251Y2xlaWMgYWNpZCIsImRlb3h5cmlib251Y2xlaWMgYWNpZCIsInJuYSJdfSx7ImRlZmluaXRpb24iOiJ0aGUgMXN0IGxldHRlciBvZiB0aGUgUm9tYW4gYWxwaGFiZXQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwidHlwZU9mIjpbImxldHRlciIsImFscGhhYmV0aWMgY2hhcmFjdGVyIiwibGV0dGVyIG9mIHRoZSBhbHBoYWJldCJdLCJtZW1iZXJPZiI6WyJsYXRpbiBhbHBoYWJldCIsInJvbWFuIGFscGhhYmV0Il19XSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJlyaoifSwiZnJlcXVlbmN5Ijo3LjI4fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:31 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb8ecf20f5b9-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:32 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d59d0aaa28213d3f81e86faebe0ac7fb11584899192; expires=Tue, 21-Apr-20
+        17:46:32 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-32"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:32 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb915d23c9a9-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:32 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d17d1bc16ddb79616f16d42b7f52697df1584899192; expires=Tue, 21-Apr-20
+        17:46:32 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-33"
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:32 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb944d74e35e-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:33 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dc248c73cb6bd51923102ee086fe1a2e21584899193; expires=Tue, 21-Apr-20
+        17:46:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-34"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:33 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb9668daf581-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:33 GMT
+      etag:
+      - W/"1df-120ijEWhmEV17d4qqBh4cw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df7146def4354a52b862f81ade14790171584899193; expires=Tue, 21-Apr-20
+        17:46:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-35"
+      content-length:
+      - '311'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiZGVncmFkaW5nIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6InVzZWQgb2YgY29uZHVjdDsgY2hhcmFjdGVyaXplZCBieSBkaXNob25vciIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImRlYmFzaW5nIl0sInNpbWlsYXJUbyI6WyJkaXNob25vcmFibGUiLCJkaXNob25vdXJhYmxlIl19LHsiZGVmaW5pdGlvbiI6Imhhcm1mdWwgdG8gdGhlIG1pbmQgb3IgbW9yYWxzIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiY29ycnVwdGluZyJdLCJzaW1pbGFyVG8iOlsibm94aW91cyJdLCJleGFtcGxlcyI6WyJ0aGUgdmljaW91cyBhbmQgZGVncmFkaW5nIGN1bHQgb2YgdmlvbGVuY2UiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjMsImxpc3QiOlsiZGUiLCJncmFkIiwiaW5nIl19LCJwcm9udW5jaWF0aW9uIjp7ImFsbCI6ImTJqidncmXJqmTJqsWLIn0sImZyZXF1ZW5jeSI6My4xNX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:33 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb9a39bb2a53-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:34 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da1914619bdf9968f5c829b6f4cb5554e1584899193; expires=Tue, 21-Apr-20
+        17:46:33 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-36"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:34 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bb9c6ad5c9a9-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:34 GMT
+      etag:
+      - W/"241-CQipu7ImhjhI7u8Ks3Kzqg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d47a496bf8f2acec50169aaf128fa98851584899194; expires=Tue, 21-Apr-20
+        17:46:34 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-37"
+      content-length:
+      - '364'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5mbGVjdGVkIiwicmVzdWx0cyI6W3siZGVmaW5pdGlvbiI6IihvZiB0aGUgdm9pY2UpIGFsdGVyZWQgaW4gdG9uZSBvciBwaXRjaCIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInNpbWlsYXJUbyI6WyJtb2R1bGF0ZWQiXSwiYW50b255bXMiOlsidW5pbmZsZWN0ZWQiXSwiZXhhbXBsZXMiOlsiaGlzIHNvdXRoZXJuIFlvcmtzaGlyZSB2b2ljZSB3YXMgbGVzcyBpbmZsZWN0ZWQgYW5kIHNpbmdpbmcgdGhhbiBoZXIgbm9ydGhlcm4gb25lIl19LHsiZGVmaW5pdGlvbiI6InNob3dpbmcgYWx0ZXJhdGlvbiBpbiBmb3JtIChlc3BlY2lhbGx5IGJ5IHRoZSBhZGRpdGlvbiBvZiBhZmZpeGVzKSIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsImluQ2F0ZWdvcnkiOlsibGluZ3Vpc3RpY3MiXSwiYW50b255bXMiOlsidW5pbmZsZWN0ZWQiXSwiZXhhbXBsZXMiOlsiYGJveXMnIGFuZCBgc3dhbScgYXJlIGluZmxlY3RlZCBFbmdsaXNoIHdvcmRzIiwiR2VybWFuIGlzIGFuIGluZmxlY3RlZCBsYW5ndWFnZSJdfV0sInByb251bmNpYXRpb24iOiLJqm4nZmzJm2t0yoxkIiwiZnJlcXVlbmN5IjoxLjgyfQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:34 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bba18adaf595-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:35 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d22ee04663038982d7b0015425ed1662a1584899195; expires=Tue, 21-Apr-20
+        17:46:35 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-38"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:35 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781bba43ac1f599-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:46:35 GMT
+      etag:
+      - W/"382-F3ENQaDl9DWXbV14hTrLdw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da5b8dd161f92533aea618a5515a264881584899195; expires=Tue, 21-Apr-20
+        17:46:35 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-39"
+      content-length:
+      - '481'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicG9udGlmaWNhbCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJwcm9jZWVkaW5nIGZyb20gb3Igb3JkZXJlZCBieSBvciBzdWJqZWN0IHRvIGEgcG9wZSBvciB0aGUgcGFwYWN5IHJlZ2FyZGVkIGFzIHRoZSBzdWNjZXNzb3Igb2YgdGhlIEFwb3N0bGVzIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiYXBvc3RvbGljIiwiYXBvc3RvbGljYWwiLCJwYXBhbCJdLCJwZXJ0YWluc1RvIjpbInBvcGUiXSwiZGVyaXZhdGlvbiI6WyJwb250aWZmIl19LHsiZGVmaW5pdGlvbiI6InB1ZmZlZCB1cCB3aXRoIHZhbml0eSIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbImdyYW5kaWxvcXVlbnQiLCJvdmVyYmxvd24iLCJwb21wb3VzIiwicG9ydGVudG91cyJdLCJzaW1pbGFyVG8iOlsicHJldGVudGlvdXMiXSwiZXhhbXBsZXMiOlsicHNldWRvLXNjaWVudGlmaWMgZ29iYmxlZHlnb29rIGFuZCBwb250aWZpY2FsIGhvb2V5Il19LHsiZGVmaW5pdGlvbiI6ImRlbm90aW5nIG9yIGdvdmVybmVkIGJ5IG9yIHJlbGF0aW5nIHRvIGEgYmlzaG9wIG9yIGJpc2hvcHMiLCJwYXJ0T2ZTcGVlY2giOiJhZGplY3RpdmUiLCJzeW5vbnltcyI6WyJlcGlzY29wYWwiXSwicGVydGFpbnNUbyI6WyJiaXNob3AiXX0seyJkZWZpbml0aW9uIjoidGhlIHZlc3RtZW50cyBhbmQgb3RoZXIgaW5zaWduaWEgb2YgYSBwb250aWZmIChlc3BlY2lhbGx5IGEgYmlzaG9wKSIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJ0eXBlT2YiOlsidmVzdG1lbnQiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjQsImxpc3QiOlsicG9uIiwidGlmIiwiaSIsImNhbCJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJwyZFuJ3TJqmbJqmvJmWwifSwiZnJlcXVlbmN5IjoxLjgyfQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:46:35 GMT
+recorded_with: VCR 5.1.0
