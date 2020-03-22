@@ -17,7 +17,7 @@ const _normalizeOptions = options => {
   });
 };
 
-const Question = ({ id, question, options }) => {
+const Question = ({ id, loadNextQuestion, question, options }) => {
   const questionWords = useMemo(() => question.split(" "), [question]);
   const blankIndex = useMemo(() => questionWords.indexOf("___"), [
     questionWords
@@ -48,9 +48,9 @@ const Question = ({ id, question, options }) => {
       body: JSON.stringify({ check_answer: { word } }),
       headers: utils.getHeaders()
     });
-    const data = await response.json();
+    const { code } = await response.json();
 
-    console.log(data);
+    if (code === "CORRECT") loadNextQuestion();
   };
 
   const [formattedQuestion, setFormattedQuestion] = useState();
