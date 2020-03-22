@@ -1,5 +1,4 @@
 *.code-workspace
-spec/vcr
 
 ### GH Rails Template below
 *.rbc

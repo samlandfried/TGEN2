@@ -7,6 +7,15 @@ class Question < ApplicationRecord
   after_create :create_options
   before_save :assign_word_under_test_index
 
+  def check_answer(answer)
+    option = options.find_by(name: answer)
+    if option
+      option.correct ? 'CORRECT' : 'INCORRECT'
+    else
+      'NOT_FOUND'
+    end
+  end
+
   def word_under_test
     sentence.words[word_under_test_index]
   end

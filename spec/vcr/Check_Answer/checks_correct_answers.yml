@@ -1,0 +1,3630 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a74a5cd5e366-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:42 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da2bc6b8829b7059980f98e7b8647c4bd1584898361; expires=Tue, 21-Apr-20
+        17:32:41 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '86'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:42 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a74ea93c2a47-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:42 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dad7739f7df2935458b7777dd398af8cd1584898362; expires=Tue, 21-Apr-20
+        17:32:42 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '85'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:42 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7512c3ac985-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:43 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df0a2a4037900ba8995699bfb53225fbc1584898363; expires=Tue, 21-Apr-20
+        17:32:43 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '84'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:43 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/million
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a753ec652a6b-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:43 GMT
+      etag:
+      - W/"2fe-kZFT7QH6T+5i9h5J/W7s0g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d4a33d3e60adc144fe57b33a62c0111781584898363; expires=Tue, 21-Apr-20
+        17:32:43 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '83'
+      content-length:
+      - '430'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"million","results":[{"definition":"the number that is represented
+        as a one followed by 6 zeros","partOfSpeech":"noun","synonyms":["1000000","meg","one
+        thousand thousand"],"typeOf":["large integer"]},{"definition":"a very large
+        indefinite number (usually hyperbole)","partOfSpeech":"noun","synonyms":["bazillion","billion","gazillion","jillion","trillion","zillion"],"typeOf":["large
+        indefinite amount","large indefinite quantity"],"examples":["there were millions
+        of flies"]},{"definition":"(in Roman numerals, M written with a macron over
+        it) denoting a quantity consisting of 1,000,000 items or units","partOfSpeech":"adjective","similarTo":["cardinal"]}],"syllables":{"count":2,"list":["mil","lion"]},"pronunciation":{"all":"''mɪljən"},"frequency":5.16}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:43 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/deaths
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7566fefbb70-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:44 GMT
+      etag:
+      - W/"8d3-PR4c7iFkmIzwySij1KP0/g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2981f8da54f8d55008548d67ab9182af1584898363; expires=Tue, 21-Apr-20
+        17:32:43 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '82'
+      content-length:
+      - '851'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"death","results":[{"definition":"the time at which life ends;
+        continuing until dead","partOfSpeech":"noun","synonyms":["last"],"typeOf":["end","ending"],"derivation":["die"],"examples":["she
+        stayed until his death"]},{"definition":"the time when something ends","partOfSpeech":"noun","synonyms":["demise","dying"],"typeOf":["end","ending"],"hasTypes":["grave"],"partOf":["life-time","lifetime","lifespan","life"],"antonyms":["birth"],"derivation":["die"],"examples":["it
+        was the death of all his plans"]},{"definition":"the event of dying or departure
+        from life","partOfSpeech":"noun","synonyms":["decease","expiry"],"typeOf":["alteration","change","modification"],"hasTypes":["loss","going","megadeath","martyrdom","human
+        death","departure","release","fatality","expiration","exit","passing","wrongful
+        death"],"hasInstances":["crucifixion"],"antonyms":["birth"],"derivation":["die"],"examples":["her
+        death came as a terrible shock"]},{"definition":"a final state","partOfSpeech":"noun","synonyms":["destruction","end"],"typeOf":["state"],"derivation":["die"]},{"definition":"the
+        absence of life or state of being dead","partOfSpeech":"noun","typeOf":["state"],"hasTypes":["sudden
+        infant death syndrome","cot death","crib death","sleep","defunctness","sids","rest","quietus","extinction","infant
+        death","neonatal death","eternal rest","eternal sleep"],"derivation":["die"],"examples":["he
+        seemed more content in death than he had ever been in life"]},{"definition":"the
+        act of killing","partOfSpeech":"noun","typeOf":["putting to death","kill","killing"],"derivation":["die","deathly"],"examples":["he
+        had two deaths on his conscience"]},{"definition":"the permanent end of all
+        life functions in an organism or part of an organism","partOfSpeech":"noun","typeOf":["organic
+        phenomenon"],"hasTypes":["gangrene","mortification","necrobiosis","necrosis","sphacelus","cerebral
+        death","cell death","brain death"],"derivation":["die"],"examples":["the animal
+        died a painful death"]},{"definition":"the personification of death","partOfSpeech":"noun","instanceOf":["imaginary
+        being","imaginary creature"],"hasInstances":["reaper","grim reaper"],"derivation":["die"]}],"syllables":{"count":1,"list":["death"]},"pronunciation":{"all":"dɛθ"},"frequency":5.39}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:44 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Or
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7588e3d7a2d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:44 GMT
+      etag:
+      - W/"311-INlrFTcbBuxHTiZI9DO1NA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d272f7da2a2f4e446dae745ef3f0196ac1584898364; expires=Tue, 21-Apr-20
+        17:32:44 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '81'
+      content-length:
+      - '415'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"or","results":[{"definition":"a state in northwestern United
+        States on the Pacific","partOfSpeech":"noun","synonyms":["beaver state","ore.","oregon"],"instanceOf":["american
+        state"],"hasParts":["capital of oregon","crater lake national park","eugene","klamath","klamath
+        falls","klamath river","medford","pacific northwest","portland","salem","snake","snake
+        river","willamette river","bend","willamette"],"partOf":["u.s.","u.s.a.","united
+        states","united states of america","us","usa","america","the states"]},{"definition":"a
+        room in a hospital equipped for the performance of surgical operations","partOfSpeech":"noun","synonyms":["operating
+        room","operating theater","operating theatre","surgery"],"typeOf":["hospital
+        room"]}],"pronunciation":{"all":"ər"},"frequency":6.24}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:44 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a75b2f0fbb76-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:44 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d6a82b21697693542d0316170b3783a801584898364; expires=Tue, 21-Apr-20
+        17:32:44 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '80'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:44 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a75e3c05f5b1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:45 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df40ac6389b27125267f0722a13605ecb1584898365; expires=Tue, 21-Apr-20
+        17:32:45 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '79'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:45 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/manage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a76118dbf561-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:45 GMT
+      etag:
+      - W/"7d3-9n0b80gDdDdTK6DOnEYpdw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dbf611e0d5eb72b3a7c32b0fb59a2fafd1584898365; expires=Tue, 21-Apr-20
+        17:32:45 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '78'
+      content-length:
+      - '862'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"manage","results":[{"definition":"watch and direct","partOfSpeech":"verb","synonyms":["oversee","superintend","supervise"],"typeOf":["administer","administrate"],"hasTypes":["build"],"derivation":["manager","management","manageable"]},{"definition":"carry
+        on or function","partOfSpeech":"verb","synonyms":["do"]},{"definition":"achieve
+        something by means of trickery or devious methods","partOfSpeech":"verb","synonyms":["finagle","wangle"],"typeOf":["reach","attain","accomplish","achieve"]},{"definition":"succeed
+        in doing, achieving, or producing (something) with the limited or inadequate
+        means available","partOfSpeech":"verb","synonyms":["contend","cope","deal","get
+        by","grapple","make do","make out"],"typeOf":["move","act"],"hasTypes":["scratch
+        along","squeak by","squeeze by","scrape by","hack","improvise","cut","rub
+        along","scrape along","extemporize","fend"]},{"definition":"handle effectively","partOfSpeech":"verb","synonyms":["handle","wield"],"typeOf":["manipulate"],"hasTypes":["ply","pump","sweep","swing","swing
+        out"],"examples":["The young violinist didn''t manage her bow very well"]},{"definition":"be
+        successful; achieve a goal","partOfSpeech":"verb","synonyms":["bring off","carry
+        off","negociate","pull off"],"typeOf":["win","succeed","deliver the goods","come
+        through","bring home the bacon"],"antonyms":["fail"],"examples":["I managed
+        to carry the box upstairs"]},{"definition":"be in charge of, act on, or dispose
+        of","partOfSpeech":"verb","synonyms":["care","deal","handle"],"typeOf":["control","command"],"hasTypes":["come
+        to grips","administer","administrate","carry on","conduct","coordinate","deal","direct","dispose
+        of","get to grips","juggle","mind","misconduct","mishandle","mismanage","organise","organize","process","take
+        care","touch","work"],"derivation":["management","manageable"],"examples":["She
+        managed her parents'' affairs after they got too old"]}],"syllables":{"count":2,"list":["man","age"]},"pronunciation":{"all":"''mænɪdʒ"},"frequency":4.6}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:45 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7637a0b7983-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:46 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db40da5ac57b0fe5bc5ed58f19e89882b1584898366; expires=Tue, 21-Apr-20
+        17:32:46 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '77'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:46 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/turn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7657ca5c9ad-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:46 GMT
+      etag:
+      - W/"2d89-ERA2rv1C4S9rlQ+GXfYHvA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d0d7571517bfbdffa937af668f5ad754f1584898366; expires=Tue, 21-Apr-20
+        17:32:46 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '76'
+      content-length:
+      - '3904'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"turn","results":[{"definition":"to break and turn over earth
+        especially with a plow","partOfSpeech":"verb","synonyms":["plough","plow"],"inCategory":["agriculture","farming","husbandry"],"entails":["cut
+        into","delve","turn over","dig"],"typeOf":["till"],"hasTypes":["ridge","disk","harrow"],"examples":["turn
+        the earth in the Spring"]},{"definition":"twist suddenly so as to sprain","partOfSpeech":"verb","synonyms":["rick","sprain","twist","wrench","wrick"],"typeOf":["injure","wound"],"examples":["I
+        turned my ankle and couldn''t walk for several days"]},{"definition":"pass
+        into a condition gradually, take on a specific property or attribute; become","partOfSpeech":"verb","synonyms":["grow"],"typeOf":["change"],"hasTypes":["bald"],"verbGroup":["change
+        state"],"examples":["The weather turned nasty"]},{"definition":"cause to move
+        around a center so as to show another side of","partOfSpeech":"verb","synonyms":["turn
+        over"],"typeOf":["displace","move"],"hasTypes":["leaf","evert"],"derivation":["turner"],"examples":["turn
+        a page of a book"]},{"definition":"undergo a change or development","partOfSpeech":"verb","synonyms":["become"],"typeOf":["transform","metamorphose","transmute"],"hasTypes":["add
+        up","choke","amount","come","reduce","nucleate","boil down","come down","suffocate"],"verbGroup":["change
+        state"],"examples":["The water turned into ice","He turned traitor"]},{"definition":"let
+        (something) fall or spill from a container","partOfSpeech":"verb","synonyms":["release"],"typeOf":["channel","channelise","transfer","channelize","transmit","transport"],"hasTypes":["deflate","throw"],"examples":["turn
+        the flour onto a plate"]},{"definition":"cause (a plastic object) to assume
+        a crooked or angular form","partOfSpeech":"verb","synonyms":["bend","deform","flex","twist"],"typeOf":["change
+        shape","change form","deform"],"hasTypes":["convolute","convolve","crank","dent","gnarl","incurvate","indent"],"examples":["the
+        strong man could turn an iron bar"]},{"definition":"undergo a transformation
+        or a change of position or action","partOfSpeech":"verb","synonyms":["change
+        state"],"typeOf":["change"],"hasTypes":["hot up","ignite","improve","gain","frenchify","freeze","inspissate","integrate","fly
+        high","fluctuate","ionise","ionize","kick the bucket","flourish","liberate","liquefy","fit
+        out","loosen up","fill up","fill","meliorate","melt off","ferment","acetify","fall","fade
+        out","fade away","explode","expire","exit","etherify","open","open up","esterify","ossify","overgrow","erupt","pass","pass
+        away","pass out","equilibrate","perish","enclothe","emulsify","pop off","empty","emancipate","precipitate","emaciate","prosper","put
+        on","raiment","react","drop dead","reduce","dress","relapse","relax","dissolve","resuscitate","disengage","discharge","die","revive","denitrify","decompress","decline","decease","curdle","cross-fertilize","cross-fertilise","croak","secularise","secularize","cool
+        off","cool it","cool down","settle down","cool","conk","shut","simmer down","slenderize","conflagrate","slim","slim
+        down","slow down","concentrate","snuff it","solvate","sorb","sour","conceive","come
+        to","come alive","combust","coke","coagulate","cloud over","clothe","clot","close","clabber","take
+        fire","citrate","take up","tangle with","tense","tense up","thicken","thin","thrive","thrombose","chondrify","choke","tog","chill
+        out","chill","catch fire","catalyze","catalyse","zonk out","cash in one''s
+        chips","carnify","carburize","carburise","carbonize","carbonise","calm down","calm","calcify","buy
+        the farm","burst forth","burn","break loose","break","get worse","go","get
+        into","get","garment","habilitate","garb","heat","heat up","homogenise","homogenize","work","worsen","give-up
+        the ghost","boil","black out","better","become","be born","basify","awaken","awake","arouse","apparel","ameliorate","alkalize","unbend","alkalise","alkalify","unwind","wake","wake
+        up","waken","acidify"],"verbGroup":["become","grow"],"also":["turn around","turn
+        off"],"derivation":["turning"],"examples":["We turned from Socialism to Capitalism","The
+        people turned against the President when he stole the election"]},{"definition":"pass
+        to the other side of","partOfSpeech":"verb","synonyms":["move around"],"typeOf":["locomote","move","travel","go"],"examples":["turn
+        the corner"]},{"definition":"have recourse to or make an appeal or request
+        for help or information to","partOfSpeech":"verb","synonyms":["call on"],"typeOf":["appeal","invoke"],"examples":["She
+        turned to her relatives for help"]},{"definition":"turning or twisting around
+        (in place)","partOfSpeech":"noun","synonyms":["twist"],"typeOf":["rotation","rotary
+        motion"],"hasTypes":["twiddle"]},{"definition":"a favor for someone","partOfSpeech":"noun","synonyms":["good
+        turn"],"typeOf":["favor","favour"],"examples":["he did me a good turn"]},{"definition":"change
+        to the contrary","partOfSpeech":"verb","synonyms":["change by reversal","reverse"],"typeOf":["change"],"hasTypes":["flip-flop","transmogrify","desynchronize","undo","desynchronise","unhallow","alternate","turn
+        the tide","turn the tables","transfigure","correct","transpose","switch","permute","exchange","interchange","return","falsify","metamorphose","flip","commutate","revert","desecrate","regress","retrovert","tack","deconsecrate","rectify","turn
+        back","right","commute","switch over"],"also":["turn off","turn on"],"examples":["the
+        tides turned against him","public opinion turned when it was revealed that
+        the president had an affair with a White House intern"]},{"definition":"(game)
+        the activity of doing something in an agreed succession","partOfSpeech":"noun","synonyms":["play"],"inCategory":["game"],"typeOf":["activity"],"hasTypes":["move","start","starting","trick","trumping","lead","at-bat","ruff","innings","down","attack","bat"],"examples":["it
+        is my turn"]},{"definition":"a short performance that is part of a longer
+        program","partOfSpeech":"noun","synonyms":["act","bit","number","routine"],"typeOf":["performance","public
+        presentation"],"hasTypes":["show-stopper","stopper","showstopper"]},{"definition":"a
+        circular segment of a curve","partOfSpeech":"noun","synonyms":["bend","crook","twist"],"typeOf":["curved
+        shape","curve"],"hasTypes":["bight"]},{"definition":"(sports) a division during
+        which one team is on the offensive","partOfSpeech":"noun","synonyms":["bout","round"],"inCategory":["athletics","sport"],"typeOf":["section","division","part"],"hasTypes":["top","bottom","top
+        of the inning","bottom of the inning"],"partOf":["playing period","play","period
+        of play"]},{"definition":"a time period for working (after which you will
+        be relieved by someone else)","partOfSpeech":"noun","synonyms":["go","spell","tour"],"typeOf":["shift","duty
+        period","work shift"]},{"definition":"a movement in a new direction","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["movement","motion"],"hasTypes":["gyration","return","reversal","yaw","swerve","turn
+        around","revolution","rotation","volution","coming back"],"examples":["the
+        turning of the wind"]},{"definition":"an unforeseen development","partOfSpeech":"noun","synonyms":["turn
+        of events","twist"],"typeOf":["development"],"examples":["events suddenly
+        took an awkward turn"]},{"definition":"the act of changing or reversing the
+        direction of the course","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["change
+        of course"],"hasTypes":["left","digression","deviation","deflection","deflexion","version","veering","three-point
+        turn","kick turn","telemark","divagation","swerving","swerve","stem turn","stem","diversion","right"],"examples":["he
+        took a turn to the right"]},{"definition":"go sour or spoil","partOfSpeech":"verb","synonyms":["ferment","sour","work"],"typeOf":["change
+        state"],"verbGroup":["work","ferment"],"examples":["The cream has turned--we
+        have to throw it out"]},{"definition":"accomplish by rotating","partOfSpeech":"verb","typeOf":["do","perform"],"derivation":["turner"],"examples":["turn
+        a somersault","turn cartwheels"]},{"definition":"alter the functioning or
+        setting of","partOfSpeech":"verb","typeOf":["control","operate"],"examples":["turn
+        the dial to 10","turn the heat down"]},{"definition":"become officially one
+        year older","partOfSpeech":"verb","typeOf":["age","maturate","senesce","get
+        on","mature"],"examples":["She is turning 50 this year"]},{"definition":"cause
+        to change or turn into something different;assume new characteristics","partOfSpeech":"verb","typeOf":["modify","alter","change"],"verbGroup":["become"],"examples":["The
+        princess turned the frog into a prince by kissing him","The alchemists tried
+        to turn lead into gold"]},{"definition":"cause to move along an axis or into
+        a new direction","partOfSpeech":"verb","typeOf":["displace","move"],"hasTypes":["bring
+        about"],"examples":["turn your face to the wall","turn the car around","turn
+        your dance partner around"]},{"definition":"cause to move around or rotate","partOfSpeech":"verb","typeOf":["move","displace"],"hasTypes":["supinate","port","reorient"],"examples":["turn
+        a key","turn your palm this way"]},{"definition":"change color","partOfSpeech":"verb","typeOf":["colour","discolour","grow","color","discolor"],"examples":["In
+        Vermont, the leaves turn early"]},{"definition":"change orientation or direction,
+        also in the abstract sense","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["slue","slew","sheer","rotate","corner","corkscrew","flip","face","gyrate","overturn","pivot","port","about-face","pronate","veer","divert","twist","turn
+        over","avert","turn out","turn on a dime","turn off","bend","turn away","turn
+        around","caracole","tump over","trend","deviate","gee","flip over","deflect","roll","cut","curve","toss","tip
+        over","roll over","circumvolve","swivel","coil","swing around","swing about","swerve","spread
+        out","splay","spiral"],"also":["turn back","turn away","turn to"],"derivation":["turning"],"examples":["The
+        mugger turned and fled before I could see his face","She turned from herself
+        and learned to listen to others'' needs"]},{"definition":"channel one''s attention,
+        interest, thought, or attention toward or away from something","partOfSpeech":"verb","typeOf":["direct","send"],"hasTypes":["take
+        up"],"examples":["The pedophile turned to boys for satisfaction","people turn
+        to mysticism at the turn of a millennium"]},{"definition":"direct at someone","partOfSpeech":"verb","typeOf":["take","take
+        aim","aim","train","direct"],"examples":["She turned a smile on me","They
+        turned their flashlights on the car"]},{"definition":"get by buying and selling","partOfSpeech":"verb","inCategory":["commerce","mercantilism","commercialism"],"typeOf":["get","acquire"],"examples":["the
+        company turned a good profit after a year"]},{"definition":"move around an
+        axis or a center","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["rotate","revolve","go
+        around"],"examples":["The wheels are turning"]},{"definition":"shape by rotating
+        on a lathe or cutting device or a wheel","partOfSpeech":"verb","typeOf":["form","shape"],"derivation":["turnery","turner"],"examples":["turn
+        the legs of the table","turn the clay on the wheel"]},{"definition":"taking
+        a short walk out and back","partOfSpeech":"noun","typeOf":["walk"],"examples":["we
+        took a turn in the park"]},{"definition":"the act of turning away or in the
+        opposite direction","partOfSpeech":"noun","typeOf":["reorientation","change
+        of direction"],"examples":["he made an abrupt turn away from her"]},{"definition":"to
+        send or let go","partOfSpeech":"verb","typeOf":["send","direct"],"examples":["They
+        turned away the crowd at the gate of the governor''s mansion"]}],"syllables":{"count":1,"list":["turn"]},"pronunciation":{"all":"tɜrn"},"frequency":5.5}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:46 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/things
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7679bd9bb28-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:46 GMT
+      etag:
+      - W/"103-vbd8Tjnxp35phB5rqt0fCQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d23bc05659ec9448a8b8e3ed38bd381351584898366; expires=Tue, 21-Apr-20
+        17:32:46 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '75'
+      content-length:
+      - '225'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"things","results":[{"definition":"any movable possession (especially
+        articles of clothing)","partOfSpeech":"noun","typeOf":["belongings","holding","property"],"examples":["she
+        packed her things and left"]}],"pronunciation":"θɪŋz","frequency":5.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:46 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/around
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a769cdcef591-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:47 GMT
+      etag:
+      - W/"50e-CNRqzX8WUujfHg5tgnKf4w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df3d4f4f3705b9c15e5093b389ecd95e71584898367; expires=Tue, 21-Apr-20
+        17:32:47 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '74'
+      content-length:
+      - '570'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"around","results":[{"definition":"used of movement to or among
+        many different places or in no particular direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["news
+        gets around (or about)","traveled around in Asia","he needs advice from someone
+        who''s been around","she sleeps around"]},{"definition":"in or to a reversed
+        position or direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["suddenly
+        she turned around"]},{"definition":"in the area or vicinity","partOfSpeech":"adverb","synonyms":["about"],"examples":["hanging
+        around","waited around for the next flight"]},{"definition":"all around or
+        on all sides","partOfSpeech":"adverb","synonyms":["about"],"examples":["dirty
+        clothes lying around (or about)","There were trees growing all around","she
+        looked around her"]},{"definition":"from beginning to end; throughout","partOfSpeech":"adverb","synonyms":["round"],"examples":["frigid
+        weather the year around"]},{"definition":"(of quantities) imprecise but fairly
+        close to correct","partOfSpeech":"adverb","synonyms":["about","approximately","close
+        to","just about","more or less","or so","roughly","some"],"examples":["weighs
+        around a hundred pounds"]}],"syllables":{"count":2,"list":["a","round"]},"pronunciation":{"all":"ə''raʊnd"},"frequency":5.79}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:47 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a76c1cfec981-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:47 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2bf5b0e343150318469c06e73320d5191584898367; expires=Tue, 21-Apr-20
+        17:32:47 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '73'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:47 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a76e69bdf59d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:47 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=de917223584410eefc6ac29820709aac41584898367; expires=Tue, 21-Apr-20
+        17:32:47 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '72'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:47 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a770ccc6f5b5-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:48 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da25e810ec50d5444bceab56d750a48141584898368; expires=Tue, 21-Apr-20
+        17:32:48 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '71'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:48 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/million
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7737a09f58d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:48 GMT
+      etag:
+      - W/"2fe-kZFT7QH6T+5i9h5J/W7s0g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da0426e852ff25650649bbc33ab56fe411584898368; expires=Tue, 21-Apr-20
+        17:32:48 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '70'
+      content-length:
+      - '430'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"million","results":[{"definition":"the number that is represented
+        as a one followed by 6 zeros","partOfSpeech":"noun","synonyms":["1000000","meg","one
+        thousand thousand"],"typeOf":["large integer"]},{"definition":"a very large
+        indefinite number (usually hyperbole)","partOfSpeech":"noun","synonyms":["bazillion","billion","gazillion","jillion","trillion","zillion"],"typeOf":["large
+        indefinite amount","large indefinite quantity"],"examples":["there were millions
+        of flies"]},{"definition":"(in Roman numerals, M written with a macron over
+        it) denoting a quantity consisting of 1,000,000 items or units","partOfSpeech":"adjective","similarTo":["cardinal"]}],"syllables":{"count":2,"list":["mil","lion"]},"pronunciation":{"all":"''mɪljən"},"frequency":5.16}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:48 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/deaths
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7758c45c985-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:48 GMT
+      etag:
+      - W/"8d3-PR4c7iFkmIzwySij1KP0/g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d07e7f36d262876b7a3b340a1ac71caee1584898368; expires=Tue, 21-Apr-20
+        17:32:48 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '69'
+      content-length:
+      - '851'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"death","results":[{"definition":"the time at which life ends;
+        continuing until dead","partOfSpeech":"noun","synonyms":["last"],"typeOf":["end","ending"],"derivation":["die"],"examples":["she
+        stayed until his death"]},{"definition":"the time when something ends","partOfSpeech":"noun","synonyms":["demise","dying"],"typeOf":["end","ending"],"hasTypes":["grave"],"partOf":["life-time","lifetime","lifespan","life"],"antonyms":["birth"],"derivation":["die"],"examples":["it
+        was the death of all his plans"]},{"definition":"the event of dying or departure
+        from life","partOfSpeech":"noun","synonyms":["decease","expiry"],"typeOf":["alteration","change","modification"],"hasTypes":["loss","going","megadeath","martyrdom","human
+        death","departure","release","fatality","expiration","exit","passing","wrongful
+        death"],"hasInstances":["crucifixion"],"antonyms":["birth"],"derivation":["die"],"examples":["her
+        death came as a terrible shock"]},{"definition":"a final state","partOfSpeech":"noun","synonyms":["destruction","end"],"typeOf":["state"],"derivation":["die"]},{"definition":"the
+        absence of life or state of being dead","partOfSpeech":"noun","typeOf":["state"],"hasTypes":["sudden
+        infant death syndrome","cot death","crib death","sleep","defunctness","sids","rest","quietus","extinction","infant
+        death","neonatal death","eternal rest","eternal sleep"],"derivation":["die"],"examples":["he
+        seemed more content in death than he had ever been in life"]},{"definition":"the
+        act of killing","partOfSpeech":"noun","typeOf":["putting to death","kill","killing"],"derivation":["die","deathly"],"examples":["he
+        had two deaths on his conscience"]},{"definition":"the permanent end of all
+        life functions in an organism or part of an organism","partOfSpeech":"noun","typeOf":["organic
+        phenomenon"],"hasTypes":["gangrene","mortification","necrobiosis","necrosis","sphacelus","cerebral
+        death","cell death","brain death"],"derivation":["die"],"examples":["the animal
+        died a painful death"]},{"definition":"the personification of death","partOfSpeech":"noun","instanceOf":["imaginary
+        being","imaginary creature"],"hasInstances":["reaper","grim reaper"],"derivation":["die"]}],"syllables":{"count":1,"list":["death"]},"pronunciation":{"all":"dɛθ"},"frequency":5.39}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:48 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Or
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a77798c7bb10-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:49 GMT
+      etag:
+      - W/"311-INlrFTcbBuxHTiZI9DO1NA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d3b6b6de457d9ea04e2d3cd82516f6a181584898369; expires=Tue, 21-Apr-20
+        17:32:49 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '68'
+      content-length:
+      - '415'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"or","results":[{"definition":"a state in northwestern United
+        States on the Pacific","partOfSpeech":"noun","synonyms":["beaver state","ore.","oregon"],"instanceOf":["american
+        state"],"hasParts":["capital of oregon","crater lake national park","eugene","klamath","klamath
+        falls","klamath river","medford","pacific northwest","portland","salem","snake","snake
+        river","willamette river","bend","willamette"],"partOf":["u.s.","u.s.a.","united
+        states","united states of america","us","usa","america","the states"]},{"definition":"a
+        room in a hospital equipped for the performance of surgical operations","partOfSpeech":"noun","synonyms":["operating
+        room","operating theater","operating theatre","surgery"],"typeOf":["hospital
+        room"]}],"pronunciation":{"all":"ər"},"frequency":6.24}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:49 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a77a0989c979-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:49 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d0d68fd5da9598dd02b31632aada9c50d1584898369; expires=Tue, 21-Apr-20
+        17:32:49 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '67'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:49 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a77c79babb4c-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:50 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d1a48e4eb629d732b35169359ec1eaf801584898370; expires=Tue, 21-Apr-20
+        17:32:50 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '66'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:50 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/manage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a77e5f89f585-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:50 GMT
+      etag:
+      - W/"7d3-9n0b80gDdDdTK6DOnEYpdw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da93c12b27a534ad3c58eabfb74a4db561584898370; expires=Tue, 21-Apr-20
+        17:32:50 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '65'
+      content-length:
+      - '862'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"manage","results":[{"definition":"watch and direct","partOfSpeech":"verb","synonyms":["oversee","superintend","supervise"],"typeOf":["administer","administrate"],"hasTypes":["build"],"derivation":["manager","management","manageable"]},{"definition":"carry
+        on or function","partOfSpeech":"verb","synonyms":["do"]},{"definition":"achieve
+        something by means of trickery or devious methods","partOfSpeech":"verb","synonyms":["finagle","wangle"],"typeOf":["reach","attain","accomplish","achieve"]},{"definition":"succeed
+        in doing, achieving, or producing (something) with the limited or inadequate
+        means available","partOfSpeech":"verb","synonyms":["contend","cope","deal","get
+        by","grapple","make do","make out"],"typeOf":["move","act"],"hasTypes":["scratch
+        along","squeak by","squeeze by","scrape by","hack","improvise","cut","rub
+        along","scrape along","extemporize","fend"]},{"definition":"handle effectively","partOfSpeech":"verb","synonyms":["handle","wield"],"typeOf":["manipulate"],"hasTypes":["ply","pump","sweep","swing","swing
+        out"],"examples":["The young violinist didn''t manage her bow very well"]},{"definition":"be
+        successful; achieve a goal","partOfSpeech":"verb","synonyms":["bring off","carry
+        off","negociate","pull off"],"typeOf":["win","succeed","deliver the goods","come
+        through","bring home the bacon"],"antonyms":["fail"],"examples":["I managed
+        to carry the box upstairs"]},{"definition":"be in charge of, act on, or dispose
+        of","partOfSpeech":"verb","synonyms":["care","deal","handle"],"typeOf":["control","command"],"hasTypes":["come
+        to grips","administer","administrate","carry on","conduct","coordinate","deal","direct","dispose
+        of","get to grips","juggle","mind","misconduct","mishandle","mismanage","organise","organize","process","take
+        care","touch","work"],"derivation":["management","manageable"],"examples":["She
+        managed her parents'' affairs after they got too old"]}],"syllables":{"count":2,"list":["man","age"]},"pronunciation":{"all":"''mænɪdʒ"},"frequency":4.6}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:50 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a780a90ec9b1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:50 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d20ab30b786568b7073e0f1ef06a3485c1584898370; expires=Tue, 21-Apr-20
+        17:32:50 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '64'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:50 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/turn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a782d87a2a3b-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:51 GMT
+      etag:
+      - W/"2d89-ERA2rv1C4S9rlQ+GXfYHvA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d1e9cae3958fb49cdf824618554b4340b1584898371; expires=Tue, 21-Apr-20
+        17:32:51 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '63'
+      content-length:
+      - '3925'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"turn","results":[{"definition":"to break and turn over earth
+        especially with a plow","partOfSpeech":"verb","synonyms":["plough","plow"],"inCategory":["agriculture","farming","husbandry"],"entails":["cut
+        into","delve","turn over","dig"],"typeOf":["till"],"hasTypes":["ridge","disk","harrow"],"examples":["turn
+        the earth in the Spring"]},{"definition":"twist suddenly so as to sprain","partOfSpeech":"verb","synonyms":["rick","sprain","twist","wrench","wrick"],"typeOf":["injure","wound"],"examples":["I
+        turned my ankle and couldn''t walk for several days"]},{"definition":"pass
+        into a condition gradually, take on a specific property or attribute; become","partOfSpeech":"verb","synonyms":["grow"],"typeOf":["change"],"hasTypes":["bald"],"verbGroup":["change
+        state"],"examples":["The weather turned nasty"]},{"definition":"cause to move
+        around a center so as to show another side of","partOfSpeech":"verb","synonyms":["turn
+        over"],"typeOf":["displace","move"],"hasTypes":["leaf","evert"],"derivation":["turner"],"examples":["turn
+        a page of a book"]},{"definition":"undergo a change or development","partOfSpeech":"verb","synonyms":["become"],"typeOf":["transform","metamorphose","transmute"],"hasTypes":["add
+        up","choke","amount","come","reduce","nucleate","boil down","come down","suffocate"],"verbGroup":["change
+        state"],"examples":["The water turned into ice","He turned traitor"]},{"definition":"let
+        (something) fall or spill from a container","partOfSpeech":"verb","synonyms":["release"],"typeOf":["channel","channelise","transfer","channelize","transmit","transport"],"hasTypes":["deflate","throw"],"examples":["turn
+        the flour onto a plate"]},{"definition":"cause (a plastic object) to assume
+        a crooked or angular form","partOfSpeech":"verb","synonyms":["bend","deform","flex","twist"],"typeOf":["change
+        shape","change form","deform"],"hasTypes":["convolute","convolve","crank","dent","gnarl","incurvate","indent"],"examples":["the
+        strong man could turn an iron bar"]},{"definition":"undergo a transformation
+        or a change of position or action","partOfSpeech":"verb","synonyms":["change
+        state"],"typeOf":["change"],"hasTypes":["hot up","ignite","improve","gain","frenchify","freeze","inspissate","integrate","fly
+        high","fluctuate","ionise","ionize","kick the bucket","flourish","liberate","liquefy","fit
+        out","loosen up","fill up","fill","meliorate","melt off","ferment","acetify","fall","fade
+        out","fade away","explode","expire","exit","etherify","open","open up","esterify","ossify","overgrow","erupt","pass","pass
+        away","pass out","equilibrate","perish","enclothe","emulsify","pop off","empty","emancipate","precipitate","emaciate","prosper","put
+        on","raiment","react","drop dead","reduce","dress","relapse","relax","dissolve","resuscitate","disengage","discharge","die","revive","denitrify","decompress","decline","decease","curdle","cross-fertilize","cross-fertilise","croak","secularise","secularize","cool
+        off","cool it","cool down","settle down","cool","conk","shut","simmer down","slenderize","conflagrate","slim","slim
+        down","slow down","concentrate","snuff it","solvate","sorb","sour","conceive","come
+        to","come alive","combust","coke","coagulate","cloud over","clothe","clot","close","clabber","take
+        fire","citrate","take up","tangle with","tense","tense up","thicken","thin","thrive","thrombose","chondrify","choke","tog","chill
+        out","chill","catch fire","catalyze","catalyse","zonk out","cash in one''s
+        chips","carnify","carburize","carburise","carbonize","carbonise","calm down","calm","calcify","buy
+        the farm","burst forth","burn","break loose","break","get worse","go","get
+        into","get","garment","habilitate","garb","heat","heat up","homogenise","homogenize","work","worsen","give-up
+        the ghost","boil","black out","better","become","be born","basify","awaken","awake","arouse","apparel","ameliorate","alkalize","unbend","alkalise","alkalify","unwind","wake","wake
+        up","waken","acidify"],"verbGroup":["become","grow"],"also":["turn around","turn
+        off"],"derivation":["turning"],"examples":["We turned from Socialism to Capitalism","The
+        people turned against the President when he stole the election"]},{"definition":"pass
+        to the other side of","partOfSpeech":"verb","synonyms":["move around"],"typeOf":["locomote","move","travel","go"],"examples":["turn
+        the corner"]},{"definition":"have recourse to or make an appeal or request
+        for help or information to","partOfSpeech":"verb","synonyms":["call on"],"typeOf":["appeal","invoke"],"examples":["She
+        turned to her relatives for help"]},{"definition":"turning or twisting around
+        (in place)","partOfSpeech":"noun","synonyms":["twist"],"typeOf":["rotation","rotary
+        motion"],"hasTypes":["twiddle"]},{"definition":"a favor for someone","partOfSpeech":"noun","synonyms":["good
+        turn"],"typeOf":["favor","favour"],"examples":["he did me a good turn"]},{"definition":"change
+        to the contrary","partOfSpeech":"verb","synonyms":["change by reversal","reverse"],"typeOf":["change"],"hasTypes":["flip-flop","transmogrify","desynchronize","undo","desynchronise","unhallow","alternate","turn
+        the tide","turn the tables","transfigure","correct","transpose","switch","permute","exchange","interchange","return","falsify","metamorphose","flip","commutate","revert","desecrate","regress","retrovert","tack","deconsecrate","rectify","turn
+        back","right","commute","switch over"],"also":["turn off","turn on"],"examples":["the
+        tides turned against him","public opinion turned when it was revealed that
+        the president had an affair with a White House intern"]},{"definition":"(game)
+        the activity of doing something in an agreed succession","partOfSpeech":"noun","synonyms":["play"],"inCategory":["game"],"typeOf":["activity"],"hasTypes":["move","start","starting","trick","trumping","lead","at-bat","ruff","innings","down","attack","bat"],"examples":["it
+        is my turn"]},{"definition":"a short performance that is part of a longer
+        program","partOfSpeech":"noun","synonyms":["act","bit","number","routine"],"typeOf":["performance","public
+        presentation"],"hasTypes":["show-stopper","stopper","showstopper"]},{"definition":"a
+        circular segment of a curve","partOfSpeech":"noun","synonyms":["bend","crook","twist"],"typeOf":["curved
+        shape","curve"],"hasTypes":["bight"]},{"definition":"(sports) a division during
+        which one team is on the offensive","partOfSpeech":"noun","synonyms":["bout","round"],"inCategory":["athletics","sport"],"typeOf":["section","division","part"],"hasTypes":["top","bottom","top
+        of the inning","bottom of the inning"],"partOf":["playing period","play","period
+        of play"]},{"definition":"a time period for working (after which you will
+        be relieved by someone else)","partOfSpeech":"noun","synonyms":["go","spell","tour"],"typeOf":["shift","duty
+        period","work shift"]},{"definition":"a movement in a new direction","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["movement","motion"],"hasTypes":["gyration","return","reversal","yaw","swerve","turn
+        around","revolution","rotation","volution","coming back"],"examples":["the
+        turning of the wind"]},{"definition":"an unforeseen development","partOfSpeech":"noun","synonyms":["turn
+        of events","twist"],"typeOf":["development"],"examples":["events suddenly
+        took an awkward turn"]},{"definition":"the act of changing or reversing the
+        direction of the course","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["change
+        of course"],"hasTypes":["left","digression","deviation","deflection","deflexion","version","veering","three-point
+        turn","kick turn","telemark","divagation","swerving","swerve","stem turn","stem","diversion","right"],"examples":["he
+        took a turn to the right"]},{"definition":"go sour or spoil","partOfSpeech":"verb","synonyms":["ferment","sour","work"],"typeOf":["change
+        state"],"verbGroup":["work","ferment"],"examples":["The cream has turned--we
+        have to throw it out"]},{"definition":"accomplish by rotating","partOfSpeech":"verb","typeOf":["do","perform"],"derivation":["turner"],"examples":["turn
+        a somersault","turn cartwheels"]},{"definition":"alter the functioning or
+        setting of","partOfSpeech":"verb","typeOf":["control","operate"],"examples":["turn
+        the dial to 10","turn the heat down"]},{"definition":"become officially one
+        year older","partOfSpeech":"verb","typeOf":["age","maturate","senesce","get
+        on","mature"],"examples":["She is turning 50 this year"]},{"definition":"cause
+        to change or turn into something different;assume new characteristics","partOfSpeech":"verb","typeOf":["modify","alter","change"],"verbGroup":["become"],"examples":["The
+        princess turned the frog into a prince by kissing him","The alchemists tried
+        to turn lead into gold"]},{"definition":"cause to move along an axis or into
+        a new direction","partOfSpeech":"verb","typeOf":["displace","move"],"hasTypes":["bring
+        about"],"examples":["turn your face to the wall","turn the car around","turn
+        your dance partner around"]},{"definition":"cause to move around or rotate","partOfSpeech":"verb","typeOf":["move","displace"],"hasTypes":["supinate","port","reorient"],"examples":["turn
+        a key","turn your palm this way"]},{"definition":"change color","partOfSpeech":"verb","typeOf":["colour","discolour","grow","color","discolor"],"examples":["In
+        Vermont, the leaves turn early"]},{"definition":"change orientation or direction,
+        also in the abstract sense","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["slue","slew","sheer","rotate","corner","corkscrew","flip","face","gyrate","overturn","pivot","port","about-face","pronate","veer","divert","twist","turn
+        over","avert","turn out","turn on a dime","turn off","bend","turn away","turn
+        around","caracole","tump over","trend","deviate","gee","flip over","deflect","roll","cut","curve","toss","tip
+        over","roll over","circumvolve","swivel","coil","swing around","swing about","swerve","spread
+        out","splay","spiral"],"also":["turn back","turn away","turn to"],"derivation":["turning"],"examples":["The
+        mugger turned and fled before I could see his face","She turned from herself
+        and learned to listen to others'' needs"]},{"definition":"channel one''s attention,
+        interest, thought, or attention toward or away from something","partOfSpeech":"verb","typeOf":["direct","send"],"hasTypes":["take
+        up"],"examples":["The pedophile turned to boys for satisfaction","people turn
+        to mysticism at the turn of a millennium"]},{"definition":"direct at someone","partOfSpeech":"verb","typeOf":["take","take
+        aim","aim","train","direct"],"examples":["She turned a smile on me","They
+        turned their flashlights on the car"]},{"definition":"get by buying and selling","partOfSpeech":"verb","inCategory":["commerce","mercantilism","commercialism"],"typeOf":["get","acquire"],"examples":["the
+        company turned a good profit after a year"]},{"definition":"move around an
+        axis or a center","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["rotate","revolve","go
+        around"],"examples":["The wheels are turning"]},{"definition":"shape by rotating
+        on a lathe or cutting device or a wheel","partOfSpeech":"verb","typeOf":["form","shape"],"derivation":["turnery","turner"],"examples":["turn
+        the legs of the table","turn the clay on the wheel"]},{"definition":"taking
+        a short walk out and back","partOfSpeech":"noun","typeOf":["walk"],"examples":["we
+        took a turn in the park"]},{"definition":"the act of turning away or in the
+        opposite direction","partOfSpeech":"noun","typeOf":["reorientation","change
+        of direction"],"examples":["he made an abrupt turn away from her"]},{"definition":"to
+        send or let go","partOfSpeech":"verb","typeOf":["send","direct"],"examples":["They
+        turned away the crowd at the gate of the governor''s mansion"]}],"syllables":{"count":1,"list":["turn"]},"pronunciation":{"all":"tɜrn"},"frequency":5.5}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:51 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/things
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a78518daf571-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:51 GMT
+      etag:
+      - W/"103-vbd8Tjnxp35phB5rqt0fCQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d614a64c8108a84a42381e1571db824d41584898371; expires=Tue, 21-Apr-20
+        17:32:51 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '62'
+      content-length:
+      - '225'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"things","results":[{"definition":"any movable possession (especially
+        articles of clothing)","partOfSpeech":"noun","typeOf":["belongings","holding","property"],"examples":["she
+        packed her things and left"]}],"pronunciation":"θɪŋz","frequency":5.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:51 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/around
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7876ae0e376-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:51 GMT
+      etag:
+      - W/"50e-CNRqzX8WUujfHg5tgnKf4w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db0a553e2723c7d143eb575772761ccbb1584898371; expires=Tue, 21-Apr-20
+        17:32:51 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '61'
+      content-length:
+      - '570'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"around","results":[{"definition":"used of movement to or among
+        many different places or in no particular direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["news
+        gets around (or about)","traveled around in Asia","he needs advice from someone
+        who''s been around","she sleeps around"]},{"definition":"in or to a reversed
+        position or direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["suddenly
+        she turned around"]},{"definition":"in the area or vicinity","partOfSpeech":"adverb","synonyms":["about"],"examples":["hanging
+        around","waited around for the next flight"]},{"definition":"all around or
+        on all sides","partOfSpeech":"adverb","synonyms":["about"],"examples":["dirty
+        clothes lying around (or about)","There were trees growing all around","she
+        looked around her"]},{"definition":"from beginning to end; throughout","partOfSpeech":"adverb","synonyms":["round"],"examples":["frigid
+        weather the year around"]},{"definition":"(of quantities) imprecise but fairly
+        close to correct","partOfSpeech":"adverb","synonyms":["about","approximately","close
+        to","just about","more or less","or so","roughly","some"],"examples":["weighs
+        around a hundred pounds"]}],"syllables":{"count":2,"list":["a","round"]},"pronunciation":{"all":"ə''raʊnd"},"frequency":5.79}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:51 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a78aaa59c9a9-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:52 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d99cfa1d620c231133c47ce298b8358781584898372; expires=Tue, 21-Apr-20
+        17:32:52 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '60'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:52 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a78d6e9af54d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:52 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df6d2c2be690f0bd30d70a3e8ec6b37351584898372; expires=Tue, 21-Apr-20
+        17:32:52 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '59'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:52 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7908ef22a29-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:53 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d97b533e5107d401dbbf00fa2092269441584898373; expires=Tue, 21-Apr-20
+        17:32:53 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '58'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:53 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/million
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a79288acbb16-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:53 GMT
+      etag:
+      - W/"2fe-kZFT7QH6T+5i9h5J/W7s0g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d40bc6cecbc78811d4c94041604e0986d1584898373; expires=Tue, 21-Apr-20
+        17:32:53 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '57'
+      content-length:
+      - '430'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"million","results":[{"definition":"the number that is represented
+        as a one followed by 6 zeros","partOfSpeech":"noun","synonyms":["1000000","meg","one
+        thousand thousand"],"typeOf":["large integer"]},{"definition":"a very large
+        indefinite number (usually hyperbole)","partOfSpeech":"noun","synonyms":["bazillion","billion","gazillion","jillion","trillion","zillion"],"typeOf":["large
+        indefinite amount","large indefinite quantity"],"examples":["there were millions
+        of flies"]},{"definition":"(in Roman numerals, M written with a macron over
+        it) denoting a quantity consisting of 1,000,000 items or units","partOfSpeech":"adjective","similarTo":["cardinal"]}],"syllables":{"count":2,"list":["mil","lion"]},"pronunciation":{"all":"''mɪljən"},"frequency":5.16}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:53 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/deaths
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7953b09f585-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:54 GMT
+      etag:
+      - W/"8d3-PR4c7iFkmIzwySij1KP0/g"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d22f39da4120e7349589c0c2cd88043231584898373; expires=Tue, 21-Apr-20
+        17:32:53 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '56'
+      content-length:
+      - '851'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"death","results":[{"definition":"the time at which life ends;
+        continuing until dead","partOfSpeech":"noun","synonyms":["last"],"typeOf":["end","ending"],"derivation":["die"],"examples":["she
+        stayed until his death"]},{"definition":"the time when something ends","partOfSpeech":"noun","synonyms":["demise","dying"],"typeOf":["end","ending"],"hasTypes":["grave"],"partOf":["life-time","lifetime","lifespan","life"],"antonyms":["birth"],"derivation":["die"],"examples":["it
+        was the death of all his plans"]},{"definition":"the event of dying or departure
+        from life","partOfSpeech":"noun","synonyms":["decease","expiry"],"typeOf":["alteration","change","modification"],"hasTypes":["loss","going","megadeath","martyrdom","human
+        death","departure","release","fatality","expiration","exit","passing","wrongful
+        death"],"hasInstances":["crucifixion"],"antonyms":["birth"],"derivation":["die"],"examples":["her
+        death came as a terrible shock"]},{"definition":"a final state","partOfSpeech":"noun","synonyms":["destruction","end"],"typeOf":["state"],"derivation":["die"]},{"definition":"the
+        absence of life or state of being dead","partOfSpeech":"noun","typeOf":["state"],"hasTypes":["sudden
+        infant death syndrome","cot death","crib death","sleep","defunctness","sids","rest","quietus","extinction","infant
+        death","neonatal death","eternal rest","eternal sleep"],"derivation":["die"],"examples":["he
+        seemed more content in death than he had ever been in life"]},{"definition":"the
+        act of killing","partOfSpeech":"noun","typeOf":["putting to death","kill","killing"],"derivation":["die","deathly"],"examples":["he
+        had two deaths on his conscience"]},{"definition":"the permanent end of all
+        life functions in an organism or part of an organism","partOfSpeech":"noun","typeOf":["organic
+        phenomenon"],"hasTypes":["gangrene","mortification","necrobiosis","necrosis","sphacelus","cerebral
+        death","cell death","brain death"],"derivation":["die"],"examples":["the animal
+        died a painful death"]},{"definition":"the personification of death","partOfSpeech":"noun","instanceOf":["imaginary
+        being","imaginary creature"],"hasInstances":["reaper","grim reaper"],"derivation":["die"]}],"syllables":{"count":1,"list":["death"]},"pronunciation":{"all":"dɛθ"},"frequency":5.39}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:54 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/Or
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a79759057959-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:54 GMT
+      etag:
+      - W/"311-INlrFTcbBuxHTiZI9DO1NA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db64d71b41b5c51ad10ddb978f9b243761584898374; expires=Tue, 21-Apr-20
+        17:32:54 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '55'
+      content-length:
+      - '415'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"or","results":[{"definition":"a state in northwestern United
+        States on the Pacific","partOfSpeech":"noun","synonyms":["beaver state","ore.","oregon"],"instanceOf":["american
+        state"],"hasParts":["capital of oregon","crater lake national park","eugene","klamath","klamath
+        falls","klamath river","medford","pacific northwest","portland","salem","snake","snake
+        river","willamette river","bend","willamette"],"partOf":["u.s.","u.s.a.","united
+        states","united states of america","us","usa","america","the states"]},{"definition":"a
+        room in a hospital equipped for the performance of surgical operations","partOfSpeech":"noun","synonyms":["operating
+        room","operating theater","operating theatre","surgery"],"typeOf":["hospital
+        room"]}],"pronunciation":{"all":"ər"},"frequency":6.24}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:54 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/will
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a79a39a1f5a1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:54 GMT
+      etag:
+      - W/"597-PIIPY68BC+SqMeiLFINimw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dab86d8e1e6fbb0566b5cd7e53ab100981584898374; expires=Tue, 21-Apr-20
+        17:32:54 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '54'
+      content-length:
+      - '646'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"will","results":[{"definition":"a legal document declaring
+        a person''s wishes regarding the disposal of their property when they die","partOfSpeech":"noun","synonyms":["testament"],"inCategory":["law","jurisprudence"],"typeOf":["legal
+        instrument","instrument","legal document","official document"],"hasTypes":["old
+        testament","devise","new testament"],"hasParts":["codicil"]},{"definition":"the
+        capability of conscious choice and decision and intention","partOfSpeech":"noun","synonyms":["volition"],"typeOf":["mental
+        faculty","faculty","module"],"hasTypes":["velleity"]},{"definition":"leave
+        or give by will after one''s death","partOfSpeech":"verb","synonyms":["bequeath","leave"],"typeOf":["gift","present","give"],"hasTypes":["remember","devise","entail","fee-tail","pass
+        on"],"verbGroup":["impart","leave","leave behind","pass on","give"]},{"definition":"a
+        fixed and persistent intent or purpose","partOfSpeech":"noun","typeOf":["purpose","intent","design","intention","aim"],"examples":["where
+        there''s a will there''s a way"]},{"definition":"decree or ordain","partOfSpeech":"verb","typeOf":["ordain"],"examples":["God
+        wills our existence"]},{"definition":"determine by choice","partOfSpeech":"verb","typeOf":["determine","make
+        up one''s mind","decide"],"derivation":["willing"],"examples":["This action
+        was willed and intended"]}],"syllables":{"count":1,"list":["will"]},"pronunciation":{"all":"wɪl"},"frequency":6.46}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:54 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/we
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a79d0ed8f5a1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:55 GMT
+      etag:
+      - W/"385-4rlW4CxxcuIgBYug/xjh8w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d30e0265772be36fcb5650dd97dafc7ab1584898375; expires=Tue, 21-Apr-20
+        17:32:55 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '53'
+      content-length:
+      - '285'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-i"},"word":"we","results":[{"partOfSpeech":"pronoun","derivation":["our"],"definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb."},{"partOfSpeech":"obj","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]},{"partOfSpeech":"pl","definition":"The
+        plural nominative case of the pronoun of the first person; the word with which
+        a person in speaking or writing denotes a number or company of which he is
+        one, as the subject of an action expressed by a verb.","derivation":["our"]}],"pronunciation":"wi","frequency":6.95}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:55 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/manage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a79ef89ebccc-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:55 GMT
+      etag:
+      - W/"7d3-9n0b80gDdDdTK6DOnEYpdw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2f3ab91844924848e8a78e966a52c2bb1584898375; expires=Tue, 21-Apr-20
+        17:32:55 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '52'
+      content-length:
+      - '862'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"manage","results":[{"definition":"watch and direct","partOfSpeech":"verb","synonyms":["oversee","superintend","supervise"],"typeOf":["administer","administrate"],"hasTypes":["build"],"derivation":["manager","management","manageable"]},{"definition":"carry
+        on or function","partOfSpeech":"verb","synonyms":["do"]},{"definition":"achieve
+        something by means of trickery or devious methods","partOfSpeech":"verb","synonyms":["finagle","wangle"],"typeOf":["reach","attain","accomplish","achieve"]},{"definition":"succeed
+        in doing, achieving, or producing (something) with the limited or inadequate
+        means available","partOfSpeech":"verb","synonyms":["contend","cope","deal","get
+        by","grapple","make do","make out"],"typeOf":["move","act"],"hasTypes":["scratch
+        along","squeak by","squeeze by","scrape by","hack","improvise","cut","rub
+        along","scrape along","extemporize","fend"]},{"definition":"handle effectively","partOfSpeech":"verb","synonyms":["handle","wield"],"typeOf":["manipulate"],"hasTypes":["ply","pump","sweep","swing","swing
+        out"],"examples":["The young violinist didn''t manage her bow very well"]},{"definition":"be
+        successful; achieve a goal","partOfSpeech":"verb","synonyms":["bring off","carry
+        off","negociate","pull off"],"typeOf":["win","succeed","deliver the goods","come
+        through","bring home the bacon"],"antonyms":["fail"],"examples":["I managed
+        to carry the box upstairs"]},{"definition":"be in charge of, act on, or dispose
+        of","partOfSpeech":"verb","synonyms":["care","deal","handle"],"typeOf":["control","command"],"hasTypes":["come
+        to grips","administer","administrate","carry on","conduct","coordinate","deal","direct","dispose
+        of","get to grips","juggle","mind","misconduct","mishandle","mismanage","organise","organize","process","take
+        care","touch","work"],"derivation":["management","manageable"],"examples":["She
+        managed her parents'' affairs after they got too old"]}],"syllables":{"count":2,"list":["man","age"]},"pronunciation":{"all":"''mænɪdʒ"},"frequency":4.6}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:55 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/to
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7a1fa26e386-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:56 GMT
+      etag:
+      - W/"15e-lANliCbedikcgTaBACsSXg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d959a1028e1369535b8335c82575660c41584898376; expires=Tue, 21-Apr-20
+        17:32:56 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '51'
+      content-length:
+      - '253'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"rhymes":{"all":"-u"},"word":"to","results":[{"partOfSpeech":"preposition","definition":"The
+        preposition to primarily indicates approach and arrival, motion made in the
+        direction of a place or thing and attaining it, access; and also, motion or
+        tendency without arrival; movement toward.","antonyms":["from"]}],"pronunciation":"tu","frequency":7.35}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:56 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/turn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7a518f5c99d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:56 GMT
+      etag:
+      - W/"2d89-ERA2rv1C4S9rlQ+GXfYHvA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d2425b4a174bc48d0a5310d3f29c85ec71584898376; expires=Tue, 21-Apr-20
+        17:32:56 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '50'
+      content-length:
+      - '3925'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"turn","results":[{"definition":"to break and turn over earth
+        especially with a plow","partOfSpeech":"verb","synonyms":["plough","plow"],"inCategory":["agriculture","farming","husbandry"],"entails":["cut
+        into","delve","turn over","dig"],"typeOf":["till"],"hasTypes":["ridge","disk","harrow"],"examples":["turn
+        the earth in the Spring"]},{"definition":"twist suddenly so as to sprain","partOfSpeech":"verb","synonyms":["rick","sprain","twist","wrench","wrick"],"typeOf":["injure","wound"],"examples":["I
+        turned my ankle and couldn''t walk for several days"]},{"definition":"pass
+        into a condition gradually, take on a specific property or attribute; become","partOfSpeech":"verb","synonyms":["grow"],"typeOf":["change"],"hasTypes":["bald"],"verbGroup":["change
+        state"],"examples":["The weather turned nasty"]},{"definition":"cause to move
+        around a center so as to show another side of","partOfSpeech":"verb","synonyms":["turn
+        over"],"typeOf":["displace","move"],"hasTypes":["leaf","evert"],"derivation":["turner"],"examples":["turn
+        a page of a book"]},{"definition":"undergo a change or development","partOfSpeech":"verb","synonyms":["become"],"typeOf":["transform","metamorphose","transmute"],"hasTypes":["add
+        up","choke","amount","come","reduce","nucleate","boil down","come down","suffocate"],"verbGroup":["change
+        state"],"examples":["The water turned into ice","He turned traitor"]},{"definition":"let
+        (something) fall or spill from a container","partOfSpeech":"verb","synonyms":["release"],"typeOf":["channel","channelise","transfer","channelize","transmit","transport"],"hasTypes":["deflate","throw"],"examples":["turn
+        the flour onto a plate"]},{"definition":"cause (a plastic object) to assume
+        a crooked or angular form","partOfSpeech":"verb","synonyms":["bend","deform","flex","twist"],"typeOf":["change
+        shape","change form","deform"],"hasTypes":["convolute","convolve","crank","dent","gnarl","incurvate","indent"],"examples":["the
+        strong man could turn an iron bar"]},{"definition":"undergo a transformation
+        or a change of position or action","partOfSpeech":"verb","synonyms":["change
+        state"],"typeOf":["change"],"hasTypes":["hot up","ignite","improve","gain","frenchify","freeze","inspissate","integrate","fly
+        high","fluctuate","ionise","ionize","kick the bucket","flourish","liberate","liquefy","fit
+        out","loosen up","fill up","fill","meliorate","melt off","ferment","acetify","fall","fade
+        out","fade away","explode","expire","exit","etherify","open","open up","esterify","ossify","overgrow","erupt","pass","pass
+        away","pass out","equilibrate","perish","enclothe","emulsify","pop off","empty","emancipate","precipitate","emaciate","prosper","put
+        on","raiment","react","drop dead","reduce","dress","relapse","relax","dissolve","resuscitate","disengage","discharge","die","revive","denitrify","decompress","decline","decease","curdle","cross-fertilize","cross-fertilise","croak","secularise","secularize","cool
+        off","cool it","cool down","settle down","cool","conk","shut","simmer down","slenderize","conflagrate","slim","slim
+        down","slow down","concentrate","snuff it","solvate","sorb","sour","conceive","come
+        to","come alive","combust","coke","coagulate","cloud over","clothe","clot","close","clabber","take
+        fire","citrate","take up","tangle with","tense","tense up","thicken","thin","thrive","thrombose","chondrify","choke","tog","chill
+        out","chill","catch fire","catalyze","catalyse","zonk out","cash in one''s
+        chips","carnify","carburize","carburise","carbonize","carbonise","calm down","calm","calcify","buy
+        the farm","burst forth","burn","break loose","break","get worse","go","get
+        into","get","garment","habilitate","garb","heat","heat up","homogenise","homogenize","work","worsen","give-up
+        the ghost","boil","black out","better","become","be born","basify","awaken","awake","arouse","apparel","ameliorate","alkalize","unbend","alkalise","alkalify","unwind","wake","wake
+        up","waken","acidify"],"verbGroup":["become","grow"],"also":["turn around","turn
+        off"],"derivation":["turning"],"examples":["We turned from Socialism to Capitalism","The
+        people turned against the President when he stole the election"]},{"definition":"pass
+        to the other side of","partOfSpeech":"verb","synonyms":["move around"],"typeOf":["locomote","move","travel","go"],"examples":["turn
+        the corner"]},{"definition":"have recourse to or make an appeal or request
+        for help or information to","partOfSpeech":"verb","synonyms":["call on"],"typeOf":["appeal","invoke"],"examples":["She
+        turned to her relatives for help"]},{"definition":"turning or twisting around
+        (in place)","partOfSpeech":"noun","synonyms":["twist"],"typeOf":["rotation","rotary
+        motion"],"hasTypes":["twiddle"]},{"definition":"a favor for someone","partOfSpeech":"noun","synonyms":["good
+        turn"],"typeOf":["favor","favour"],"examples":["he did me a good turn"]},{"definition":"change
+        to the contrary","partOfSpeech":"verb","synonyms":["change by reversal","reverse"],"typeOf":["change"],"hasTypes":["flip-flop","transmogrify","desynchronize","undo","desynchronise","unhallow","alternate","turn
+        the tide","turn the tables","transfigure","correct","transpose","switch","permute","exchange","interchange","return","falsify","metamorphose","flip","commutate","revert","desecrate","regress","retrovert","tack","deconsecrate","rectify","turn
+        back","right","commute","switch over"],"also":["turn off","turn on"],"examples":["the
+        tides turned against him","public opinion turned when it was revealed that
+        the president had an affair with a White House intern"]},{"definition":"(game)
+        the activity of doing something in an agreed succession","partOfSpeech":"noun","synonyms":["play"],"inCategory":["game"],"typeOf":["activity"],"hasTypes":["move","start","starting","trick","trumping","lead","at-bat","ruff","innings","down","attack","bat"],"examples":["it
+        is my turn"]},{"definition":"a short performance that is part of a longer
+        program","partOfSpeech":"noun","synonyms":["act","bit","number","routine"],"typeOf":["performance","public
+        presentation"],"hasTypes":["show-stopper","stopper","showstopper"]},{"definition":"a
+        circular segment of a curve","partOfSpeech":"noun","synonyms":["bend","crook","twist"],"typeOf":["curved
+        shape","curve"],"hasTypes":["bight"]},{"definition":"(sports) a division during
+        which one team is on the offensive","partOfSpeech":"noun","synonyms":["bout","round"],"inCategory":["athletics","sport"],"typeOf":["section","division","part"],"hasTypes":["top","bottom","top
+        of the inning","bottom of the inning"],"partOf":["playing period","play","period
+        of play"]},{"definition":"a time period for working (after which you will
+        be relieved by someone else)","partOfSpeech":"noun","synonyms":["go","spell","tour"],"typeOf":["shift","duty
+        period","work shift"]},{"definition":"a movement in a new direction","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["movement","motion"],"hasTypes":["gyration","return","reversal","yaw","swerve","turn
+        around","revolution","rotation","volution","coming back"],"examples":["the
+        turning of the wind"]},{"definition":"an unforeseen development","partOfSpeech":"noun","synonyms":["turn
+        of events","twist"],"typeOf":["development"],"examples":["events suddenly
+        took an awkward turn"]},{"definition":"the act of changing or reversing the
+        direction of the course","partOfSpeech":"noun","synonyms":["turning"],"typeOf":["change
+        of course"],"hasTypes":["left","digression","deviation","deflection","deflexion","version","veering","three-point
+        turn","kick turn","telemark","divagation","swerving","swerve","stem turn","stem","diversion","right"],"examples":["he
+        took a turn to the right"]},{"definition":"go sour or spoil","partOfSpeech":"verb","synonyms":["ferment","sour","work"],"typeOf":["change
+        state"],"verbGroup":["work","ferment"],"examples":["The cream has turned--we
+        have to throw it out"]},{"definition":"accomplish by rotating","partOfSpeech":"verb","typeOf":["do","perform"],"derivation":["turner"],"examples":["turn
+        a somersault","turn cartwheels"]},{"definition":"alter the functioning or
+        setting of","partOfSpeech":"verb","typeOf":["control","operate"],"examples":["turn
+        the dial to 10","turn the heat down"]},{"definition":"become officially one
+        year older","partOfSpeech":"verb","typeOf":["age","maturate","senesce","get
+        on","mature"],"examples":["She is turning 50 this year"]},{"definition":"cause
+        to change or turn into something different;assume new characteristics","partOfSpeech":"verb","typeOf":["modify","alter","change"],"verbGroup":["become"],"examples":["The
+        princess turned the frog into a prince by kissing him","The alchemists tried
+        to turn lead into gold"]},{"definition":"cause to move along an axis or into
+        a new direction","partOfSpeech":"verb","typeOf":["displace","move"],"hasTypes":["bring
+        about"],"examples":["turn your face to the wall","turn the car around","turn
+        your dance partner around"]},{"definition":"cause to move around or rotate","partOfSpeech":"verb","typeOf":["move","displace"],"hasTypes":["supinate","port","reorient"],"examples":["turn
+        a key","turn your palm this way"]},{"definition":"change color","partOfSpeech":"verb","typeOf":["colour","discolour","grow","color","discolor"],"examples":["In
+        Vermont, the leaves turn early"]},{"definition":"change orientation or direction,
+        also in the abstract sense","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["slue","slew","sheer","rotate","corner","corkscrew","flip","face","gyrate","overturn","pivot","port","about-face","pronate","veer","divert","twist","turn
+        over","avert","turn out","turn on a dime","turn off","bend","turn away","turn
+        around","caracole","tump over","trend","deviate","gee","flip over","deflect","roll","cut","curve","toss","tip
+        over","roll over","circumvolve","swivel","coil","swing around","swing about","swerve","spread
+        out","splay","spiral"],"also":["turn back","turn away","turn to"],"derivation":["turning"],"examples":["The
+        mugger turned and fled before I could see his face","She turned from herself
+        and learned to listen to others'' needs"]},{"definition":"channel one''s attention,
+        interest, thought, or attention toward or away from something","partOfSpeech":"verb","typeOf":["direct","send"],"hasTypes":["take
+        up"],"examples":["The pedophile turned to boys for satisfaction","people turn
+        to mysticism at the turn of a millennium"]},{"definition":"direct at someone","partOfSpeech":"verb","typeOf":["take","take
+        aim","aim","train","direct"],"examples":["She turned a smile on me","They
+        turned their flashlights on the car"]},{"definition":"get by buying and selling","partOfSpeech":"verb","inCategory":["commerce","mercantilism","commercialism"],"typeOf":["get","acquire"],"examples":["the
+        company turned a good profit after a year"]},{"definition":"move around an
+        axis or a center","partOfSpeech":"verb","typeOf":["move"],"hasTypes":["rotate","revolve","go
+        around"],"examples":["The wheels are turning"]},{"definition":"shape by rotating
+        on a lathe or cutting device or a wheel","partOfSpeech":"verb","typeOf":["form","shape"],"derivation":["turnery","turner"],"examples":["turn
+        the legs of the table","turn the clay on the wheel"]},{"definition":"taking
+        a short walk out and back","partOfSpeech":"noun","typeOf":["walk"],"examples":["we
+        took a turn in the park"]},{"definition":"the act of turning away or in the
+        opposite direction","partOfSpeech":"noun","typeOf":["reorientation","change
+        of direction"],"examples":["he made an abrupt turn away from her"]},{"definition":"to
+        send or let go","partOfSpeech":"verb","typeOf":["send","direct"],"examples":["They
+        turned away the crowd at the gate of the governor''s mansion"]}],"syllables":{"count":1,"list":["turn"]},"pronunciation":{"all":"tɜrn"},"frequency":5.5}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:56 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/things
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7a84bf7c995-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:57 GMT
+      etag:
+      - W/"103-vbd8Tjnxp35phB5rqt0fCQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d186c67ef55a35f7bdfb31294963e90b91584898377; expires=Tue, 21-Apr-20
+        17:32:57 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '49'
+      content-length:
+      - '225'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"things","results":[{"definition":"any movable possession (especially
+        articles of clothing)","partOfSpeech":"noun","typeOf":["belongings","holding","property"],"examples":["she
+        packed her things and left"]}],"pronunciation":"θɪŋz","frequency":5.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:57 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/around
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7aa3c57c98d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:57 GMT
+      etag:
+      - W/"50e-CNRqzX8WUujfHg5tgnKf4w"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df71d6ed2c5aa1c3d00cd5bc5829e3c901584898377; expires=Tue, 21-Apr-20
+        17:32:57 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '48'
+      content-length:
+      - '570'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"around","results":[{"definition":"used of movement to or among
+        many different places or in no particular direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["news
+        gets around (or about)","traveled around in Asia","he needs advice from someone
+        who''s been around","she sleeps around"]},{"definition":"in or to a reversed
+        position or direction","partOfSpeech":"adverb","synonyms":["about"],"examples":["suddenly
+        she turned around"]},{"definition":"in the area or vicinity","partOfSpeech":"adverb","synonyms":["about"],"examples":["hanging
+        around","waited around for the next flight"]},{"definition":"all around or
+        on all sides","partOfSpeech":"adverb","synonyms":["about"],"examples":["dirty
+        clothes lying around (or about)","There were trees growing all around","she
+        looked around her"]},{"definition":"from beginning to end; throughout","partOfSpeech":"adverb","synonyms":["round"],"examples":["frigid
+        weather the year around"]},{"definition":"(of quantities) imprecise but fairly
+        close to correct","partOfSpeech":"adverb","synonyms":["about","approximately","close
+        to","just about","more or less","or so","roughly","some"],"examples":["weighs
+        around a hundred pounds"]}],"syllables":{"count":2,"list":["a","round"]},"pronunciation":{"all":"ə''raʊnd"},"frequency":5.79}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:57 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7ac4dd7c9a1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:57 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d610dbc296ae96ccbce44d9a48a8577a51584898377; expires=Tue, 21-Apr-20
+        17:32:57 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '47'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:57 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=4.32&frequencymin=3.32&lettersMax=9&lettersMin=3&partOfSpeech=verb&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7ae5b36bb16-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:58 GMT
+      etag:
+      - W/"628-3wzhrgDhqn2m7Z7lBN3zvA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=df83740babc30610939a57ec2c3a1d82f1584898377; expires=Tue, 21-Apr-20
+        17:32:57 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '46'
+      content-length:
+      - '704'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"steep","results":[{"definition":"greatly exceeding bounds
+        of reason or moderation","partOfSpeech":"adjective","synonyms":["exorbitant","extortionate","outrageous","unconscionable","usurious"],"similarTo":["immoderate"]},{"definition":"devote
+        (oneself) fully to","partOfSpeech":"verb","synonyms":["absorb","engross","engulf","immerse","plunge","soak
+        up"],"typeOf":["pore","center","centre","concentrate","focus","rivet"],"hasTypes":["drink
+        in","drink"],"verbGroup":["immerse","plunge"]},{"definition":"let sit in a
+        liquid to extract a flavor or to cleanse","partOfSpeech":"verb","synonyms":["infuse"],"typeOf":["soak","imbue"],"hasTypes":["marinate","infuse","draw","decoct","marinade"],"verbGroup":["infuse"],"derivation":["steeper"],"examples":["steep
+        the blossoms in oil","steep the fruit in alcohol"]},{"definition":"a steep
+        place (as on a hill)","partOfSpeech":"noun","typeOf":["declination","decline","declivity","declension","descent","downslope","fall"]},{"definition":"having
+        a sharp inclination","partOfSpeech":"adjective","also":["vertical","perpendicular"],"similarTo":["perpendicular","precipitous","sharp","sheer","steep-sided","steepish","abrupt","bluff","bold","heavy"],"antonyms":["gradual"],"derivation":["steepness"],"examples":["the
+        steep attic stairs","steep cliffs"]},{"definition":"of a slope; set at a high
+        angle","partOfSpeech":"adjective","similarTo":["high"],"derivation":["steepness"],"examples":["note
+        the steep incline","a steep roof sheds snow"]}],"syllables":{"count":1,"list":["steep"]},"pronunciation":{"all":"stip"},"frequency":3.48}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:58 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7b33ba3f571-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:58 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d28757313c828c75cf5c40763c0683a381584898378; expires=Tue, 21-Apr-20
+        17:32:58 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '45'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:58 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=4.32&frequencymin=3.32&lettersMax=9&lettersMin=3&partOfSpeech=verb&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7b53ad6bb22-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:59 GMT
+      etag:
+      - W/"265-3Pr0WuruM7vJlM8sMAM7fA"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dee035616cf4642deaccd0d2ab67bed451584898379; expires=Tue, 21-Apr-20
+        17:32:59 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '44'
+      content-length:
+      - '359'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"err","results":[{"definition":"wander from a direct course
+        or at random","partOfSpeech":"verb","synonyms":["drift","stray"],"typeOf":["move","travel","locomote","go"],"verbGroup":["vagabond","cast","wander","drift","ramble","range","roam","roll","rove","stray","swan","tramp"],"derivation":["errant"]},{"definition":"to
+        make a mistake or be incorrect","partOfSpeech":"verb","synonyms":["mistake","slip"],"hasTypes":["misremember","slip
+        up","stumble","fall for","trip up","misjudge"],"derivation":["errancy","error"]}],"syllables":{"count":1,"list":["err"]},"pronunciation":{"all":"ɜr"},"frequency":3.63}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:59 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/endure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7b8eb75e376-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:32:59 GMT
+      etag:
+      - W/"708-//QaWfCPMzYrJOiL+VV31Q"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dae3897f0d1007a94896a7d0d5dd3b1031584898379; expires=Tue, 21-Apr-20
+        17:32:59 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '43'
+      content-length:
+      - '735'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"endure","results":[{"definition":"persist for a specified
+        period of time","partOfSpeech":"verb","synonyms":["last"],"typeOf":["measure"],"hasTypes":["drag
+        on","drag out","hold out","run","run for","wear"]},{"definition":"put up with
+        something or somebody unpleasant","partOfSpeech":"verb","synonyms":["abide","bear","brook","digest","put
+        up","stand","stick out","stomach","suffer","support","tolerate"],"typeOf":["let","allow","permit","countenance"],"hasTypes":["pay","accept","bear
+        up","swallow","take a joke","take lying down","live with","hold still for","sit
+        out","stand for"],"verbGroup":["suffer"],"derivation":["endurance"],"examples":["The
+        new secretary had to endure a lot of unprofessional remarks"]},{"definition":"continue
+        to live and avoid dying","partOfSpeech":"verb","synonyms":["go","hold out","hold
+        up","last","live","live on","survive"],"entails":["be","live"],"hasTypes":["live
+        out","stand up","perennate","hold up","hold water"],"verbGroup":["survive","live","be","exist","subsist"],"derivation":["endurance"]},{"definition":"undergo
+        or be subjected to","partOfSpeech":"verb","synonyms":["suffer"],"typeOf":["see","go
+        through","experience"],"hasTypes":["tolerate","die"]},{"definition":"face
+        and withstand with courage","partOfSpeech":"verb","synonyms":["brave","brave
+        out","weather"],"typeOf":["withstand","hold","defy","hold up"]},{"definition":"continue
+        to exist","partOfSpeech":"verb","synonyms":["die hard","persist","prevail","run"],"typeOf":["continue"],"hasTypes":["reverberate","carry
+        over"],"verbGroup":["run"],"examples":["The legend of Elvis endures"]},{"definition":"last
+        and be usable","partOfSpeech":"verb","synonyms":["hold out","wear"],"typeOf":["last"]}],"syllables":{"count":2,"list":["en","dure"]},"pronunciation":{"all":"ɛn''dʊr"},"frequency":3.82}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:32:59 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=4.32&frequencymin=3.32&lettersMax=9&lettersMin=3&partOfSpeech=verb&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781a7baf8fac991-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:33:00 GMT
+      etag:
+      - W/"50c-EO9RyQZQsZQ7i2XGsKtdEQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d77d6a46efc26899f06bfb425987e350b1584898379; expires=Tue, 21-Apr-20
+        17:32:59 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - '42'
+      content-length:
+      - '640'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"word":"ware","results":[{"definition":"spend extravagantly","partOfSpeech":"verb","synonyms":["consume","squander","waste"],"typeOf":["spend","drop","expend"],"hasTypes":["tope","fritter
+        away","frivol away","lavish","luxuriate","overspend","shoot","shower","splurge","fritter","wanton","dissipate","drink","fling","fool","fool
+        away"]},{"definition":"commodities offered for sale","partOfSpeech":"noun","synonyms":["merchandise","product"],"typeOf":["commodity","trade
+        good","good"],"hasTypes":["generic","inventory","ironmongery","irregular","lading","line
+        of business","line of merchandise","line of products","load","loading","number","payload","piece
+        goods","product line","refill","release","line","business line","cargo","consignment","contraband","dreck","feature","freight","schlock","second","shipment","shlock","software
+        package","software product","stock","top of the line","yard goods"],"partOf":["sales
+        outlet","mercantile establishment","outlet","retail store"]},{"definition":"articles
+        of the same kind or material; usually used in combination: `silverware'',
+        `software''","partOfSpeech":"noun","typeOf":["article"],"hasTypes":["woodenware","metalware","tableware","article
+        of commerce"]}],"syllables":{"count":1,"list":["ware"]},"pronunciation":{"all":"wɜR"},"frequency":2.84}'
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:33:00 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af88ca95e356-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:19 GMT
+      etag:
+      - W/"7c6-AvaiU1cNOgy9YQK2Kl2LOg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dba55070da8aecf88d49d057218a737c71584898699; expires=Tue, 21-Apr-20
+        17:38:19 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-4"
+      content-length:
+      - '864'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiYSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJvbmUgb2YgdGhlIGZvdXIgbnVjbGVvdGlkZXMgdXNlZCBpbiBidWlsZGluZyBETkE7IGFsbCBmb3VyIG51Y2xlb3RpZGVzIGhhdmUgYSBjb21tb24gcGhvc3BoYXRlIGdyb3VwIGFuZCBhIHN1Z2FyIChyaWJvc2UpIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImRlb3h5YWRlbm9zaW5lIG1vbm9waG9zcGhhdGUiXSwidHlwZU9mIjpbIm51Y2xlb3RpZGUiLCJiYXNlIl19LHsiZGVmaW5pdGlvbiI6InRoZSBibG9vZCBncm91cCB3aG9zZSByZWQgY2VsbHMgY2FycnkgdGhlIEEgYW50aWdlbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJncm91cCBhIiwidHlwZSBhIl0sInR5cGVPZiI6WyJibG9vZCBncm91cCIsImJsb29kIHR5cGUiXX0seyJkZWZpbml0aW9uIjoiYW55IG9mIHNldmVyYWwgZmF0LXNvbHVibGUgdml0YW1pbnMgZXNzZW50aWFsIGZvciBub3JtYWwgdmlzaW9uOyBwcmV2ZW50cyBuaWdodCBibGluZG5lc3Mgb3IgaW5mbGFtbWF0aW9uIG9yIGRyeW5lc3Mgb2YgdGhlIGV5ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW50aW9waHRoYWxtaWMgZmFjdG9yIiwiYXhlcm9waHRob2wiLCJ2aXRhbWluIGEiXSwidHlwZU9mIjpbImZhdC1zb2x1YmxlIHZpdGFtaW4iXSwiaGFzVHlwZXMiOlsidml0YW1pbiBhMiIsImRlaHlkcm9yZXRpbm9sIiwicmV0aW5vbCIsInZpdGFtaW4gYTEiXX0seyJkZWZpbml0aW9uIjoidGhlIGJhc2ljIHVuaXQgb2YgZWxlY3RyaWMgY3VycmVudCBhZG9wdGVkIHVuZGVyIHRoZSBTeXN0ZW1lIEludGVybmF0aW9uYWwgZCdVbml0ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW1wIiwiYW1wZXJlIl0sInR5cGVPZiI6WyJjdXJyZW50IHVuaXQiXSwiaGFzUGFydHMiOlsibWlsbGlhbXBlcmUiLCJtYSJdLCJwYXJ0T2YiOlsiYWJhbXAiLCJhYmFtcGVyZSJdLCJleGFtcGxlcyI6WyJhIHR5cGljYWwgaG91c2Vob2xkIGNpcmN1aXQgY2FycmllcyAxNSB0byA1MCBhbXBzIl19LHsiZGVmaW5pdGlvbiI6ImEgbWV0cmljIHVuaXQgb2YgbGVuZ3RoIGVxdWFsIHRvIG9uZSB0ZW4gYmlsbGlvbnRoIG9mIGEgbWV0ZXIgKG9yIDAuMDAwMSBtaWNyb24pOyB1c2VkIHRvIHNwZWNpZnkgd2F2ZWxlbmd0aHMgb2YgZWxlY3Ryb21hZ25ldGljIHJhZGlhdGlvbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJhbmdzdHJvbSIsImFuZ3N0cm9tIHVuaXQiXSwidHlwZU9mIjpbIm1ldHJpYyBsaW5lYXIgdW5pdCJdLCJoYXNQYXJ0cyI6WyJwaWNvbWV0ZXIiLCJtaWNyb21pY3JvbiIsInBpY29tZXRyZSJdLCJwYXJ0T2YiOlsibWljcm9taWxsaW1ldHJlIiwibmFub21ldGVyIiwibWlsbGltaWNyb24iLCJuYW5vbWV0cmUiLCJubSIsIm1pY3JvbWlsbGltZXRlciJdfSx7ImRlZmluaXRpb24iOiIoYmlvY2hlbWlzdHJ5KSBwdXJpbmUgYmFzZSBmb3VuZCBpbiBETkEgYW5kIFJOQTsgcGFpcnMgd2l0aCB0aHltaW5lIGluIEROQSBhbmQgd2l0aCB1cmFjaWwgaW4gUk5BIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImFkZW5pbmUiXSwiaW5DYXRlZ29yeSI6WyJiaW9jaGVtaXN0cnkiXSwidHlwZU9mIjpbInB1cmluZSJdLCJzdWJzdGFuY2VPZiI6WyJkbmEiLCJkZXNveHlyaWJvbnVjbGVpYyBhY2lkIiwicmlib251Y2xlaWMgYWNpZCIsImRlb3h5cmlib251Y2xlaWMgYWNpZCIsInJuYSJdfSx7ImRlZmluaXRpb24iOiJ0aGUgMXN0IGxldHRlciBvZiB0aGUgUm9tYW4gYWxwaGFiZXQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwidHlwZU9mIjpbImxldHRlciIsImFscGhhYmV0aWMgY2hhcmFjdGVyIiwibGV0dGVyIG9mIHRoZSBhbHBoYWJldCJdLCJtZW1iZXJPZiI6WyJsYXRpbiBhbHBoYWJldCIsInJvbWFuIGFscGhhYmV0Il19XSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJlyaoifSwiZnJlcXVlbmN5Ijo3LjI4fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:19 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af8bad5ff5b1-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:20 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dd3508a81db2f41d22e4fb0816f2cc1021584898700; expires=Tue, 21-Apr-20
+        17:38:20 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-5"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:20 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af8dcadbe382-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:20 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d30c08316db71d4f665e63edcf93eb57b1584898700; expires=Tue, 21-Apr-20
+        17:38:20 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-6"
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:20 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af901a6dc979-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:20 GMT
+      etag:
+      - W/"7c6-AvaiU1cNOgy9YQK2Kl2LOg"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dfceaac8a858f46d3c77d68318d98df811584898700; expires=Tue, 21-Apr-20
+        17:38:20 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-7"
+      content-length:
+      - '864'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiYSIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJvbmUgb2YgdGhlIGZvdXIgbnVjbGVvdGlkZXMgdXNlZCBpbiBidWlsZGluZyBETkE7IGFsbCBmb3VyIG51Y2xlb3RpZGVzIGhhdmUgYSBjb21tb24gcGhvc3BoYXRlIGdyb3VwIGFuZCBhIHN1Z2FyIChyaWJvc2UpIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImRlb3h5YWRlbm9zaW5lIG1vbm9waG9zcGhhdGUiXSwidHlwZU9mIjpbIm51Y2xlb3RpZGUiLCJiYXNlIl19LHsiZGVmaW5pdGlvbiI6InRoZSBibG9vZCBncm91cCB3aG9zZSByZWQgY2VsbHMgY2FycnkgdGhlIEEgYW50aWdlbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJncm91cCBhIiwidHlwZSBhIl0sInR5cGVPZiI6WyJibG9vZCBncm91cCIsImJsb29kIHR5cGUiXX0seyJkZWZpbml0aW9uIjoiYW55IG9mIHNldmVyYWwgZmF0LXNvbHVibGUgdml0YW1pbnMgZXNzZW50aWFsIGZvciBub3JtYWwgdmlzaW9uOyBwcmV2ZW50cyBuaWdodCBibGluZG5lc3Mgb3IgaW5mbGFtbWF0aW9uIG9yIGRyeW5lc3Mgb2YgdGhlIGV5ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW50aW9waHRoYWxtaWMgZmFjdG9yIiwiYXhlcm9waHRob2wiLCJ2aXRhbWluIGEiXSwidHlwZU9mIjpbImZhdC1zb2x1YmxlIHZpdGFtaW4iXSwiaGFzVHlwZXMiOlsidml0YW1pbiBhMiIsImRlaHlkcm9yZXRpbm9sIiwicmV0aW5vbCIsInZpdGFtaW4gYTEiXX0seyJkZWZpbml0aW9uIjoidGhlIGJhc2ljIHVuaXQgb2YgZWxlY3RyaWMgY3VycmVudCBhZG9wdGVkIHVuZGVyIHRoZSBTeXN0ZW1lIEludGVybmF0aW9uYWwgZCdVbml0ZXMiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsiYW1wIiwiYW1wZXJlIl0sInR5cGVPZiI6WyJjdXJyZW50IHVuaXQiXSwiaGFzUGFydHMiOlsibWlsbGlhbXBlcmUiLCJtYSJdLCJwYXJ0T2YiOlsiYWJhbXAiLCJhYmFtcGVyZSJdLCJleGFtcGxlcyI6WyJhIHR5cGljYWwgaG91c2Vob2xkIGNpcmN1aXQgY2FycmllcyAxNSB0byA1MCBhbXBzIl19LHsiZGVmaW5pdGlvbiI6ImEgbWV0cmljIHVuaXQgb2YgbGVuZ3RoIGVxdWFsIHRvIG9uZSB0ZW4gYmlsbGlvbnRoIG9mIGEgbWV0ZXIgKG9yIDAuMDAwMSBtaWNyb24pOyB1c2VkIHRvIHNwZWNpZnkgd2F2ZWxlbmd0aHMgb2YgZWxlY3Ryb21hZ25ldGljIHJhZGlhdGlvbiIsInBhcnRPZlNwZWVjaCI6Im5vdW4iLCJzeW5vbnltcyI6WyJhbmdzdHJvbSIsImFuZ3N0cm9tIHVuaXQiXSwidHlwZU9mIjpbIm1ldHJpYyBsaW5lYXIgdW5pdCJdLCJoYXNQYXJ0cyI6WyJwaWNvbWV0ZXIiLCJtaWNyb21pY3JvbiIsInBpY29tZXRyZSJdLCJwYXJ0T2YiOlsibWljcm9taWxsaW1ldHJlIiwibmFub21ldGVyIiwibWlsbGltaWNyb24iLCJuYW5vbWV0cmUiLCJubSIsIm1pY3JvbWlsbGltZXRlciJdfSx7ImRlZmluaXRpb24iOiIoYmlvY2hlbWlzdHJ5KSBwdXJpbmUgYmFzZSBmb3VuZCBpbiBETkEgYW5kIFJOQTsgcGFpcnMgd2l0aCB0aHltaW5lIGluIEROQSBhbmQgd2l0aCB1cmFjaWwgaW4gUk5BIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImFkZW5pbmUiXSwiaW5DYXRlZ29yeSI6WyJiaW9jaGVtaXN0cnkiXSwidHlwZU9mIjpbInB1cmluZSJdLCJzdWJzdGFuY2VPZiI6WyJkbmEiLCJkZXNveHlyaWJvbnVjbGVpYyBhY2lkIiwicmlib251Y2xlaWMgYWNpZCIsImRlb3h5cmlib251Y2xlaWMgYWNpZCIsInJuYSJdfSx7ImRlZmluaXRpb24iOiJ0aGUgMXN0IGxldHRlciBvZiB0aGUgUm9tYW4gYWxwaGFiZXQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwidHlwZU9mIjpbImxldHRlciIsImFscGhhYmV0aWMgY2hhcmFjdGVyIiwibGV0dGVyIG9mIHRoZSBhbHBoYWJldCJdLCJtZW1iZXJPZiI6WyJsYXRpbiBhbHBoYWJldCIsInJvbWFuIGFscGhhYmV0Il19XSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiJlyaoifSwiZnJlcXVlbmN5Ijo3LjI4fQ==
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:20 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af926c98e37a-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:21 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d37f9ef88be7792b76c6fbd84d8d881451584898701; expires=Tue, 21-Apr-20
+        17:38:21 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-8"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:21 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/sentence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af955fb37977-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:21 GMT
+      etag:
+      - W/"5c7-lFBQPEI3v+GKlafZfEnizw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d7eda17b4243681a0270531f7797e67a31584898701; expires=Tue, 21-Apr-20
+        17:38:21 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-9"
+      content-length:
+      - '636'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoic2VudGVuY2UiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoicHJvbm91bmNlIGEgc2VudGVuY2Ugb24gKHNvbWVib2R5KSBpbiBhIGNvdXJ0IG9mIGxhdyIsInBhcnRPZlNwZWVjaCI6InZlcmIiLCJzeW5vbnltcyI6WyJjb25kZW1uIiwiZG9vbSJdLCJpbkNhdGVnb3J5IjpbImp1cmlzcHJ1ZGVuY2UiLCJsYXciXSwiZW50YWlscyI6WyJjb252aWN0Il0sInR5cGVPZiI6WyJkZWNsYXJlIl0sImhhc1R5cGVzIjpbInJlcHJvYmF0ZSIsImZvcmVkb29tIl19LHsiZGVmaW5pdGlvbiI6IihjcmltaW5hbCBsYXcpIGEgZmluYWwganVkZ21lbnQgb2YgZ3VpbHR5IGluIGEgY3JpbWluYWwgY2FzZSBhbmQgdGhlIHB1bmlzaG1lbnQgdGhhdCBpcyBpbXBvc2VkIiwicGFydE9mU3BlZWNoIjoibm91biIsInN5bm9ueW1zIjpbImNvbmRlbW5hdGlvbiIsImNvbnZpY3Rpb24iLCJqdWRnbWVudCBvZiBjb252aWN0aW9uIl0sImluQ2F0ZWdvcnkiOlsiY3JpbWluYWwgbGF3Il0sInR5cGVPZiI6WyJmaW5hbCBkZWNpc2lvbiIsImZpbmFsIGp1ZGdtZW50Il0sImhhc1R5cGVzIjpbIm11cmRlciBjb252aWN0aW9uIiwicmFwZSBjb252aWN0aW9uIiwicm9iYmVyeSBjb252aWN0aW9uIl19LHsiZGVmaW5pdGlvbiI6InRoZSBwZXJpb2Qgb2YgdGltZSBhIHByaXNvbmVyIGlzIGltcHJpc29uZWQiLCJwYXJ0T2ZTcGVlY2giOiJub3VuIiwic3lub255bXMiOlsicHJpc29uIHRlcm0iLCJ0aW1lIl0sInR5cGVPZiI6WyJ0ZXJtIl0sImhhc1R5cGVzIjpbImxpZmUgc2VudGVuY2UiLCJsaWZlIiwiaGFyZCB0aW1lIl0sImV4YW1wbGVzIjpbImhpcyBzZW50ZW5jZSB3YXMgNSB0byAxMCB5ZWFycyJdfSx7ImRlZmluaXRpb24iOiJhIHN0cmluZyBvZiB3b3JkcyBzYXRpc2Z5aW5nIHRoZSBncmFtbWF0aWNhbCBydWxlcyBvZiBhIGxhbmd1YWdlIiwicGFydE9mU3BlZWNoIjoibm91biIsInR5cGVPZiI6WyJ3b3JkIHN0cmluZyIsInN0cmluZyBvZiB3b3JkcyIsImxpbmd1aXN0aWMgc3RyaW5nIl0sImhhc1R5cGVzIjpbImRlY2xhcmF0aXZlIHNlbnRlbmNlIiwiZGVjbGFyYXRvcnkgc2VudGVuY2UiLCJpbnRlcnJvZ2F0aXZlIHNlbnRlbmNlIiwiY29tcGxleCBzZW50ZW5jZSIsImNvbXBvdW5kIHNlbnRlbmNlIiwiaW50ZXJyb2dhdGlvbiIsImludGVycm9nYXRpdmUiLCJ0b3BpYyBzZW50ZW5jZSIsInF1ZXN0aW9uIiwicnVuLW9uIHNlbnRlbmNlIiwic2ltcGxlIHNlbnRlbmNlIl0sImhhc1BhcnRzIjpbImNvbnN0aXR1ZW50IiwiY2xhdXNlIiwiZ3JhbW1hdGljYWwgY29uc3RpdHVlbnQiXSwiZGVyaXZhdGlvbiI6WyJzZW50ZW50aWFsIl0sImV4YW1wbGVzIjpbImhlIGFsd2F5cyBzcG9rZSBpbiBncmFtbWF0aWNhbCBzZW50ZW5jZXMiXX1dLCJzeWxsYWJsZXMiOnsiY291bnQiOjIsImxpc3QiOlsic2VuIiwidGVuY2UiXX0sInByb251bmNpYXRpb24iOnsiYWxsIjoiJ3PJm250yZlucyJ9LCJmcmVxdWVuY3kiOjQuMzR9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:21 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af982e4ff56d-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:22 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=ddffc36c248b1a6d6184f75326ae1f72a1584898702; expires=Tue, 21-Apr-20
+        17:38:22 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-10"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:22 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af9aedfac985-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:22 GMT
+      etag:
+      - W/"1bf-fH3Ex2u7pmUYUGbAeeXd4A"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=db6b97861346e034eaad4a4754959feee1584898702; expires=Tue, 21-Apr-20
+        17:38:22 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-11"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoicHV6emxpbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoibm90IGNsZWFyIHRvIHRoZSB1bmRlcnN0YW5kaW5nIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiZW5pZ21hdGljIiwiZW5pZ21hdGljYWwiXSwic2ltaWxhclRvIjpbImluY29tcHJlaGVuc2libGUiLCJ1bmNvbXByZWhlbnNpYmxlIl19LHsiZGVmaW5pdGlvbiI6ImxhY2tpbmcgY2xhcml0eSBvZiBtZWFuaW5nOyBjYXVzaW5nIGNvbmZ1c2lvbiBvciBwZXJwbGV4aXR5IiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiY29uZnVzaW5nIiwicGVycGxleGluZyJdLCJzaW1pbGFyVG8iOlsidW5jbGVhciJdLCJleGFtcGxlcyI6WyJhIHB1enpsaW5nIHN0YXRlbWVudCJdfV0sInByb251bmNpYXRpb24iOiIncMqMesqMbMmqxYsiLCJmcmVxdWVuY3kiOjIuNzl9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:22 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781af9ebb8e7953-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:23 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=da5bce11ef13c9d9f32fe2713227407911584898703; expires=Tue, 21-Apr-20
+        17:38:23 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-12"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:23 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781afa1894abb10-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:23 GMT
+      etag:
+      - W/"e4-ThJ9Yf40ApSKaadf+zI0sw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=d609e20f73d3e0d4df296e45408cb87971584898703; expires=Tue, 21-Apr-20
+        17:38:23 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-13"
+      content-length:
+      - '198'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWFsdHJlYXRlZCIsInJlc3VsdHMiOlt7ImRlZmluaXRpb24iOiJzdWJqZWN0ZWQgdG8gY3J1ZWwgdHJlYXRtZW50IiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiYWJ1c2VkIiwiaWxsLXRyZWF0ZWQiLCJtaXN0cmVhdGVkIl0sInNpbWlsYXJUbyI6WyJiYXR0ZXJlZCJdfV0sInByb251bmNpYXRpb24iOiJtw6ZsJ3RyaXTJqmQiLCJmcmVxdWVuY3kiOjEuODJ9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:23 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/mesmerizing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781afa4ef9d2a5f-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:24 GMT
+      etag:
+      - W/"179-zbaByV7AZc6h16tDo8RoSQ"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=ddeeb9ae1ee426d6b6f15d6a0418208841584898704; expires=Tue, 21-Apr-20
+        17:38:24 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-14"
+      content-length:
+      - '286'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoibWVzbWVyaXppbmciLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoiYXR0cmFjdGluZyBhbmQgaG9sZGluZyBpbnRlcmVzdCBhcyBpZiBieSBhIHNwZWxsIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsiaHlwbm90aWMiLCJtZXNtZXJpYyIsInNwZWxsYmluZGluZyJdLCJzaW1pbGFyVG8iOlsiYXR0cmFjdGl2ZSJdLCJleGFtcGxlcyI6WyJ0aGUgc2hlZXIgZm9yY2Ugb2YgaGlzIHByZXNlbmNlIHdhcyBtZXNtZXJpemluZyJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NCwibGlzdCI6WyJtZXMiLCJtZXIiLCJpeiIsImluZyJdfSwicHJvbnVuY2lhdGlvbiI6IidtyZt6bcmdcixhyap6yarFiyIsImZyZXF1ZW5jeSI6Mi44MX0=
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:24 GMT
+- request:
+    method: get
+    uri: https://wordsapiv1.p.rapidapi.com/words/?frequencyMax=3.31&frequencymin=2.31&lettersMax=14&lettersMin=8&partOfSpeech=adjective&random=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      x-rapidapi-key:
+      - b5d7e379f9msh7eaf7c291b71ac6p1af0d9jsne6903cf6ab7a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cf-cache-status:
+      - DYNAMIC
+      cf-ray:
+      - 5781afa79f1fc9a5-SEA
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 22 Mar 2020 17:38:24 GMT
+      etag:
+      - W/"24c-auCITiW1xYh5Penh9xgNlw"
+      server:
+      - RapidAPI-1.0.42
+      set-cookie:
+      - __cfduid=dd3010087a820b4ccba3ba6bcf066efbb1584898704; expires=Tue, 21-Apr-20
+        17:38:24 GMT; path=/; domain=.wordsapi.com; HttpOnly; SameSite=Lax
+      x-powered-by:
+      - Express
+      x-rapidapi-region:
+      - AWS - us-west-2
+      x-rapidapi-version:
+      - 1.0.42
+      x-ratelimit-requests-limit:
+      - '2500'
+      x-ratelimit-requests-remaining:
+      - "-15"
+      content-length:
+      - '331'
+      connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ3b3JkIjoiaW5hbGllbmFibGUiLCJyZXN1bHRzIjpbeyJkZWZpbml0aW9uIjoibm90IHN1YmplY3QgdG8gZm9yZmVpdHVyZSIsInBhcnRPZlNwZWVjaCI6ImFkamVjdGl2ZSIsInN5bm9ueW1zIjpbInVuZm9yZmVpdGFibGUiXSwic2ltaWxhclRvIjpbImluZGVmZWFzaWJsZSJdfSx7ImRlZmluaXRpb24iOiJpbmNhcGFibGUgb2YgYmVpbmcgcmVwdWRpYXRlZCBvciB0cmFuc2ZlcnJlZCB0byBhbm90aGVyIiwicGFydE9mU3BlZWNoIjoiYWRqZWN0aXZlIiwic3lub255bXMiOlsidW5hbGllbmFibGUiXSwiYWxzbyI6WyJpbnRyaW5zaWNhbCIsImludHJpbnNpYyJdLCJzaW1pbGFyVG8iOlsidW50cmFuc2ZlcmFibGUiLCJpbmZyYW5naWJsZSIsImFic29sdXRlIiwiaW52aW9sYWJsZSIsIm5vbi1uZWdvdGlhYmxlIiwibm9udHJhbnNmZXJhYmxlIiwidW5hc3NpZ25hYmxlIl0sImFudG9ueW1zIjpbImFsaWVuYWJsZSJdfV0sInN5bGxhYmxlcyI6eyJjb3VudCI6NSwibGlzdCI6WyJpbiIsImFsIiwiaWVuIiwiYSIsImJsZSJdfSwicHJvbnVuY2lhdGlvbiI6eyJhbGwiOiLJqm4nZcmqbGrJmW7JmWLJmWwifSwiZnJlcXVlbmN5IjoyLjN9
+    http_version: null
+  recorded_at: Sun, 22 Mar 2020 17:38:24 GMT
+recorded_with: VCR 5.1.0

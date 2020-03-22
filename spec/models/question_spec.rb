@@ -71,7 +71,7 @@ RSpec.describe Question, :vcr, type: :model do
     expect(@question.for_test_taker).to eq(
       {
         question: 'New ___ sentence',
-        options: %w[phenomenal labored charitable reprobate],
+        options: %w[phenomenal norwegian intimidating calibrated],
         id: 1
       }
     )
