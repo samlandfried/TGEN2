@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { CSSTransitionGroup } from "react-transition-group";
 import styles from "./Question.module.scss";
 
 const Question = ({ question, options }) => {
@@ -17,7 +18,16 @@ const Question = ({ question, options }) => {
   return (
     <div className={styles.container}>
       <div className={styles.contents}>
-        <div className={styles.question}>{formattedQuestion}</div>
+        <CSSTransitionGroup
+          transitionName="example"
+          transitionAppear={false}
+          transitionEnterTimeout={500}
+          transitionLeaveTimeout={500}
+        >
+          <p key={formattedQuestion} className={styles.question}>
+            {formattedQuestion}
+          </p>
+        </CSSTransitionGroup>
         <ol className={styles.options}>
           {options.map(option => (
             <li
