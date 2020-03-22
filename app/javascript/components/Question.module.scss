@@ -1,5 +1,5 @@
 $large-margin: 50px;
-$medium-margin: 25px;
+$active-option-color: gray;
 
 .container {
   background: linear-gradient(150deg, purple, 70%, red);
@@ -18,8 +18,14 @@ $medium-margin: 25px;
 }
 
 .question {
-  position: absolute;
   white-space: pre-wrap;
+}
+
+.blank {
+  text-decoration-line: underline;
+  color: $active-option-color;
+  font-family: "Courier New";
+  font-weight: 550;
 }
 
 .options {
@@ -32,26 +38,6 @@ $medium-margin: 25px;
   transition-duration: 0.5s;
 
   &:hover {
-    color: black;
-  }
-}
-
-:global {
-  .example-enter {
-    opacity: 0.01;
-  }
-
-  .example-enter.example-enter-active {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
-  }
-
-  .example-leave {
-    opacity: 1;
-  }
-
-  .example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
+    color: $active-option-color;
   }
 }

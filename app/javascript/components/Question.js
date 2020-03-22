@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { CSSTransitionGroup } from "react-transition-group";
 import styles from "./Question.module.scss";
 
 const _normalizeOptions = options => {
@@ -22,34 +21,29 @@ const Question = ({ question, options }) => {
   const blankIndex = questionWords.indexOf("___");
   const normalizedOptions = _normalizeOptions(options);
   const BLANK = Array(normalizedOptions[0].length)
-    .fill("_")
+    .fill(" ")
     .join("");
   const [formattedQuestion, setFormattedQuestion] = useState();
   const [hoveredOption, setHoveredOption] = useState(BLANK);
 
   useEffect(() => {
-    const firstWordGroup = questionWords.slice(0, blankIndex);
+    const firstWordGroup = questionWords.slice(0, blankIndex).join(" ");
     const valueForBlank = hoveredOption || BLANK;
-    const secondWordGroup = questionWords.slice(blankIndex + 1);
+    const secondWordGroup = questionWords.slice(blankIndex + 1).join(" ");
 
-    setFormattedQuestion(
-      [firstWordGroup, valueForBlank, secondWordGroup].flat().join(" ")
-    );
+    setFormattedQuestion([
+      firstWordGroup ? `${firstWordGroup} ` : "",
+      <span className={styles.blank} key={valueForBlank}>
+        {valueForBlank}
+      </span>,
+      secondWordGroup ? ` ${secondWordGroup}` : ""
+    ]);
   }, [hoveredOption]);
 
   return (
     <div className={styles.container}>
       <div className={styles.contents}>
-        <CSSTransitionGroup
-          transitionName="example"
-          transitionAppear={false}
-          transitionEnterTimeout={500}
-          transitionLeaveTimeout={500}
-        >
-          <p key={formattedQuestion} className={styles.question}>
-            {formattedQuestion}
-          </p>
-        </CSSTransitionGroup>
+        <p className={styles.question}>{formattedQuestion}</p>
         <ol className={styles.options}>
           {options.map((option, optionI) => (
             <li
