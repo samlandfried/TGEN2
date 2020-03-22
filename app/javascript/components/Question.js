@@ -22,7 +22,7 @@ const _randomizeBackground = () => {
   const randomPercent = Math.floor(Math.random() * 100);
   const randomColor1 = Math.floor(Math.random() * 16777215).toString(16);
   const randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
-  console.log(randomColor1, randomColor2);
+
   document.documentElement.style.setProperty(
     "--question-bg-angle",
     `${randomDegree}deg`
@@ -92,6 +92,10 @@ const Question = ({ id, loadNextQuestion, question, options }) => {
       secondWordGroup ? ` ${secondWordGroup}` : ""
     ]);
   }, [firstWordGroup, hoveredOption, secondWordGroup]);
+
+  useEffect(() => {
+    _randomizeBackground();
+  }, []);
 
   return (
     <div className={styles.container}>

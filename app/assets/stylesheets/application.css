@@ -15,10 +15,10 @@
  */
 
 :root {
-  --question-bg-angle: 150deg;
-  --question-bg-color-1: purple;
-  --question-bg-midpoint: 70%;
-  --question-bg-color-2: red;
+  --question-bg-angle: 0deg;
+  --question-bg-color-1: white;
+  --question-bg-midpoint: 0%;
+  --question-bg-color-2: white;
 }
 
 body {
