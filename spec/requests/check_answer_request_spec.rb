@@ -12,7 +12,7 @@ RSpec.describe 'Check Answer', :vcr, type: :request do
   it 'checks correct answers' do
     answer = @question.correct.name
 
-    post "/questions/#{@question.id}/check_answer", { params: { answer: { word: answer } } }
+    post "/questions/#{@question.id}/check_answer", { params: { check_answer: { word: answer } } }
 
     expect(response).to have_http_status(:ok)
 
@@ -25,7 +25,7 @@ RSpec.describe 'Check Answer', :vcr, type: :request do
   it 'checks incorrect answers' do
     answer = @question.options.find_by(correct: false).name
 
-    post "/questions/#{@question.id}/check_answer", { params: { answer: { word: answer } } }
+    post "/questions/#{@question.id}/check_answer", { params: { check_answer: { word: answer } } }
 
     expect(response).to have_http_status(:ok)
 
@@ -38,7 +38,7 @@ RSpec.describe 'Check Answer', :vcr, type: :request do
   it '404s when an answer is not found on question options' do
     answer = 'Not found'
 
-    post "/questions/#{@question.id}/check_answer", { params: { answer: { word: answer } } }
+    post "/questions/#{@question.id}/check_answer", { params: { check_answer: { word: answer } } }
 
     expect(response).to have_http_status(:not_found)
   end

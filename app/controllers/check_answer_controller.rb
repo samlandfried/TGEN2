@@ -20,7 +20,7 @@ class CheckAnswerController < ApplicationController
   private
 
   def check_answer_params
-    params.require(:answer)
+    params.require(:check_answer)
   end
 
   def answer_param

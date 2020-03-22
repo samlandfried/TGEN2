@@ -45,7 +45,7 @@ const Question = ({ id, question, options }) => {
   const _checkAnswer = async word => {
     const response = await fetch(`/questions/${id}/check_answer`, {
       method: "post",
-      body: JSON.stringify({ answer: { word } }),
+      body: JSON.stringify({ check_answer: { word } }),
       headers: utils.getHeaders()
     });
     const data = await response.json();
